@@ -1,0 +1,5 @@
+#!/bin/bash
+
+set -x
+
+./pants run notebooks/lab.py:lab  -- --notebook-dir notebooks

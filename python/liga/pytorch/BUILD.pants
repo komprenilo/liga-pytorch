@@ -1,0 +1,16 @@
+# See https://www.pantsbuild.org/docs/python-third-party-dependencies for more info
+python_requirement(
+    name="requirements",
+    requirements=[
+        "liga",
+        "ligavision==0.2.0.dev2",
+        "torch>=1.8.1,<1.13.0",
+        "torchvision",
+    ],
+    resolve=parametrize("default", "lab"),
+)
+
+# See https://www.pantsbuild.org/docs/reference-python_sources for more info
+python_sources(
+    name="sources", sources=["**/*.py"], resolve=parametrize("default", "lab")
+)
