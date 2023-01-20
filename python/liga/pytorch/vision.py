@@ -21,13 +21,13 @@
 from pathlib import Path
 from typing import Callable, Iterator, List, Optional, Union
 
-import liga.pytorch.data
+from liga.pytorch.data import Dataset as LigaDataset
 from liga.pytorch.transforms import RikaiToTensor
 
 __all__ = ["Dataset"]
 
 
-class Dataset(liga.pytorch.data.Dataset):
+class Dataset(LigaDataset):
     """A Rikai Dataset compatible with `torchvision`_.
 
     Parameters
