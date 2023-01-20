@@ -13,10 +13,43 @@
 #  limitations under the License.
 
 from typing import Any, Mapping
+import numpy as np
+import pandas as pd
 
-from liga.parquet.dataset import convert_tensor
+from liga.mixin import ToNumpy
+from ligavision.dsl.mixin import ToPIL
 
 __all__ = ["RikaiToTensor"]
+
+
+def convert_tensor(row, use_pil: bool = False):
+    """
+    Convert a parquet row into tensors.
+
+    If use_pil is set to True, this method returns a PIL image instead,
+    and relies on the customer code to convert PIL image to tensors.
+    """
+    if use_pil and isinstance(row, ToPIL):
+        return row.to_pil()
+    elif isinstance(row, ToNumpy):
+        return row.to_numpy()
+    elif not isinstance(row, (Mapping, pd.Series)):
+        # Primitive values
+        return row
+
+    tensors = {}
+    for key, value in row.items():
+        if isinstance(value, dict):
+            tensors[key] = convert_tensor(value)
+        elif isinstance(value, (list, tuple)):
+            tensors[key] = np.array([convert_tensor(elem) for elem in value])
+        elif use_pil and isinstance(value, ToPIL):
+            tensors[key] = value.to_pil()
+        elif isinstance(value, ToNumpy):
+            tensors[key] = value.to_numpy()
+        else:
+            tensors[key] = value
+    return tensors
 
 
 class RikaiToTensor:

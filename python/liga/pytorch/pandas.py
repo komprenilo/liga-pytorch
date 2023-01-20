@@ -21,7 +21,7 @@ from torch.utils.data import Dataset
 
 # Rikai
 from liga.pytorch.transforms import convert_tensor
-from liga.spark.sql.codegen.base import unpickle_transform
+from liga.registry.base import unpickle_transform
 
 __all__ = ["PandasDataset"]
 
