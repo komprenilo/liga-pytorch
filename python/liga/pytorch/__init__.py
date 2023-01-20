@@ -15,4 +15,4 @@
 """Pytorch support"""
 
 
-from rikai.pytorch.data import Dataset  # noqa: F401
+from liga.pytorch.data import Dataset  # noqa: F401

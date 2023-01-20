@@ -22,10 +22,10 @@ from pyspark.sql.functions import pandas_udf
 from pyspark.sql.types import BinaryType
 from torch.utils.data import DataLoader
 
-from rikai.io import open_uri
-from rikai.pytorch.models.torch import TorchModelType
-from rikai.pytorch.pandas import PandasDataset
-from rikai.spark.sql.model import ModelSpec, ModelType
+from liga.io import open_uri
+from liga.pytorch.models.torch import TorchModelType
+from liga.pytorch.pandas import PandasDataset
+from liga.spark.sql.model import ModelSpec, ModelType
 
 DEFAULT_NUM_WORKERS = 8
 DEFAULT_BATCH_SIZE = 4

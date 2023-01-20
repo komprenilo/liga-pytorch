@@ -22,15 +22,15 @@ import torch
 from pyspark.sql import DataFrame, Row, SparkSession
 from torchvision import transforms
 
-from rikai.pytorch.vision import Dataset
-from rikai.types import Image
+from liga.pytorch.vision import Dataset
+from liga.types import Image
 
 
 def test_vision_dataset(spark: SparkSession, tmp_path: Path):
     df = _create_dataframe(tmp_path, spark)
     df.show()
     dataset_dir = str(tmp_path / "data")
-    df.write.mode("overwrite").format("rikai").save(dataset_dir)
+    df.write.mode("overwrite").format("liga").save(dataset_dir)
 
     dataset = _create_dataset(dataset_dir)
     dataset_from_df = _create_dataset(df)

@@ -13,14 +13,14 @@
 #  limitations under the License.
 
 from pathlib import Path
-from rikai.types.vision import Image
+from liga.types.vision import Image
 
 import torchvision
 import pandas as pd
 from pyspark.sql import SparkSession
 
-from rikai.spark.functions import to_image
-from rikai.testing.utils import apply_model_spec
+from liga.spark.functions import to_image
+from liga.testing.utils import apply_model_spec
 
 
 version = f"v{torchvision.__version__.split('+', maxsplit=1)[0]}"

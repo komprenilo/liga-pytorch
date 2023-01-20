@@ -18,7 +18,7 @@ https://arxiv.org/pdf/1512.03385.pdf
 """
 import torchvision
 
-from rikai.pytorch.models.torch import (
+from liga.pytorch.models.torch import (
     classification_label_fn,
     ClassificationModelType,
 )

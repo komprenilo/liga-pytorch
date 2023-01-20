@@ -15,12 +15,12 @@
 import pytest
 from pyspark.sql import SparkSession
 
-from rikai.spark.utils import get_default_jar_version, init_spark_session
+from liga.spark.utils import get_default_jar_version, init_spark_session
 
 
 @pytest.fixture(scope="module")
 def spark() -> SparkSession:
-    rikai_version = get_default_jar_version(use_snapshot=True)
+    liga_version = get_default_jar_version(use_snapshot=True)
 
     return init_spark_session(
         dict(
@@ -29,13 +29,13 @@ def spark() -> SparkSession:
                     "spark.jars.packages",
                     ",".join(
                         [
-                            "ai.eto:rikai_2.12:{}".format(rikai_version),
+                            "ai.eto:liga_2.12:{}".format(rikai_version),
                         ]
                     ),
                 ),
                 (
-                    "spark.rikai.sql.ml.registry.torchhub.impl",
-                    "ai.eto.rikai.sql.model.torchhub.TorchHubRegistry",
+                    "spark.liga.sql.ml.registry.torchhub.impl",
+                    "ai.eto.liga.sql.model.torchhub.TorchHubRegistry",
                 ),
             ]
         )

@@ -20,8 +20,8 @@ import pandas as pd
 from torch.utils.data import Dataset
 
 # Rikai
-from rikai.pytorch.transforms import convert_tensor
-from rikai.spark.sql.codegen.base import unpickle_transform
+from liga.pytorch.transforms import convert_tensor
+from liga.spark.sql.codegen.base import unpickle_transform
 
 __all__ = ["PandasDataset"]
 

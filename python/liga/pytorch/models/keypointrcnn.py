@@ -14,7 +14,7 @@
 
 import torchvision
 
-from rikai.pytorch.models.torch import ObjectDetectionModelType
+from liga.pytorch.models.torch import ObjectDetectionModelType
 
 
 def label_fn(label_id):

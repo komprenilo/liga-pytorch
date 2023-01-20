@@ -23,7 +23,7 @@ version = f"v{torchvision.__version__.split('+', maxsplit=1)[0]}"
 
 def test_create_model(spark: SparkSession):
     # TODO: run ml_predict on resnet50
-    # rikai.contrib.torch.transforms.fasterrcnn_resnet50_fpn
+    # liga.contrib.torch.transforms.fasterrcnn_resnet50_fpn
     # does not work for torchhub loaded model
     spark.sql(
         f"""

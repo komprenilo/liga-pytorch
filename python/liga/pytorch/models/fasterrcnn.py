@@ -18,7 +18,7 @@ from torchvision.models.detection import (
     fasterrcnn_resnet50_fpn,
 )
 
-from rikai.pytorch.models.torch import (
+from liga.pytorch.models.torch import (
     detection_label_fn,
     ObjectDetectionModelType,
 )

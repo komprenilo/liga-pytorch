@@ -20,9 +20,9 @@ from torch import Tensor
 from torchvision.models.detection.ssd import SSD
 from torchvision.ops.boxes import batched_nms, clip_boxes_to_image
 
-from rikai.pytorch.models.torch import ObjectDetectionModelType
-from rikai.spark.sql.model import ModelSpec
-from rikai.types import Box2d
+from liga.pytorch.models.torch import ObjectDetectionModelType
+from liga.spark.sql.model import ModelSpec
+from liga.types import Box2d
 
 
 class SSDClassScoresExtractor(torch.nn.Module):

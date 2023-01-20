@@ -19,8 +19,8 @@ from typing import Any, Callable, Optional
 import torch
 import torchvision
 
-from rikai.pytorch.models.torch import TorchModelType
-from rikai.spark.sql.model import ModelSpec, parse_model_type
+from liga.pytorch.models.torch import TorchModelType
+from liga.spark.sql.model import ModelSpec, parse_model_type
 
 __all__ = ["FeatureExtractor", "FeatureExtractorType"]
 
@@ -32,7 +32,7 @@ class FeatureExtractor(torch.nn.Module):
         self,
         model: torch.nn.Module,
         node: str,
-        output_field: str = "_rikai_out",
+        output_field: str = "_liga_out",
     ):
         super().__init__()
         self._node = node

@@ -20,8 +20,8 @@ import torch
 from pyspark.sql import SparkSession
 from pyspark.sql.types import ArrayType, FloatType, StructField, StructType
 
-from rikai.pytorch.models.feature_extractor import FeatureExtractor
-from rikai.types import Image
+from liga.pytorch.models.feature_extractor import FeatureExtractor
+from liga.types import Image
 
 
 import torchvision  # noqa

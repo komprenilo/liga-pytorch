@@ -28,9 +28,9 @@ from pyspark.sql.types import (
 from torchvision.models.detection.ssd import ssd300_vgg16
 from torchvision.transforms import ToTensor
 
-import rikai
-from rikai.pytorch.models.ssd_class_scores import SSDClassScoresExtractor
-from rikai.spark.types import Box2dType
+import liga
+from liga.pytorch.models.ssd_class_scores import SSDClassScoresExtractor
+from liga.spark.types import Box2dType
 
 model = ssd300_vgg16(pretrained=True)
 model.eval()
@@ -97,12 +97,12 @@ def test_ssd_class_scores_module_with_spark(
     spark: SparkSession, two_flickr_rows: list
 ):
     with mlflow.start_run():
-        rikai.mlflow.pytorch.log_model(
+        liga.mlflow.pytorch.log_model(
             model,
             "models",
             model_type="ssd_class_scores",
             registered_model_name="ssd_class_scores",
-            labels={"func": "rikai.pytorch.models.torch.detection_label_fn"},
+            labels={"func": "liga.pytorch.models.torch.detection_label_fn"},
         )
 
     spark.sql("CREATE MODEL class_scores USING 'mlflow:/ssd_class_scores'")

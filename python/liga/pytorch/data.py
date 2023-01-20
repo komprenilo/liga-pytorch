@@ -24,9 +24,9 @@ import torch
 from torch.utils.data import IterableDataset
 
 # Rikai
-import rikai.parquet
-from rikai.pytorch.transforms import RikaiToTensor
-from rikai.spark.utils import df_to_rikai
+import liga.parquet
+from liga.pytorch.transforms import RikaiToTensor
+from liga.spark.utils import df_to_rikai
 
 __all__ = ["Dataset"]
 
@@ -60,7 +60,7 @@ class Dataset(IterableDataset):
     Example
     -------
 
-    >>> from rikai.pytorch.data import Dataset
+    >>> from liga.pytorch.data import Dataset
     >>> from torch.utils.data import DataLoader
     >>>
     >>> dataset = Dataset("dataset", columns=["image", "label_id"])
@@ -94,7 +94,7 @@ class Dataset(IterableDataset):
             world_size = worker_info.num_workers
 
         uri = _maybe_cache_df(self.data_ref)
-        for row in rikai.parquet.Dataset(
+        for row in liga.parquet.Dataset(
             uri,
             columns=self.columns,
             world_size=world_size,
@@ -128,12 +128,12 @@ def _maybe_cache_df(
             from pyspark.sql import DataFrame
         except ImportError:
             raise ImportError(
-                "Cannot create rikai pytorch dataset from "
+                "Cannot create liga pytorch dataset from "
                 "Spark DataFrame without pyspark installed."
             )
         if isinstance(data_ref, DataFrame):
             cache_uri = _get_cache_uri(data_ref)
-            df_to_rikai(data_ref, cache_uri)
+            df_to_liga(data_ref, cache_uri)
         else:
             raise TypeError(
                 (
@@ -158,10 +158,10 @@ def _get_cache_uri(df: "pyspark.sql.DataFrame") -> str:
     cache_uri: str
         The uri to write the DataFrame to
     """
-    cache_root_uri = rikai.options.rikai.cache_uri
+    cache_root_uri = liga.options.rikai.cache_uri
     if not cache_root_uri:
         raise ValueError(
-            "Could not retrieve rikai cache_uri from either "
-            "spark or rikai configurations."
+            "Could not retrieve liga cache_uri from either "
+            "spark or liga configurations."
         )
     return os.path.join(cache_root_uri, str(uuid.uuid4()))

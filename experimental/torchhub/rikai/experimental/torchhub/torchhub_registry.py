@@ -17,10 +17,10 @@ from urllib.parse import urlparse
 
 import torch
 
-from rikai.internal.reflection import find_func, has_func
-from rikai.logging import logger
-from rikai.spark.sql.codegen.base import Registry, udf_from_spec
-from rikai.spark.sql.model import ModelSpec
+from liga.internal.reflection import find_func, has_func
+from liga.logging import logger
+from liga.spark.sql.codegen.base import Registry, udf_from_spec
+from liga.spark.sql.model import ModelSpec
 
 
 class TorchHubModelSpec(ModelSpec):
@@ -44,7 +44,7 @@ class TorchHubModelSpec(ModelSpec):
 
         repo_proj = repo_or_dir.split(":")[0].replace("/", ".")
         if not spec["model"]["type"]:
-            model_type = f"rikai.contrib.torchhub.{repo_proj}.{model}"
+            model_type = f"liga.contrib.torchhub.{repo_proj}.{model}"
             if has_func(model_type + ".MODEL_TYPE"):
                 spec["model"]["type"] = model_type
 

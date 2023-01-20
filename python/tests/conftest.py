@@ -31,11 +31,11 @@ import torchvision
 from mlflow.tracking import MlflowClient
 from pyspark.sql import Row, SparkSession
 
-import rikai
-from rikai.contrib.torch.detections import OUTPUT_SCHEMA
-from rikai.spark.sql.codegen.mlflow_registry import CONF_MLFLOW_TRACKING_URI
-from rikai.spark.utils import get_default_jar_version, init_spark_session
-from rikai.types.vision import Image
+import liga
+from liga.contrib.torch.detections import OUTPUT_SCHEMA
+from liga.spark.sql.codegen.mlflow_registry import CONF_MLFLOW_TRACKING_URI
+from liga.spark.utils import get_default_jar_version, init_spark_session
+from liga.types.vision import Image
 
 
 @pytest.fixture(scope="session")
@@ -62,19 +62,19 @@ def mlflow_client_with_tracking_uri(
     tmp_path.mkdir(parents=True, exist_ok=True)
     tracking_uri = "sqlite:///" + str(tmp_path / "tracking.db")
     mlflow.set_tracking_uri(tracking_uri)
-    experiment_id = mlflow.create_experiment("rikai-test", str(tmp_path))
+    experiment_id = mlflow.create_experiment("liga-test", str(tmp_path))
     # simpliest
     with mlflow.start_run(experiment_id=experiment_id):
         mlflow.log_param("optimizer", "Adam")
         # Fake training loop
         model = torch.load(resnet_model_uri)
         artifact_path = "model"
-        rikai.mlflow.pytorch.log_model(
+        liga.mlflow.pytorch.log_model(
             model,  # same as vanilla mlflow
             artifact_path,  # same as vanilla mlflow
             OUTPUT_SCHEMA,
             model_type="resnet",
-            registered_model_name="rikai-test",  # same as vanilla mlflow
+            registered_model_name="liga-test",  # same as vanilla mlflow
         )
 
     # vanilla mlflow
@@ -84,8 +84,8 @@ def mlflow_client_with_tracking_uri(
         )
         mlflow.set_tags(
             {
-                "rikai.model.flavor": "pytorch",
-                "rikai.output.schema": OUTPUT_SCHEMA,
+                "liga.model.flavor": "pytorch",
+                "liga.output.schema": OUTPUT_SCHEMA,
             }
         )
 
@@ -105,7 +105,7 @@ def mlflow_tracking_uri(mlflow_client_with_tracking_uri):
 @pytest.fixture(scope="module")
 def gcs_spark(mlflow_tracking_uri: str) -> SparkSession:
     print(f"mlflow tracking uri for spark: ${mlflow_tracking_uri}")
-    rikai_version = get_default_jar_version(use_snapshot=True)
+    liga_version = get_default_jar_version(use_snapshot=True)
 
     return init_spark_session(
         dict(
@@ -114,7 +114,7 @@ def gcs_spark(mlflow_tracking_uri: str) -> SparkSession:
                     "spark.jars.packages",
                     ",".join(
                         [
-                            "ai.eto:rikai_2.1:{}".format(rikai_version),
+                            "ai.eto:liga_2.1:{}".format(rikai_version),
                         ]
                     ),
                 ),
@@ -128,8 +128,8 @@ def gcs_spark(mlflow_tracking_uri: str) -> SparkSession:
                 ),
                 ("spark.port.maxRetries", 128),
                 (
-                    "spark.rikai.sql.ml.registry.test.impl",
-                    "ai.eto.rikai.sql.model.testing.TestRegistry",
+                    "spark.liga.sql.ml.registry.test.impl",
+                    "ai.eto.liga.sql.model.testing.TestRegistry",
                 ),
                 (
                     "spark.hadoop.fs.gs.impl",
@@ -144,8 +144,8 @@ def gcs_spark(mlflow_tracking_uri: str) -> SparkSession:
                     mlflow_tracking_uri,
                 ),
                 (
-                    "spark.rikai.sql.ml.catalog.impl",
-                    "ai.eto.rikai.sql.model.SimpleCatalog",
+                    "spark.liga.sql.ml.catalog.impl",
+                    "ai.eto.liga.sql.model.SimpleCatalog",
                 ),
             ]
         )
@@ -155,7 +155,7 @@ def gcs_spark(mlflow_tracking_uri: str) -> SparkSession:
 @pytest.fixture(scope="module")
 def aws_spark(mlflow_tracking_uri: str) -> SparkSession:
     print(f"mlflow tracking uri for spark: ${mlflow_tracking_uri}")
-    rikai_version = get_default_jar_version(use_snapshot=True)
+    liga_version = get_default_jar_version(use_snapshot=True)
     hadoop_version = "3.2.0"  # TODO(lei): get hadoop version
 
     return init_spark_session(
@@ -166,14 +166,14 @@ def aws_spark(mlflow_tracking_uri: str) -> SparkSession:
                     ",".join(
                         [
                             f"org.apache.hadoop:hadoop-aws:{hadoop_version}",
-                            "ai.eto:rikai_2.12:{}".format(rikai_version),
+                            "ai.eto:liga_2.12:{}".format(rikai_version),
                         ]
                     ),
                 ),
                 ("spark.port.maxRetries", 128),
                 (
-                    "spark.rikai.sql.ml.registry.test.impl",
-                    "ai.eto.rikai.sql.model.testing.TestRegistry",
+                    "spark.liga.sql.ml.registry.test.impl",
+                    "ai.eto.liga.sql.model.testing.TestRegistry",
                 ),
                 (
                     "spark.hadoop.google.cloud.auth.service.account.enable",
@@ -196,8 +196,8 @@ def aws_spark(mlflow_tracking_uri: str) -> SparkSession:
                     mlflow_tracking_uri,
                 ),
                 (
-                    "spark.rikai.sql.ml.catalog.impl",
-                    "ai.eto.rikai.sql.model.SimpleCatalog",
+                    "spark.liga.sql.ml.catalog.impl",
+                    "ai.eto.liga.sql.model.SimpleCatalog",
                 ),
             ]
         )
@@ -208,7 +208,7 @@ def aws_spark(mlflow_tracking_uri: str) -> SparkSession:
 def spark(mlflow_tracking_uri: str, tmp_path_factory) -> SparkSession:
     print(f"mlflow tracking uri for spark: ${mlflow_tracking_uri}")
     warehouse_path = tmp_path_factory.mktemp("warehouse")
-    rikai_version = get_default_jar_version(use_snapshot=True)
+    liga_version = get_default_jar_version(use_snapshot=True)
 
     return init_spark_session(
         dict(
@@ -217,23 +217,23 @@ def spark(mlflow_tracking_uri: str, tmp_path_factory) -> SparkSession:
                     "spark.jars.packages",
                     ",".join(
                         [
-                            "ai.eto:rikai_2.12:{}".format(rikai_version),
+                            "ai.eto:liga_2.12:{}".format(rikai_version),
                         ]
                     ),
                 ),
                 ("spark.port.maxRetries", 128),
                 ("spark.sql.warehouse.dir", str(warehouse_path)),
                 (
-                    "spark.rikai.sql.ml.registry.test.impl",
-                    "ai.eto.rikai.sql.model.testing.TestRegistry",
+                    "spark.liga.sql.ml.registry.test.impl",
+                    "ai.eto.liga.sql.model.testing.TestRegistry",
                 ),
                 (
                     CONF_MLFLOW_TRACKING_URI,
                     mlflow_tracking_uri,
                 ),
                 (
-                    "spark.rikai.sql.ml.catalog.impl",
-                    "ai.eto.rikai.sql.model.SimpleCatalog",
+                    "spark.liga.sql.ml.catalog.impl",
+                    "ai.eto.liga.sql.model.SimpleCatalog",
                 ),
             ]
         )
@@ -269,7 +269,7 @@ def s3_tmpdir() -> str:
         except botocore.exceptions.ClientError:
             pytest.skip("AWS client can not be authenticated.")
     except ImportError:
-        pytest.skip("Skip test, rikai[aws] (boto3) is not installed")
+        pytest.skip("Skip test, liga[aws] (boto3) is not installed")
 
     temp_dir = (
         baseurl
@@ -345,7 +345,7 @@ def gcs_tmpdir() -> str:
             else:
                 raise
     except ImportError:
-        pytest.skip("rikai[gcp] is not installed.")
+        pytest.skip("liga[gcp] is not installed.")
 
     temp_dir = (
         base_url

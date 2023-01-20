@@ -16,8 +16,8 @@
 import numpy as np
 import pandas as pd
 
-from rikai.pytorch.pandas import PandasDataset
-from rikai.types.geometry import Box2d
+from liga.pytorch.pandas import PandasDataset
+from liga.types.geometry import Box2d
 
 
 def test_pandas_dataframe():

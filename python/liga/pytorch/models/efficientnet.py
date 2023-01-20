@@ -19,7 +19,7 @@ https://arxiv.org/abs/1905.11946
 
 import torchvision
 
-from rikai.pytorch.models.torch import (
+from liga.pytorch.models.torch import (
     ClassificationModelType,
 )
 

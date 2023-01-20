@@ -14,7 +14,7 @@
 
 from typing import Any, Mapping
 
-from rikai.parquet.dataset import convert_tensor
+from liga.parquet.dataset import convert_tensor
 
 __all__ = ["RikaiToTensor"]
 
