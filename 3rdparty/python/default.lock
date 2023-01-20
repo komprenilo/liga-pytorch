@@ -10,7 +10,7 @@
 //   ],
 //   "generated_with_requirements": [
 //     "liga",
-//     "ligavision==0.2.0.dev1",
+//     "ligavision==0.2.0.dev2",
 //     "torch<1.13.0,>=1.8.1",
 //     "torchvision"
 //   ],
@@ -30,6 +30,328 @@
   "locked_resolves": [
     {
       "locked_requirements": [
+        {
+          "artifacts": [
+            {
+              "algorithm": "sha256",
+              "hash": "c37c5cce780349d4d51739ae682dec63573847a2a8dcb44381b174c3d9c8d403",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/ca/fb/0667a5875d3aa334a69c0fe154ced4a3870fa913256d026b0257370b88bd/aiohttp-3.8.3-cp39-cp39-musllinux_1_1_x86_64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "92a2964319d359f494f16011e23434f6f8ef0434acd3cf154a6b7bec511e2fb7",
+              "url": "https://files.pythonhosted.org/packages/03/29/f249982899674802226f29bdf63ffa126b77e5080cf3404e649f3d2364aa/aiohttp-3.8.3-cp39-cp39-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "43046a319664a04b146f81b40e1545d4c8ac7b7dd04c47e40bf09f65f2437346",
+              "url": "https://files.pythonhosted.org/packages/13/fa/317a9f64b47346be0a936837a23f31fb005abfa768dcc15a2974f5bd73fd/aiohttp-3.8.3-cp39-cp39-macosx_11_0_arm64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "598adde339d2cf7d67beaccda3f2ce7c57b3b412702f29c946708f69cf8222aa",
+              "url": "https://files.pythonhosted.org/packages/36/a1/ae1eee1ba03c886bd21e3e25cd6b288cd54032f7f0f48754ad33a4d523b9/aiohttp-3.8.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "599418aaaf88a6d02a8c515e656f6faf3d10618d3dd95866eb4436520096c84b",
+              "url": "https://files.pythonhosted.org/packages/48/c7/332f1e74a268b9bee1cda1fa902197b6947ca4631150ea12cb9d4d7c8109/aiohttp-3.8.3-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "75880ed07be39beff1881d81e4a907cafb802f306efd6d2d15f2b3c69935f6fb",
+              "url": "https://files.pythonhosted.org/packages/57/26/767aaea07a80b080ef330a9f9ca1b71cdfbbac0da59a3c9effbc7ee6749a/aiohttp-3.8.3-cp39-cp39-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "8d6aaa4e7155afaf994d7924eb290abbe81a6905b303d8cb61310a2aba1c68ba",
+              "url": "https://files.pythonhosted.org/packages/6d/c4/1b14d71ae94268aa80cb0745bf8727e24bce544154fa8140eb4dbe0a75db/aiohttp-3.8.3-cp39-cp39-macosx_10_9_x86_64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "ebf909ea0a3fc9596e40d55d8000702a85e27fd578ff41a5500f68f20fd32e6c",
+              "url": "https://files.pythonhosted.org/packages/75/76/2d20c873fe9d5f906147d6b3038c15af38ec70d0733970a850d8d6e0530d/aiohttp-3.8.3-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "d737fc67b9a970f3234754974531dc9afeea11c70791dcb7db53b0cf81b79784",
+              "url": "https://files.pythonhosted.org/packages/8b/53/e064a27347794661d4cc342e0fa75259a3cab1da8c3b2189accea7313cb1/aiohttp-3.8.3-cp38-cp38-macosx_11_0_arm64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "2dea10edfa1a54098703cb7acaa665c07b4e7568472a47f4e64e6319d3821ccf",
+              "url": "https://files.pythonhosted.org/packages/8b/5f/6f39c3d8b2e6cb1fb898ed46faa41a1a2fca47496561d6291b95a7dbf1ad/aiohttp-3.8.3-cp38-cp38-musllinux_1_1_ppc64le.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "2ca9af5f8f5812d475c5259393f52d712f6d5f0d7fdad9acdb1107dd9e3cb7eb",
+              "url": "https://files.pythonhosted.org/packages/91/f0/7636fdf8a1d5872cbc765c3ad8ad1184ddc5493b315123dbc9207dda4f65/aiohttp-3.8.3-cp38-cp38-macosx_10_9_universal2.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "d5ba88df9aa5e2f806650fcbeedbe4f6e8736e92fc0e73b0400538fd25a4dd96",
+              "url": "https://files.pythonhosted.org/packages/96/30/4b624178a5d629db45aff7666af7625709f561d290b3ecc41bd9a032e8c9/aiohttp-3.8.3-cp38-cp38-musllinux_1_1_aarch64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "5835f258ca9f7c455493a57ee707b76d2d9634d84d5d7f62e77be984ea80b849",
+              "url": "https://files.pythonhosted.org/packages/97/50/ef4a442ecf77ba9207ff2db8f7a3c59ef349ee4c01df7ba6082bd64c14e5/aiohttp-3.8.3-cp38-cp38-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "54d107c89a3ebcd13228278d68f1436d3f33f2dd2af5415e3feaeb1156e1a62c",
+              "url": "https://files.pythonhosted.org/packages/a2/90/951a15ff7c1f0378cdd32d92d2cd6caef0845d64c8ef2dbcd4357efa6f8a/aiohttp-3.8.3-cp39-cp39-musllinux_1_1_s390x.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "47841407cc89a4b80b0c52276f3cc8138bbbfba4b179ee3acbd7d77ae33f7ac4",
+              "url": "https://files.pythonhosted.org/packages/ab/76/ff9c439b1cbb5d9586a7a3b84c0ea41df235c18fd236509bc6556c640b59/aiohttp-3.8.3-cp39-cp39-musllinux_1_1_ppc64le.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "87f44875f2804bc0511a69ce44a9595d5944837a62caecc8490bbdb0e18b1342",
+              "url": "https://files.pythonhosted.org/packages/af/d6/248ad502c6049011e7851e1474dd0a58175895388bed15f7f67dcb9187d9/aiohttp-3.8.3-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "2d252771fc85e0cf8da0b823157962d70639e63cb9b578b1dec9868dd1f4f937",
+              "url": "https://files.pythonhosted.org/packages/b4/29/2efc33e17287c9d3ef75d556f44b14a989f3d5a692dbad21656e6232a202/aiohttp-3.8.3-cp38-cp38-musllinux_1_1_x86_64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "e7b8813be97cab8cb52b1375f41f8e6804f6507fe4660152e8ca5c48f0436017",
+              "url": "https://files.pythonhosted.org/packages/b5/87/4910fcdcc9c8c36354eab795e8108ed7cef7cab2b3c41ba8d19c2e52bf1a/aiohttp-3.8.3-cp38-cp38-musllinux_1_1_i686.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "a0239da9fbafd9ff82fd67c16704a7d1bccf0d107a300e790587ad05547681c8",
+              "url": "https://files.pythonhosted.org/packages/bc/d8/71ccd190f7c45b035bffe66d76dac2898c1fdad7d823d992deeb3493dc6b/aiohttp-3.8.3-cp39-cp39-musllinux_1_1_aarch64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "1d90043c1882067f1bd26196d5d2db9aa6d268def3293ed5fb317e13c9413ea4",
+              "url": "https://files.pythonhosted.org/packages/c6/bf/2ab517add02b8571080c06caa52f707adfbb73a374a18a11a6eb0bb74491/aiohttp-3.8.3-cp38-cp38-macosx_10_9_x86_64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "73a4131962e6d91109bca6536416aa067cf6c4efb871975df734f8d2fd821b37",
+              "url": "https://files.pythonhosted.org/packages/c6/f5/f71ee6f6dc2c924639d11b0f82dd3fde8f2895129eb617d45cc2724ab8c1/aiohttp-3.8.3-cp39-cp39-manylinux_2_17_s390x.manylinux2014_s390x.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "c37c5cce780349d4d51739ae682dec63573847a2a8dcb44381b174c3d9c8d403",
+              "url": "https://files.pythonhosted.org/packages/ca/fb/0667a5875d3aa334a69c0fe154ced4a3870fa913256d026b0257370b88bd/aiohttp-3.8.3-cp39-cp39-musllinux_1_1_x86_64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "da37dcfbf4b7f45d80ee386a5f81122501ec75672f475da34784196690762f4b",
+              "url": "https://files.pythonhosted.org/packages/dc/b3/10e4d1db01f2ee3f261d121a14954777bdf8c152e50de7c24a62b96df2ee/aiohttp-3.8.3-cp38-cp38-manylinux_2_17_s390x.manylinux2014_s390x.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "4e3a23ec214e95c9fe85a58470b660efe6534b83e6cbe38b3ed52b053d7cb6ad",
+              "url": "https://files.pythonhosted.org/packages/e3/5c/cbcfb81e556218b0a51caa1150862f7c5d8ca130146383827aae8eda8a4f/aiohttp-3.8.3-cp39-cp39-musllinux_1_1_i686.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "713d22cd9643ba9025d33c4af43943c7a1eb8547729228de18d3e02e278472b6",
+              "url": "https://files.pythonhosted.org/packages/e6/b3/59b9b10bb83f319fceab2a8b78aea96ae4a0403aced2aab92f28bff7eea8/aiohttp-3.8.3-cp38-cp38-musllinux_1_1_s390x.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "527b3b87b24844ea7865284aabfab08eb0faf599b385b03c2aa91fc6edd6e4b6",
+              "url": "https://files.pythonhosted.org/packages/ec/ee/5605d20e3e3d24cc709a44e356e1a57d13734592c72f132504d3bfc38e40/aiohttp-3.8.3-cp38-cp38-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "16c121ba0b1ec2b44b73e3a8a171c4f999b33929cd2397124a8c7fcfc8cd9e06",
+              "url": "https://files.pythonhosted.org/packages/f8/59/53c6bd97632fc54787481a23d5c38241a57db69fc7ccc7bfd42e9fcbecc3/aiohttp-3.8.3-cp39-cp39-macosx_10_9_universal2.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "3828fb41b7203176b82fe5d699e0d845435f2374750a44b480ea6b930f6be269",
+              "url": "https://files.pythonhosted.org/packages/ff/4f/62d9859b7d4e6dc32feda67815c5f5ab4421e6909e48cbc970b6a40d60b7/aiohttp-3.8.3.tar.gz"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "92a2964319d359f494f16011e23434f6f8ef0434acd3cf154a6b7bec511e2fb7",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/03/29/f249982899674802226f29bdf63ffa126b77e5080cf3404e649f3d2364aa/aiohttp-3.8.3-cp39-cp39-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "43046a319664a04b146f81b40e1545d4c8ac7b7dd04c47e40bf09f65f2437346",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/13/fa/317a9f64b47346be0a936837a23f31fb005abfa768dcc15a2974f5bd73fd/aiohttp-3.8.3-cp39-cp39-macosx_11_0_arm64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "598adde339d2cf7d67beaccda3f2ce7c57b3b412702f29c946708f69cf8222aa",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/36/a1/ae1eee1ba03c886bd21e3e25cd6b288cd54032f7f0f48754ad33a4d523b9/aiohttp-3.8.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "599418aaaf88a6d02a8c515e656f6faf3d10618d3dd95866eb4436520096c84b",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/48/c7/332f1e74a268b9bee1cda1fa902197b6947ca4631150ea12cb9d4d7c8109/aiohttp-3.8.3-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "75880ed07be39beff1881d81e4a907cafb802f306efd6d2d15f2b3c69935f6fb",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/57/26/767aaea07a80b080ef330a9f9ca1b71cdfbbac0da59a3c9effbc7ee6749a/aiohttp-3.8.3-cp39-cp39-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "8d6aaa4e7155afaf994d7924eb290abbe81a6905b303d8cb61310a2aba1c68ba",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/6d/c4/1b14d71ae94268aa80cb0745bf8727e24bce544154fa8140eb4dbe0a75db/aiohttp-3.8.3-cp39-cp39-macosx_10_9_x86_64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "ebf909ea0a3fc9596e40d55d8000702a85e27fd578ff41a5500f68f20fd32e6c",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/75/76/2d20c873fe9d5f906147d6b3038c15af38ec70d0733970a850d8d6e0530d/aiohttp-3.8.3-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "d737fc67b9a970f3234754974531dc9afeea11c70791dcb7db53b0cf81b79784",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/8b/53/e064a27347794661d4cc342e0fa75259a3cab1da8c3b2189accea7313cb1/aiohttp-3.8.3-cp38-cp38-macosx_11_0_arm64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "2dea10edfa1a54098703cb7acaa665c07b4e7568472a47f4e64e6319d3821ccf",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/8b/5f/6f39c3d8b2e6cb1fb898ed46faa41a1a2fca47496561d6291b95a7dbf1ad/aiohttp-3.8.3-cp38-cp38-musllinux_1_1_ppc64le.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "2ca9af5f8f5812d475c5259393f52d712f6d5f0d7fdad9acdb1107dd9e3cb7eb",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/91/f0/7636fdf8a1d5872cbc765c3ad8ad1184ddc5493b315123dbc9207dda4f65/aiohttp-3.8.3-cp38-cp38-macosx_10_9_universal2.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "d5ba88df9aa5e2f806650fcbeedbe4f6e8736e92fc0e73b0400538fd25a4dd96",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/96/30/4b624178a5d629db45aff7666af7625709f561d290b3ecc41bd9a032e8c9/aiohttp-3.8.3-cp38-cp38-musllinux_1_1_aarch64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "5835f258ca9f7c455493a57ee707b76d2d9634d84d5d7f62e77be984ea80b849",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/97/50/ef4a442ecf77ba9207ff2db8f7a3c59ef349ee4c01df7ba6082bd64c14e5/aiohttp-3.8.3-cp38-cp38-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "54d107c89a3ebcd13228278d68f1436d3f33f2dd2af5415e3feaeb1156e1a62c",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/a2/90/951a15ff7c1f0378cdd32d92d2cd6caef0845d64c8ef2dbcd4357efa6f8a/aiohttp-3.8.3-cp39-cp39-musllinux_1_1_s390x.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "47841407cc89a4b80b0c52276f3cc8138bbbfba4b179ee3acbd7d77ae33f7ac4",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/ab/76/ff9c439b1cbb5d9586a7a3b84c0ea41df235c18fd236509bc6556c640b59/aiohttp-3.8.3-cp39-cp39-musllinux_1_1_ppc64le.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "87f44875f2804bc0511a69ce44a9595d5944837a62caecc8490bbdb0e18b1342",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/af/d6/248ad502c6049011e7851e1474dd0a58175895388bed15f7f67dcb9187d9/aiohttp-3.8.3-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "2d252771fc85e0cf8da0b823157962d70639e63cb9b578b1dec9868dd1f4f937",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/b4/29/2efc33e17287c9d3ef75d556f44b14a989f3d5a692dbad21656e6232a202/aiohttp-3.8.3-cp38-cp38-musllinux_1_1_x86_64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "e7b8813be97cab8cb52b1375f41f8e6804f6507fe4660152e8ca5c48f0436017",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/b5/87/4910fcdcc9c8c36354eab795e8108ed7cef7cab2b3c41ba8d19c2e52bf1a/aiohttp-3.8.3-cp38-cp38-musllinux_1_1_i686.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "a0239da9fbafd9ff82fd67c16704a7d1bccf0d107a300e790587ad05547681c8",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/bc/d8/71ccd190f7c45b035bffe66d76dac2898c1fdad7d823d992deeb3493dc6b/aiohttp-3.8.3-cp39-cp39-musllinux_1_1_aarch64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "1d90043c1882067f1bd26196d5d2db9aa6d268def3293ed5fb317e13c9413ea4",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/c6/bf/2ab517add02b8571080c06caa52f707adfbb73a374a18a11a6eb0bb74491/aiohttp-3.8.3-cp38-cp38-macosx_10_9_x86_64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "73a4131962e6d91109bca6536416aa067cf6c4efb871975df734f8d2fd821b37",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/c6/f5/f71ee6f6dc2c924639d11b0f82dd3fde8f2895129eb617d45cc2724ab8c1/aiohttp-3.8.3-cp39-cp39-manylinux_2_17_s390x.manylinux2014_s390x.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "da37dcfbf4b7f45d80ee386a5f81122501ec75672f475da34784196690762f4b",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/dc/b3/10e4d1db01f2ee3f261d121a14954777bdf8c152e50de7c24a62b96df2ee/aiohttp-3.8.3-cp38-cp38-manylinux_2_17_s390x.manylinux2014_s390x.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "4e3a23ec214e95c9fe85a58470b660efe6534b83e6cbe38b3ed52b053d7cb6ad",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/e3/5c/cbcfb81e556218b0a51caa1150862f7c5d8ca130146383827aae8eda8a4f/aiohttp-3.8.3-cp39-cp39-musllinux_1_1_i686.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "713d22cd9643ba9025d33c4af43943c7a1eb8547729228de18d3e02e278472b6",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/e6/b3/59b9b10bb83f319fceab2a8b78aea96ae4a0403aced2aab92f28bff7eea8/aiohttp-3.8.3-cp38-cp38-musllinux_1_1_s390x.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "527b3b87b24844ea7865284aabfab08eb0faf599b385b03c2aa91fc6edd6e4b6",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/ec/ee/5605d20e3e3d24cc709a44e356e1a57d13734592c72f132504d3bfc38e40/aiohttp-3.8.3-cp38-cp38-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "16c121ba0b1ec2b44b73e3a8a171c4f999b33929cd2397124a8c7fcfc8cd9e06",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/f8/59/53c6bd97632fc54787481a23d5c38241a57db69fc7ccc7bfd42e9fcbecc3/aiohttp-3.8.3-cp39-cp39-macosx_10_9_universal2.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "3828fb41b7203176b82fe5d699e0d845435f2374750a44b480ea6b930f6be269",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/ff/4f/62d9859b7d4e6dc32feda67815c5f5ab4421e6909e48cbc970b6a40d60b7/aiohttp-3.8.3.tar.gz"
+            }
+          ],
+          "project_name": "aiohttp",
+          "requires_dists": [
+            "Brotli; extra == \"speedups\"",
+            "aiodns; extra == \"speedups\"",
+            "aiosignal>=1.1.2",
+            "async-timeout<5.0,>=4.0.0a3",
+            "asynctest==0.13.0; python_version < \"3.8\"",
+            "attrs>=17.3.0",
+            "cchardet; python_version < \"3.10\" and extra == \"speedups\"",
+            "charset-normalizer<3.0,>=2.0",
+            "frozenlist>=1.1.1",
+            "idna-ssl>=1.0; python_version < \"3.7\"",
+            "multidict<7.0,>=4.5",
+            "typing-extensions>=3.7.4; python_version < \"3.8\"",
+            "yarl<2.0,>=1.0"
+          ],
+          "requires_python": ">=3.6",
+          "version": "3.8.3"
+        },
+        {
+          "artifacts": [
+            {
+              "algorithm": "sha256",
+              "hash": "f8376fb07dd1e86a584e4fcdec80b36b7f81aac666ebc724e2c090300dd83b17",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/76/ac/a7305707cb852b7e16ff80eaf5692309bde30e2b1100a1fcacdc8f731d97/aiosignal-1.3.1-py3-none-any.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "f8376fb07dd1e86a584e4fcdec80b36b7f81aac666ebc724e2c090300dd83b17",
+              "url": "https://files.pythonhosted.org/packages/76/ac/a7305707cb852b7e16ff80eaf5692309bde30e2b1100a1fcacdc8f731d97/aiosignal-1.3.1-py3-none-any.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "54cd96e15e1649b75d6c87526a6ff0b6c1b0dd3459f43d9ca11d48c339b68cfc",
+              "url": "https://files.pythonhosted.org/packages/ae/67/0952ed97a9793b4958e5736f6d2b346b414a2cd63e82d05940032f45b32f/aiosignal-1.3.1.tar.gz"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "54cd96e15e1649b75d6c87526a6ff0b6c1b0dd3459f43d9ca11d48c339b68cfc",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/ae/67/0952ed97a9793b4958e5736f6d2b346b414a2cd63e82d05940032f45b32f/aiosignal-1.3.1.tar.gz"
+            }
+          ],
+          "project_name": "aiosignal",
+          "requires_dists": [
+            "frozenlist>=1.1.0"
+          ],
+          "requires_python": ">=3.7",
+          "version": "1.3.1"
+        },
         {
           "artifacts": [
             {
@@ -59,6 +381,36 @@
           ],
           "requires_python": null,
           "version": "4.11.1"
+        },
+        {
+          "artifacts": [
+            {
+              "algorithm": "sha256",
+              "hash": "8ca1e4fcf50d07413d66d1a5e416e42cfdf5851c981d679a09851a6853383b3c",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/d6/c1/8991e7c5385b897b8c020cdaad718c5b087a6626d1d11a23e1ea87e325a7/async_timeout-4.0.2-py3-none-any.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "2163e1640ddb52b7a8c80d0a67a08587e5d245cc9c553a74a847056bc2976b15",
+              "url": "https://files.pythonhosted.org/packages/54/6e/9678f7b2993537452710ffb1750c62d2c26df438aa621ad5fa9d1507a43a/async-timeout-4.0.2.tar.gz"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "8ca1e4fcf50d07413d66d1a5e416e42cfdf5851c981d679a09851a6853383b3c",
+              "url": "https://files.pythonhosted.org/packages/d6/c1/8991e7c5385b897b8c020cdaad718c5b087a6626d1d11a23e1ea87e325a7/async_timeout-4.0.2-py3-none-any.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "2163e1640ddb52b7a8c80d0a67a08587e5d245cc9c553a74a847056bc2976b15",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/54/6e/9678f7b2993537452710ffb1750c62d2c26df438aa621ad5fa9d1507a43a/async-timeout-4.0.2.tar.gz"
+            }
+          ],
+          "project_name": "async-timeout",
+          "requires_dists": [
+            "typing-extensions>=3.6.5; python_version < \"3.8\""
+          ],
+          "requires_python": ">=3.6",
+          "version": "4.0.2"
         },
         {
           "artifacts": [
@@ -148,289 +500,309 @@
           "artifacts": [
             {
               "algorithm": "sha256",
-              "hash": "7e189e2e1d3ed2f4aebabd2d5b0f931e883676e51c7624826e0a4e5fe8a0bf24",
-              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/68/2b/02e9d6a98ddb73fa238d559a9edcc30b247b8dc4ee848b6184c936e99dc0/charset_normalizer-3.0.1-py3-none-any.whl"
+              "hash": "83e9a75d1911279afd89352c68b45348559d1fc0506b054b346651b5e7fee29f",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/db/51/a507c856293ab05cdc1db77ff4bc1268ddd39f29e7dc4919aa497f0adbec/charset_normalizer-2.1.1-py3-none-any.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "39049da0ffb96c8cbb65cbf5c5f3ca3168990adf3551bd1dee10c48fce8ae820",
-              "url": "https://files.pythonhosted.org/packages/03/5e/e81488c74e86eef85cf085417ed945da2dcca87ed22d76202680c16bd3c3/charset_normalizer-3.0.1-cp38-cp38-musllinux_1_1_x86_64.whl"
+              "hash": "5a3d016c7c547f69d6f81fb0db9449ce888b418b5b9952cc5e6e66843e9dd845",
+              "url": "https://files.pythonhosted.org/packages/a1/34/44964211e5410b051e4b8d2869c470ae8a68ae274953b1c7de6d98bbcf94/charset-normalizer-2.1.1.tar.gz"
             },
             {
               "algorithm": "sha256",
-              "hash": "024e606be3ed92216e2b6952ed859d86b4cfa52cd5bc5f050e7dc28f9b43ec42",
-              "url": "https://files.pythonhosted.org/packages/0e/d3/c5fa421dc69bb77c581ed561f1ec6656109c97731ad1128aa93d8bad3053/charset_normalizer-3.0.1-cp38-cp38-macosx_10_9_universal2.whl"
+              "hash": "83e9a75d1911279afd89352c68b45348559d1fc0506b054b346651b5e7fee29f",
+              "url": "https://files.pythonhosted.org/packages/db/51/a507c856293ab05cdc1db77ff4bc1268ddd39f29e7dc4919aa497f0adbec/charset_normalizer-2.1.1-py3-none-any.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "8eade758719add78ec36dc13201483f8e9b5d940329285edcd5f70c0a9edbd7f",
-              "url": "https://files.pythonhosted.org/packages/17/67/4b25c0358a2e812312b551e734d58855d58f47d0e0e9d1573930003910cb/charset_normalizer-3.0.1-cp39-cp39-macosx_10_9_universal2.whl"
-            },
-            {
-              "algorithm": "sha256",
-              "hash": "81d6741ab457d14fdedc215516665050f3822d3e56508921cc7239f8c8e66a58",
-              "url": "https://files.pythonhosted.org/packages/17/da/fdf8ffc33716c82cae06008159a55a581fa515e8dd02e3395dcad42ff83d/charset_normalizer-3.0.1-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
-            },
-            {
-              "algorithm": "sha256",
-              "hash": "e696f0dd336161fca9adbb846875d40752e6eba585843c768935ba5c9960722b",
-              "url": "https://files.pythonhosted.org/packages/20/a2/16b2cbf5f73bdd10624b94647b85c008ba25059792a5c7b4fdb8358bceeb/charset_normalizer-3.0.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
-            },
-            {
-              "algorithm": "sha256",
-              "hash": "0f438ae3532723fb6ead77e7c604be7c8374094ef4ee2c5e03a3a17f1fca256c",
-              "url": "https://files.pythonhosted.org/packages/25/19/298089cef2eb82fd3810d982aa239d4226594f99e1fe78494cb9b47b03c9/charset_normalizer-3.0.1-cp39-cp39-musllinux_1_1_s390x.whl"
-            },
-            {
-              "algorithm": "sha256",
-              "hash": "ab5de034a886f616a5668aa5d098af2b5385ed70142090e2a31bcbd0af0fdb3d",
-              "url": "https://files.pythonhosted.org/packages/31/06/f6330ee70c041a032ee1a5d32785d69748cfa41f64b6d327cc08cae51de9/charset_normalizer-3.0.1-cp39-cp39-musllinux_1_1_aarch64.whl"
-            },
-            {
-              "algorithm": "sha256",
-              "hash": "f6f45710b4459401609ebebdbcfb34515da4fc2aa886f95107f556ac69a9147e",
-              "url": "https://files.pythonhosted.org/packages/31/af/67b7653a35dbd56f6bb9ff54652a551eae8420d1d0545f0042c5bdb15fb0/charset_normalizer-3.0.1-cp39-cp39-manylinux_2_17_s390x.manylinux2014_s390x.whl"
-            },
-            {
-              "algorithm": "sha256",
-              "hash": "8b8af03d2e37866d023ad0ddea594edefc31e827fee64f8de5611a1dbc373174",
-              "url": "https://files.pythonhosted.org/packages/37/60/7a01f3a129d1af1f26ab2c56aae89a72dbf33fd46a467c1aa994ec62b90b/charset_normalizer-3.0.1-cp38-cp38-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl"
-            },
-            {
-              "algorithm": "sha256",
-              "hash": "9cf4e8ad252f7c38dd1f676b46514f92dc0ebeb0db5552f5f403509705e24753",
-              "url": "https://files.pythonhosted.org/packages/56/5d/275fb120957dfe5a2262d04f28bc742fd4bcc2bd270d19bb8757e09737ef/charset_normalizer-3.0.1-cp38-cp38-manylinux_2_17_s390x.manylinux2014_s390x.whl"
-            },
-            {
-              "algorithm": "sha256",
-              "hash": "109487860ef6a328f3eec66f2bf78b0b72400280d8f8ea05f69c51644ba6521a",
-              "url": "https://files.pythonhosted.org/packages/5b/e7/5527effca09d873e07e128d3daac7c531203b5105cb4e2956c2b7a8cc41c/charset_normalizer-3.0.1-cp38-cp38-musllinux_1_1_aarch64.whl"
-            },
-            {
-              "algorithm": "sha256",
-              "hash": "7e189e2e1d3ed2f4aebabd2d5b0f931e883676e51c7624826e0a4e5fe8a0bf24",
-              "url": "https://files.pythonhosted.org/packages/68/2b/02e9d6a98ddb73fa238d559a9edcc30b247b8dc4ee848b6184c936e99dc0/charset_normalizer-3.0.1-py3-none-any.whl"
-            },
-            {
-              "algorithm": "sha256",
-              "hash": "8499ca8f4502af841f68135133d8258f7b32a53a1d594aa98cc52013fff55678",
-              "url": "https://files.pythonhosted.org/packages/6a/ab/3a00ecbddabe25132c20c1bd45e6f90c537b5f7a0b5bcaba094c4922928c/charset_normalizer-3.0.1-cp39-cp39-macosx_10_9_x86_64.whl"
-            },
-            {
-              "algorithm": "sha256",
-              "hash": "ebea339af930f8ca5d7a699b921106c6e29c617fe9606fa7baa043c1cdae326f",
-              "url": "https://files.pythonhosted.org/packages/96/d7/1675d9089a1f4677df5eb29c3f8b064aa1e70c1251a0a8a127803158942d/charset-normalizer-3.0.1.tar.gz"
-            },
-            {
-              "algorithm": "sha256",
-              "hash": "3b590df687e3c5ee0deef9fc8c547d81986d9a1b56073d82de008744452d6541",
-              "url": "https://files.pythonhosted.org/packages/99/24/eb846dc9a797da58e6e5b3b5a71d3ff17264de3f424fb29aaa5d27173b55/charset_normalizer-3.0.1-cp39-cp39-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl"
-            },
-            {
-              "algorithm": "sha256",
-              "hash": "4b0d02d7102dd0f997580b51edc4cebcf2ab6397a7edf89f1c73b586c614272c",
-              "url": "https://files.pythonhosted.org/packages/9c/42/c1ebc736c57459aab28bfb8aa28c6a047796f2ea46050a3b129b4920dbe4/charset_normalizer-3.0.1-cp38-cp38-macosx_10_9_x86_64.whl"
-            },
-            {
-              "algorithm": "sha256",
-              "hash": "358a7c4cb8ba9b46c453b1dd8d9e431452d5249072e4f56cfda3149f6ab1405e",
-              "url": "https://files.pythonhosted.org/packages/a2/a7/adc963ad8f8fddadd6be088e636972705ec9d1d92d1b45e6119eb02b7e9e/charset_normalizer-3.0.1-cp38-cp38-macosx_11_0_arm64.whl"
-            },
-            {
-              "algorithm": "sha256",
-              "hash": "f97e83fa6c25693c7a35de154681fcc257c1c41b38beb0304b9c4d2d9e164479",
-              "url": "https://files.pythonhosted.org/packages/aa/a4/2d6255d4db5d4558a92458fd8dacddfdda2fb4ad9c0a87db6f6034aded34/charset_normalizer-3.0.1-cp38-cp38-musllinux_1_1_ppc64le.whl"
-            },
-            {
-              "algorithm": "sha256",
-              "hash": "00d3ffdaafe92a5dc603cb9bd5111aaa36dfa187c8285c543be562e61b755f6b",
-              "url": "https://files.pythonhosted.org/packages/b5/1a/932d86fde86bb0d2992c74552c9a422883fe0890132bbc9a5e2211f03318/charset_normalizer-3.0.1-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
-            },
-            {
-              "algorithm": "sha256",
-              "hash": "9cb3032517f1627cc012dbc80a8ec976ae76d93ea2b5feaa9d2a5b8882597579",
-              "url": "https://files.pythonhosted.org/packages/c4/d4/94f1ea460cce04483d2460efba6fd4d66e6f60ad6fc6075dba13e3501e48/charset_normalizer-3.0.1-cp39-cp39-musllinux_1_1_i686.whl"
-            },
-            {
-              "algorithm": "sha256",
-              "hash": "c22d3fe05ce11d3671297dc8973267daa0f938b93ec716e12e0f6dee81591dc1",
-              "url": "https://files.pythonhosted.org/packages/c8/a2/8f873138c99423de3b402daf8ccd7a538632c83d0c129444a6a18ef34e03/charset_normalizer-3.0.1-cp38-cp38-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl"
-            },
-            {
-              "algorithm": "sha256",
-              "hash": "608862a7bf6957f2333fc54ab4399e405baad0163dc9f8d99cb236816db169d4",
-              "url": "https://files.pythonhosted.org/packages/c9/dd/80a5e8c080b7e1cc2b0ca35f0d6aeedafd7bbd06d25031ac20868b1366d6/charset_normalizer-3.0.1-cp39-cp39-musllinux_1_1_ppc64le.whl"
-            },
-            {
-              "algorithm": "sha256",
-              "hash": "c2ac1b08635a8cd4e0cbeaf6f5e922085908d48eb05d44c5ae9eabab148512ca",
-              "url": "https://files.pythonhosted.org/packages/dc/ff/2c7655d83b1d6d6a0e132d50d54131fcb8da763b417ccc6c4a506aa0e08c/charset_normalizer-3.0.1-cp39-cp39-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl"
-            },
-            {
-              "algorithm": "sha256",
-              "hash": "3ae1de54a77dc0d6d5fcf623290af4266412a7c4be0b1ff7444394f03f5c54e3",
-              "url": "https://files.pythonhosted.org/packages/e3/96/8cdbce165c96cce5f2c9c7748f7ed8e0cf0c5d03e213bbc90b7c3e918bf5/charset_normalizer-3.0.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
-            },
-            {
-              "algorithm": "sha256",
-              "hash": "37f8febc8ec50c14f3ec9637505f28e58d4f66752207ea177c1d67df25da5aed",
-              "url": "https://files.pythonhosted.org/packages/e8/80/141f6af05332cbb811ab469f64deb1e1d4cc9e8b0c003aa8a38d689ce84a/charset_normalizer-3.0.1-cp38-cp38-musllinux_1_1_i686.whl"
-            },
-            {
-              "algorithm": "sha256",
-              "hash": "a152f5f33d64a6be73f1d30c9cc82dfc73cec6477ec268e7c6e4c7d23c2d2291",
-              "url": "https://files.pythonhosted.org/packages/f1/ff/9a1c65d8c44958f45ae40cd558ab63bd499a35198a2014e13c0887c07ed1/charset_normalizer-3.0.1-cp38-cp38-musllinux_1_1_s390x.whl"
-            },
-            {
-              "algorithm": "sha256",
-              "hash": "3fc1c4a2ffd64890aebdb3f97e1278b0cc72579a08ca4de8cd2c04799a3a22be",
-              "url": "https://files.pythonhosted.org/packages/f5/84/cac681144a28114bd9e40d3cdbfd961c14ecc2b56f1baec2094afd6744c7/charset_normalizer-3.0.1-cp39-cp39-macosx_11_0_arm64.whl"
-            },
-            {
-              "algorithm": "sha256",
-              "hash": "356541bf4381fa35856dafa6a965916e54bed415ad8a24ee6de6e37deccf2786",
-              "url": "https://files.pythonhosted.org/packages/f5/ec/a9bed59079bd0267d34ada58a4048c96a59b3621e7f586ea85840d41831d/charset_normalizer-3.0.1-cp39-cp39-musllinux_1_1_x86_64.whl"
-            },
-            {
-              "algorithm": "sha256",
-              "hash": "39049da0ffb96c8cbb65cbf5c5f3ca3168990adf3551bd1dee10c48fce8ae820",
-              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/03/5e/e81488c74e86eef85cf085417ed945da2dcca87ed22d76202680c16bd3c3/charset_normalizer-3.0.1-cp38-cp38-musllinux_1_1_x86_64.whl"
-            },
-            {
-              "algorithm": "sha256",
-              "hash": "024e606be3ed92216e2b6952ed859d86b4cfa52cd5bc5f050e7dc28f9b43ec42",
-              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/0e/d3/c5fa421dc69bb77c581ed561f1ec6656109c97731ad1128aa93d8bad3053/charset_normalizer-3.0.1-cp38-cp38-macosx_10_9_universal2.whl"
-            },
-            {
-              "algorithm": "sha256",
-              "hash": "8eade758719add78ec36dc13201483f8e9b5d940329285edcd5f70c0a9edbd7f",
-              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/17/67/4b25c0358a2e812312b551e734d58855d58f47d0e0e9d1573930003910cb/charset_normalizer-3.0.1-cp39-cp39-macosx_10_9_universal2.whl"
-            },
-            {
-              "algorithm": "sha256",
-              "hash": "81d6741ab457d14fdedc215516665050f3822d3e56508921cc7239f8c8e66a58",
-              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/17/da/fdf8ffc33716c82cae06008159a55a581fa515e8dd02e3395dcad42ff83d/charset_normalizer-3.0.1-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
-            },
-            {
-              "algorithm": "sha256",
-              "hash": "e696f0dd336161fca9adbb846875d40752e6eba585843c768935ba5c9960722b",
-              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/20/a2/16b2cbf5f73bdd10624b94647b85c008ba25059792a5c7b4fdb8358bceeb/charset_normalizer-3.0.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
-            },
-            {
-              "algorithm": "sha256",
-              "hash": "0f438ae3532723fb6ead77e7c604be7c8374094ef4ee2c5e03a3a17f1fca256c",
-              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/25/19/298089cef2eb82fd3810d982aa239d4226594f99e1fe78494cb9b47b03c9/charset_normalizer-3.0.1-cp39-cp39-musllinux_1_1_s390x.whl"
-            },
-            {
-              "algorithm": "sha256",
-              "hash": "ab5de034a886f616a5668aa5d098af2b5385ed70142090e2a31bcbd0af0fdb3d",
-              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/31/06/f6330ee70c041a032ee1a5d32785d69748cfa41f64b6d327cc08cae51de9/charset_normalizer-3.0.1-cp39-cp39-musllinux_1_1_aarch64.whl"
-            },
-            {
-              "algorithm": "sha256",
-              "hash": "f6f45710b4459401609ebebdbcfb34515da4fc2aa886f95107f556ac69a9147e",
-              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/31/af/67b7653a35dbd56f6bb9ff54652a551eae8420d1d0545f0042c5bdb15fb0/charset_normalizer-3.0.1-cp39-cp39-manylinux_2_17_s390x.manylinux2014_s390x.whl"
-            },
-            {
-              "algorithm": "sha256",
-              "hash": "8b8af03d2e37866d023ad0ddea594edefc31e827fee64f8de5611a1dbc373174",
-              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/37/60/7a01f3a129d1af1f26ab2c56aae89a72dbf33fd46a467c1aa994ec62b90b/charset_normalizer-3.0.1-cp38-cp38-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl"
-            },
-            {
-              "algorithm": "sha256",
-              "hash": "9cf4e8ad252f7c38dd1f676b46514f92dc0ebeb0db5552f5f403509705e24753",
-              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/56/5d/275fb120957dfe5a2262d04f28bc742fd4bcc2bd270d19bb8757e09737ef/charset_normalizer-3.0.1-cp38-cp38-manylinux_2_17_s390x.manylinux2014_s390x.whl"
-            },
-            {
-              "algorithm": "sha256",
-              "hash": "109487860ef6a328f3eec66f2bf78b0b72400280d8f8ea05f69c51644ba6521a",
-              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/5b/e7/5527effca09d873e07e128d3daac7c531203b5105cb4e2956c2b7a8cc41c/charset_normalizer-3.0.1-cp38-cp38-musllinux_1_1_aarch64.whl"
-            },
-            {
-              "algorithm": "sha256",
-              "hash": "8499ca8f4502af841f68135133d8258f7b32a53a1d594aa98cc52013fff55678",
-              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/6a/ab/3a00ecbddabe25132c20c1bd45e6f90c537b5f7a0b5bcaba094c4922928c/charset_normalizer-3.0.1-cp39-cp39-macosx_10_9_x86_64.whl"
-            },
-            {
-              "algorithm": "sha256",
-              "hash": "ebea339af930f8ca5d7a699b921106c6e29c617fe9606fa7baa043c1cdae326f",
-              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/96/d7/1675d9089a1f4677df5eb29c3f8b064aa1e70c1251a0a8a127803158942d/charset-normalizer-3.0.1.tar.gz"
-            },
-            {
-              "algorithm": "sha256",
-              "hash": "3b590df687e3c5ee0deef9fc8c547d81986d9a1b56073d82de008744452d6541",
-              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/99/24/eb846dc9a797da58e6e5b3b5a71d3ff17264de3f424fb29aaa5d27173b55/charset_normalizer-3.0.1-cp39-cp39-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl"
-            },
-            {
-              "algorithm": "sha256",
-              "hash": "4b0d02d7102dd0f997580b51edc4cebcf2ab6397a7edf89f1c73b586c614272c",
-              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/9c/42/c1ebc736c57459aab28bfb8aa28c6a047796f2ea46050a3b129b4920dbe4/charset_normalizer-3.0.1-cp38-cp38-macosx_10_9_x86_64.whl"
-            },
-            {
-              "algorithm": "sha256",
-              "hash": "358a7c4cb8ba9b46c453b1dd8d9e431452d5249072e4f56cfda3149f6ab1405e",
-              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/a2/a7/adc963ad8f8fddadd6be088e636972705ec9d1d92d1b45e6119eb02b7e9e/charset_normalizer-3.0.1-cp38-cp38-macosx_11_0_arm64.whl"
-            },
-            {
-              "algorithm": "sha256",
-              "hash": "f97e83fa6c25693c7a35de154681fcc257c1c41b38beb0304b9c4d2d9e164479",
-              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/aa/a4/2d6255d4db5d4558a92458fd8dacddfdda2fb4ad9c0a87db6f6034aded34/charset_normalizer-3.0.1-cp38-cp38-musllinux_1_1_ppc64le.whl"
-            },
-            {
-              "algorithm": "sha256",
-              "hash": "00d3ffdaafe92a5dc603cb9bd5111aaa36dfa187c8285c543be562e61b755f6b",
-              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/b5/1a/932d86fde86bb0d2992c74552c9a422883fe0890132bbc9a5e2211f03318/charset_normalizer-3.0.1-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
-            },
-            {
-              "algorithm": "sha256",
-              "hash": "9cb3032517f1627cc012dbc80a8ec976ae76d93ea2b5feaa9d2a5b8882597579",
-              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/c4/d4/94f1ea460cce04483d2460efba6fd4d66e6f60ad6fc6075dba13e3501e48/charset_normalizer-3.0.1-cp39-cp39-musllinux_1_1_i686.whl"
-            },
-            {
-              "algorithm": "sha256",
-              "hash": "c22d3fe05ce11d3671297dc8973267daa0f938b93ec716e12e0f6dee81591dc1",
-              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/c8/a2/8f873138c99423de3b402daf8ccd7a538632c83d0c129444a6a18ef34e03/charset_normalizer-3.0.1-cp38-cp38-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl"
-            },
-            {
-              "algorithm": "sha256",
-              "hash": "608862a7bf6957f2333fc54ab4399e405baad0163dc9f8d99cb236816db169d4",
-              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/c9/dd/80a5e8c080b7e1cc2b0ca35f0d6aeedafd7bbd06d25031ac20868b1366d6/charset_normalizer-3.0.1-cp39-cp39-musllinux_1_1_ppc64le.whl"
-            },
-            {
-              "algorithm": "sha256",
-              "hash": "c2ac1b08635a8cd4e0cbeaf6f5e922085908d48eb05d44c5ae9eabab148512ca",
-              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/dc/ff/2c7655d83b1d6d6a0e132d50d54131fcb8da763b417ccc6c4a506aa0e08c/charset_normalizer-3.0.1-cp39-cp39-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl"
-            },
-            {
-              "algorithm": "sha256",
-              "hash": "3ae1de54a77dc0d6d5fcf623290af4266412a7c4be0b1ff7444394f03f5c54e3",
-              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/e3/96/8cdbce165c96cce5f2c9c7748f7ed8e0cf0c5d03e213bbc90b7c3e918bf5/charset_normalizer-3.0.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
-            },
-            {
-              "algorithm": "sha256",
-              "hash": "37f8febc8ec50c14f3ec9637505f28e58d4f66752207ea177c1d67df25da5aed",
-              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/e8/80/141f6af05332cbb811ab469f64deb1e1d4cc9e8b0c003aa8a38d689ce84a/charset_normalizer-3.0.1-cp38-cp38-musllinux_1_1_i686.whl"
-            },
-            {
-              "algorithm": "sha256",
-              "hash": "a152f5f33d64a6be73f1d30c9cc82dfc73cec6477ec268e7c6e4c7d23c2d2291",
-              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/f1/ff/9a1c65d8c44958f45ae40cd558ab63bd499a35198a2014e13c0887c07ed1/charset_normalizer-3.0.1-cp38-cp38-musllinux_1_1_s390x.whl"
-            },
-            {
-              "algorithm": "sha256",
-              "hash": "3fc1c4a2ffd64890aebdb3f97e1278b0cc72579a08ca4de8cd2c04799a3a22be",
-              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/f5/84/cac681144a28114bd9e40d3cdbfd961c14ecc2b56f1baec2094afd6744c7/charset_normalizer-3.0.1-cp39-cp39-macosx_11_0_arm64.whl"
-            },
-            {
-              "algorithm": "sha256",
-              "hash": "356541bf4381fa35856dafa6a965916e54bed415ad8a24ee6de6e37deccf2786",
-              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/f5/ec/a9bed59079bd0267d34ada58a4048c96a59b3621e7f586ea85840d41831d/charset_normalizer-3.0.1-cp39-cp39-musllinux_1_1_x86_64.whl"
+              "hash": "5a3d016c7c547f69d6f81fb0db9449ce888b418b5b9952cc5e6e66843e9dd845",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/a1/34/44964211e5410b051e4b8d2869c470ae8a68ae274953b1c7de6d98bbcf94/charset-normalizer-2.1.1.tar.gz"
             }
           ],
           "project_name": "charset-normalizer",
+          "requires_dists": [
+            "unicodedata2; extra == \"unicode_backport\""
+          ],
+          "requires_python": ">=3.6.0",
+          "version": "2.1.1"
+        },
+        {
+          "artifacts": [
+            {
+              "algorithm": "sha256",
+              "hash": "3bbdf44855ed8f0fbcd102ef05ec3012d6a4fd7c7562403f76ce6a52aeffb2b1",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/e4/d5/2c663ed0e00e8171567c3f62c4fd5e74085474831de1b553898ca51949f6/frozenlist-1.3.3-cp39-cp39-musllinux_1_1_x86_64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "ebb86518203e12e96af765ee89034a1dbb0c3c65052d1b0c19bbbd6af8a145e1",
+              "url": "https://files.pythonhosted.org/packages/09/82/e70695981f2f7b064f1796b5f1a94d0b25ff2321dd9dfb9c8eea129e9569/frozenlist-1.3.3-cp39-cp39-macosx_10_9_x86_64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "352bd4c8c72d508778cf05ab491f6ef36149f4d0cb3c56b1b4302852255d05d5",
+              "url": "https://files.pythonhosted.org/packages/12/ac/b6c751af2ee245588658f95aa77dc9776c484d2943a462c517050bb09164/frozenlist-1.3.3-cp39-cp39-manylinux_2_17_s390x.manylinux2014_s390x.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "ee78feb9d293c323b59a6f2dd441b63339a30edf35abcb51187d2fc26e696d13",
+              "url": "https://files.pythonhosted.org/packages/27/e8/253e80c09b6e4fdf936568133858f43763cecae352700419599ca6700d18/frozenlist-1.3.3-cp38-cp38-musllinux_1_1_s390x.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "0af2e7c87d35b38732e810befb9d797a99279cbb85374d42ea61c1e9d23094b3",
+              "url": "https://files.pythonhosted.org/packages/2c/39/54518b6d696e84d51e0be3cfe2bfe346e403608d228d8ef1a37ad57e6c08/frozenlist-1.3.3-cp38-cp38-musllinux_1_1_x86_64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "8fa3c6e3305aa1146b59a09b32b2e04074945ffcfb2f0931836d103a2c38f936",
+              "url": "https://files.pythonhosted.org/packages/2d/06/57630148adbdf881fe61dda50783461c0b9d11dce330cf29b171e7a6db07/frozenlist-1.3.3-cp39-cp39-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "5c11e43016b9024240212d2a65043b70ed8dfd3b52678a1271972702d990ac6d",
+              "url": "https://files.pythonhosted.org/packages/3e/68/83959c2679de397febcbe724792f73720b3087fce34a9aff30793e3c78bf/frozenlist-1.3.3-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "e235688f42b36be2b6b06fc37ac2126a73b75fb8d6bc66dd632aa35286238703",
+              "url": "https://files.pythonhosted.org/packages/4c/64/5a3666f49d6d10c125b83a367c1cf6dfcec5656f2feb835c0fbb3f00e5b7/frozenlist-1.3.3-cp38-cp38-manylinux_2_17_s390x.manylinux2014_s390x.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "eedab4c310c0299961ac285591acd53dc6723a1ebd90a57207c71f6e0c2153ab",
+              "url": "https://files.pythonhosted.org/packages/52/a7/88fb1623f30e1effec408efaf7f71e0438cbb1ce50d78ebb68b95e5b34a7/frozenlist-1.3.3-cp39-cp39-musllinux_1_1_s390x.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "841ea19b43d438a80b4de62ac6ab21cfe6827bb8a9dc62b896acc88eaf9cecba",
+              "url": "https://files.pythonhosted.org/packages/54/fe/3a4f15234dccfeef85431e2f920d7c25b5b14360189efcd17809541e6bbc/frozenlist-1.3.3-cp38-cp38-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "008a054b75d77c995ea26629ab3a0c0d7281341f2fa7e1e85fa6153ae29ae99c",
+              "url": "https://files.pythonhosted.org/packages/56/b8/46fbcfe7ec000134677924e754a5eed6aaaf1072f2dc1071782ee0252e6a/frozenlist-1.3.3-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "47df36a9fe24054b950bbc2db630d508cca3aa27ed0566c0baf661225e52c18e",
+              "url": "https://files.pythonhosted.org/packages/65/a6/e224ac500e5db9666bb93c34b7267930f879b516dee85554772e35e8792a/frozenlist-1.3.3-cp38-cp38-macosx_11_0_arm64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "f163d2fd041c630fed01bc48d28c3ed4a3b003c00acd396900e11ee5316b56bb",
+              "url": "https://files.pythonhosted.org/packages/66/72/7c348696b2cf3c14cd924518f8474bc1b0db75e25915bc042dc1af4e2960/frozenlist-1.3.3-cp39-cp39-musllinux_1_1_aarch64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "a4ae8135b11652b08a8baf07631d3ebfe65a4c87909dbef5fa0cdde440444ee4",
+              "url": "https://files.pythonhosted.org/packages/6e/cf/1184945e687edefae692d2498d8aeb56d9e025f4fbf00628cd4922269f3d/frozenlist-1.3.3-cp38-cp38-musllinux_1_1_aarch64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "b1e2c1185858d7e10ff045c496bbf90ae752c28b365fef2c09cf0fa309291669",
+              "url": "https://files.pythonhosted.org/packages/7c/92/bf8e2b68d8147a0cb472aa3cb5729ab8b2c3169dda41cc9f4d499e7867f3/frozenlist-1.3.3-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "ba64dc2b3b7b158c6660d49cdb1d872d1d0bf4e42043ad8d5006099479a194e5",
+              "url": "https://files.pythonhosted.org/packages/8b/6b/74d3bcfaadc35e4350b61cc548830762d9dfa6b1003c5c0151c2c2641795/frozenlist-1.3.3-cp38-cp38-macosx_10_9_x86_64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "05cdb16d09a0832eedf770cb7bd1fe57d8cf4eaf5aced29c4e41e3f20b30a784",
+              "url": "https://files.pythonhosted.org/packages/9f/1c/7d5d60fb760082696114827583d756ecdb1cb5210250f1a6e03c63e27254/frozenlist-1.3.3-cp39-cp39-musllinux_1_1_i686.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "ca713d4af15bae6e5d79b15c10c8522859a9a89d3b361a50b817c98c2fb402a2",
+              "url": "https://files.pythonhosted.org/packages/a4/ca/d3477518fbd5399ded458aa1127a899859efaba6faae0f5f0db9f5fe8ede/frozenlist-1.3.3-cp38-cp38-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "65a5e4d3aa679610ac6e3569e865425b23b372277f89b5ef06cf2cdaf1ebf22b",
+              "url": "https://files.pythonhosted.org/packages/ac/55/cc5c33027afc375facc3a3c85bfabe8f7441d198e98c7cb38ea827db62a3/frozenlist-1.3.3-cp39-cp39-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "034a5c08d36649591be1cbb10e09da9f531034acfe29275fc5454a3b101ce41a",
+              "url": "https://files.pythonhosted.org/packages/b2/68/744b06adeea874bba6284b51f68d237dafeec40ec957350dbce4786aa0d4/frozenlist-1.3.3-cp38-cp38-macosx_10_9_universal2.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "2b07ae0c1edaa0a36339ec6cce700f51b14a3fc6545fdd32930d2c83917332cf",
+              "url": "https://files.pythonhosted.org/packages/cf/fd/fc086f2fa9922d30b9d21f4c466144f19b7e437241010f389358d6647b6d/frozenlist-1.3.3-cp39-cp39-macosx_10_9_universal2.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "3bbdf44855ed8f0fbcd102ef05ec3012d6a4fd7c7562403f76ce6a52aeffb2b1",
+              "url": "https://files.pythonhosted.org/packages/e4/d5/2c663ed0e00e8171567c3f62c4fd5e74085474831de1b553898ca51949f6/frozenlist-1.3.3-cp39-cp39-musllinux_1_1_x86_64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "810860bb4bdce7557bc0febb84bbd88198b9dbc2022d8eebe5b3590b2ad6c842",
+              "url": "https://files.pythonhosted.org/packages/e6/74/105765d08b81bb8bbf57455555138872aaf277fb4da0be8d4567112616cf/frozenlist-1.3.3-cp38-cp38-musllinux_1_1_ppc64le.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "4ea42116ceb6bb16dbb7d526e242cb6747b08b7710d9782aa3d6732bd8d27649",
+              "url": "https://files.pythonhosted.org/packages/e7/5a/e54304e23b4e080aeeed71f307f4f521ad8b65959ffbfc8e525213d0ec19/frozenlist-1.3.3-cp38-cp38-musllinux_1_1_i686.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "58bcc55721e8a90b88332d6cd441261ebb22342e238296bb330968952fbb3a6a",
+              "url": "https://files.pythonhosted.org/packages/e9/10/d629476346112b85c912527b9080944fd2c39a816c2225413dbc0bb6fcc0/frozenlist-1.3.3.tar.gz"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "9ac5995f2b408017b0be26d4a1d7c61bce106ff3d9e3324374d66b5964325448",
+              "url": "https://files.pythonhosted.org/packages/ec/ab/a440db757401a1e8863c9abb374a77cb2884eda74ffbf555dedcf1fbe7f6/frozenlist-1.3.3-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "5cf820485f1b4c91e0417ea0afd41ce5cf5965011b3c22c400f6d144296ccbc0",
+              "url": "https://files.pythonhosted.org/packages/f0/4b/06867dc936ec4238cf86e9eeff11e32b262302b65158acf38cac04362d29/frozenlist-1.3.3-cp39-cp39-macosx_11_0_arm64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "8bae29d60768bfa8fb92244b74502b18fae55a80eac13c88eb0b496d4268fd2d",
+              "url": "https://files.pythonhosted.org/packages/fa/3f/b25527623101da07f47fa071affb4a3e89d0f8ae2faf13266f62235f7175/frozenlist-1.3.3-cp39-cp39-musllinux_1_1_ppc64le.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "ebb86518203e12e96af765ee89034a1dbb0c3c65052d1b0c19bbbd6af8a145e1",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/09/82/e70695981f2f7b064f1796b5f1a94d0b25ff2321dd9dfb9c8eea129e9569/frozenlist-1.3.3-cp39-cp39-macosx_10_9_x86_64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "352bd4c8c72d508778cf05ab491f6ef36149f4d0cb3c56b1b4302852255d05d5",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/12/ac/b6c751af2ee245588658f95aa77dc9776c484d2943a462c517050bb09164/frozenlist-1.3.3-cp39-cp39-manylinux_2_17_s390x.manylinux2014_s390x.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "ee78feb9d293c323b59a6f2dd441b63339a30edf35abcb51187d2fc26e696d13",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/27/e8/253e80c09b6e4fdf936568133858f43763cecae352700419599ca6700d18/frozenlist-1.3.3-cp38-cp38-musllinux_1_1_s390x.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "0af2e7c87d35b38732e810befb9d797a99279cbb85374d42ea61c1e9d23094b3",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/2c/39/54518b6d696e84d51e0be3cfe2bfe346e403608d228d8ef1a37ad57e6c08/frozenlist-1.3.3-cp38-cp38-musllinux_1_1_x86_64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "8fa3c6e3305aa1146b59a09b32b2e04074945ffcfb2f0931836d103a2c38f936",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/2d/06/57630148adbdf881fe61dda50783461c0b9d11dce330cf29b171e7a6db07/frozenlist-1.3.3-cp39-cp39-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "5c11e43016b9024240212d2a65043b70ed8dfd3b52678a1271972702d990ac6d",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/3e/68/83959c2679de397febcbe724792f73720b3087fce34a9aff30793e3c78bf/frozenlist-1.3.3-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "e235688f42b36be2b6b06fc37ac2126a73b75fb8d6bc66dd632aa35286238703",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/4c/64/5a3666f49d6d10c125b83a367c1cf6dfcec5656f2feb835c0fbb3f00e5b7/frozenlist-1.3.3-cp38-cp38-manylinux_2_17_s390x.manylinux2014_s390x.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "eedab4c310c0299961ac285591acd53dc6723a1ebd90a57207c71f6e0c2153ab",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/52/a7/88fb1623f30e1effec408efaf7f71e0438cbb1ce50d78ebb68b95e5b34a7/frozenlist-1.3.3-cp39-cp39-musllinux_1_1_s390x.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "841ea19b43d438a80b4de62ac6ab21cfe6827bb8a9dc62b896acc88eaf9cecba",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/54/fe/3a4f15234dccfeef85431e2f920d7c25b5b14360189efcd17809541e6bbc/frozenlist-1.3.3-cp38-cp38-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "008a054b75d77c995ea26629ab3a0c0d7281341f2fa7e1e85fa6153ae29ae99c",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/56/b8/46fbcfe7ec000134677924e754a5eed6aaaf1072f2dc1071782ee0252e6a/frozenlist-1.3.3-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "47df36a9fe24054b950bbc2db630d508cca3aa27ed0566c0baf661225e52c18e",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/65/a6/e224ac500e5db9666bb93c34b7267930f879b516dee85554772e35e8792a/frozenlist-1.3.3-cp38-cp38-macosx_11_0_arm64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "f163d2fd041c630fed01bc48d28c3ed4a3b003c00acd396900e11ee5316b56bb",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/66/72/7c348696b2cf3c14cd924518f8474bc1b0db75e25915bc042dc1af4e2960/frozenlist-1.3.3-cp39-cp39-musllinux_1_1_aarch64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "a4ae8135b11652b08a8baf07631d3ebfe65a4c87909dbef5fa0cdde440444ee4",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/6e/cf/1184945e687edefae692d2498d8aeb56d9e025f4fbf00628cd4922269f3d/frozenlist-1.3.3-cp38-cp38-musllinux_1_1_aarch64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "b1e2c1185858d7e10ff045c496bbf90ae752c28b365fef2c09cf0fa309291669",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/7c/92/bf8e2b68d8147a0cb472aa3cb5729ab8b2c3169dda41cc9f4d499e7867f3/frozenlist-1.3.3-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "ba64dc2b3b7b158c6660d49cdb1d872d1d0bf4e42043ad8d5006099479a194e5",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/8b/6b/74d3bcfaadc35e4350b61cc548830762d9dfa6b1003c5c0151c2c2641795/frozenlist-1.3.3-cp38-cp38-macosx_10_9_x86_64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "05cdb16d09a0832eedf770cb7bd1fe57d8cf4eaf5aced29c4e41e3f20b30a784",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/9f/1c/7d5d60fb760082696114827583d756ecdb1cb5210250f1a6e03c63e27254/frozenlist-1.3.3-cp39-cp39-musllinux_1_1_i686.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "ca713d4af15bae6e5d79b15c10c8522859a9a89d3b361a50b817c98c2fb402a2",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/a4/ca/d3477518fbd5399ded458aa1127a899859efaba6faae0f5f0db9f5fe8ede/frozenlist-1.3.3-cp38-cp38-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "65a5e4d3aa679610ac6e3569e865425b23b372277f89b5ef06cf2cdaf1ebf22b",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/ac/55/cc5c33027afc375facc3a3c85bfabe8f7441d198e98c7cb38ea827db62a3/frozenlist-1.3.3-cp39-cp39-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "034a5c08d36649591be1cbb10e09da9f531034acfe29275fc5454a3b101ce41a",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/b2/68/744b06adeea874bba6284b51f68d237dafeec40ec957350dbce4786aa0d4/frozenlist-1.3.3-cp38-cp38-macosx_10_9_universal2.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "2b07ae0c1edaa0a36339ec6cce700f51b14a3fc6545fdd32930d2c83917332cf",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/cf/fd/fc086f2fa9922d30b9d21f4c466144f19b7e437241010f389358d6647b6d/frozenlist-1.3.3-cp39-cp39-macosx_10_9_universal2.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "810860bb4bdce7557bc0febb84bbd88198b9dbc2022d8eebe5b3590b2ad6c842",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/e6/74/105765d08b81bb8bbf57455555138872aaf277fb4da0be8d4567112616cf/frozenlist-1.3.3-cp38-cp38-musllinux_1_1_ppc64le.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "4ea42116ceb6bb16dbb7d526e242cb6747b08b7710d9782aa3d6732bd8d27649",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/e7/5a/e54304e23b4e080aeeed71f307f4f521ad8b65959ffbfc8e525213d0ec19/frozenlist-1.3.3-cp38-cp38-musllinux_1_1_i686.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "58bcc55721e8a90b88332d6cd441261ebb22342e238296bb330968952fbb3a6a",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/e9/10/d629476346112b85c912527b9080944fd2c39a816c2225413dbc0bb6fcc0/frozenlist-1.3.3.tar.gz"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "9ac5995f2b408017b0be26d4a1d7c61bce106ff3d9e3324374d66b5964325448",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/ec/ab/a440db757401a1e8863c9abb374a77cb2884eda74ffbf555dedcf1fbe7f6/frozenlist-1.3.3-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "5cf820485f1b4c91e0417ea0afd41ce5cf5965011b3c22c400f6d144296ccbc0",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/f0/4b/06867dc936ec4238cf86e9eeff11e32b262302b65158acf38cac04362d29/frozenlist-1.3.3-cp39-cp39-macosx_11_0_arm64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "8bae29d60768bfa8fb92244b74502b18fae55a80eac13c88eb0b496d4268fd2d",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/fa/3f/b25527623101da07f47fa071affb4a3e89d0f8ae2faf13266f62235f7175/frozenlist-1.3.3-cp39-cp39-musllinux_1_1_ppc64le.whl"
+            }
+          ],
+          "project_name": "frozenlist",
           "requires_dists": [],
-          "requires_python": null,
-          "version": "3.0.1"
+          "requires_python": ">=3.7",
+          "version": "1.3.3"
         },
         {
           "artifacts": [
@@ -641,23 +1013,336 @@
           "artifacts": [
             {
               "algorithm": "sha256",
-              "hash": "0a5f1c7a561a5b2ba573080b2fc72aa924e3e8cae03f5f5b4d8056ffa707599b",
-              "url": "https://files.pythonhosted.org/packages/8f/a2/69651a143477fb63643ca7e3d43cf7bc8169ec5850daba059188d6dc7b54/ligavision-0.2.0.dev1-py3-none-any.whl"
+              "hash": "1e65883ea8bc64e481a499c918993acafcaa89591ce03a60afbaf6d7af69025e",
+              "url": "https://files.pythonhosted.org/packages/0f/e1/0d9b0bcfc00e64b9b81f4e06cea2f939add11856e23fda31246af264e8eb/ligavision-0.2.0.dev2-py3-none-any.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "ba405c7944bc503414f5f7c4ecf80ca07ad0e62b80a8e15a944b793950c8fa83",
-              "url": "https://files.pythonhosted.org/packages/2a/d8/7a5bdc4a5e29c46c3f5ff4d244e1c319e72be75e825e1286c8c7630b2e9e/ligavision-0.2.0.dev1.tar.gz"
+              "hash": "c1793d4d5d34eb6804cf42e614269ddcc3cb163ecc843011c8923941a9006928",
+              "url": "https://files.pythonhosted.org/packages/2d/d7/75976c9c7f72c60b5b021407bdcdcf9b1b3bfdb4f47edc5153210895d866/ligavision-0.2.0.dev2.tar.gz"
             }
           ],
           "project_name": "ligavision",
           "requires_dists": [
             "Pillow",
             "liga==0.2.0.dev11",
+            "ligavision-dsl==0.2.0.dev4",
             "pyspark==3.2.1"
           ],
           "requires_python": "<3.10,>=3.8",
-          "version": "0.2.dev1"
+          "version": "0.2.dev2"
+        },
+        {
+          "artifacts": [
+            {
+              "algorithm": "sha256",
+              "hash": "c486592b2365b7b6d6345fb0629356af48aee6cdc12b9dfecb22aabd6d4fc281",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/f9/b3/4f7489a0233d002e437ffc18fcfdf1cb7f24f4cd84946df31178adb898d4/ligavision_dsl-0.2.0.dev4-py3-none-any.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "f41c601d9aafaa92d149a1af54a91b5a8db36167e7a52355d902ba34e2b0b57d",
+              "url": "https://files.pythonhosted.org/packages/c6/64/1b7fded36f891c071207f49ca5f4f8e29cf3f78415bcf85d6c98a8bfe5f5/ligavision-dsl-0.2.0.dev4.tar.gz"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "c486592b2365b7b6d6345fb0629356af48aee6cdc12b9dfecb22aabd6d4fc281",
+              "url": "https://files.pythonhosted.org/packages/f9/b3/4f7489a0233d002e437ffc18fcfdf1cb7f24f4cd84946df31178adb898d4/ligavision_dsl-0.2.0.dev4-py3-none-any.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "f41c601d9aafaa92d149a1af54a91b5a8db36167e7a52355d902ba34e2b0b57d",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/c6/64/1b7fded36f891c071207f49ca5f4f8e29cf3f78415bcf85d6c98a8bfe5f5/ligavision-dsl-0.2.0.dev4.tar.gz"
+            }
+          ],
+          "project_name": "ligavision-dsl",
+          "requires_dists": [
+            "Pillow",
+            "aiohttp",
+            "fsspec",
+            "numpy",
+            "requests"
+          ],
+          "requires_python": "<3.10,>=3.8",
+          "version": "0.2.dev4"
+        },
+        {
+          "artifacts": [
+            {
+              "algorithm": "sha256",
+              "hash": "52509b5be062d9eafc8170e53026fbc54cf3b32759a23d07fd935fb04fc22d95",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/46/d2/0b1e4e8ad7097dc12543571333d65580e918dd19e26109dc4b8ec13b744c/multidict-6.0.4-cp39-cp39-musllinux_1_1_x86_64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "ddd3915998d93fbcd2566ddf9cf62cdb35c9e093075f862935573d265cf8f65d",
+              "url": "https://files.pythonhosted.org/packages/00/bb/1cdffe9b1ab01830bc9255a64524c34b71c20a4affe5d1000b223a41698d/multidict-6.0.4-cp38-cp38-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "f70b98cd94886b49d91170ef23ec5c0e8ebb6f242d734ed7ed677b24d50c82cf",
+              "url": "https://files.pythonhosted.org/packages/0c/ff/342e4f8f1c83fb2bdbca067a78cb88e80a0b93aab5443c8095daa97bf94b/multidict-6.0.4-cp39-cp39-musllinux_1_1_aarch64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "b692f419760c0e65d060959df05f2a531945af31fda0c8a3b3195d4efd06de11",
+              "url": "https://files.pythonhosted.org/packages/17/3d/081e3f2c4c6b65e6347b5a4ed465fb36041f52c2dad1ad3178ad837c4f0d/multidict-6.0.4-cp38-cp38-macosx_11_0_arm64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "d6aa0418fcc838522256761b3415822626f866758ee0bc6632c9486b179d0b52",
+              "url": "https://files.pythonhosted.org/packages/1a/3f/35c77a24a68ea1406a4d11e409e54c88eaf92afe4f7613b581d625ed812f/multidict-6.0.4-cp38-cp38-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "8316a77808c501004802f9beebde51c9f857054a0c871bd6da8280e718444449",
+              "url": "https://files.pythonhosted.org/packages/28/a3/db4511fbc4bf75a6c0afea0f009605432561ce0bd2b4fddc2047e9cb0b6b/multidict-6.0.4-cp39-cp39-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "52f2dffc8acaba9a2f27174c41c9e57f60b907bb9f096b36b1a1f3be71c6284d",
+              "url": "https://files.pythonhosted.org/packages/2a/7b/6900273aec2eef33e17094407b67dca697ceeb75e3ddb86cccbdafb46e4b/multidict-6.0.4-cp39-cp39-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "16ab77bbeb596e14212e7bab8429f24c1579234a3a462105cda4a66904998664",
+              "url": "https://files.pythonhosted.org/packages/2f/38/e0514ddb9b454b06fc8b29eb8b45ae1861cf1850acc2b0f01ad38b047ad3/multidict-6.0.4-cp39-cp39-macosx_10_9_universal2.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "bf6774e60d67a9efe02b3616fee22441d86fab4c6d335f9d2051d19d90a40063",
+              "url": "https://files.pythonhosted.org/packages/3c/ee/7b419645f86d43ae393f2451bc95287aec2e7539e93af619b280aeda9b04/multidict-6.0.4-cp39-cp39-musllinux_1_1_i686.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "52509b5be062d9eafc8170e53026fbc54cf3b32759a23d07fd935fb04fc22d95",
+              "url": "https://files.pythonhosted.org/packages/46/d2/0b1e4e8ad7097dc12543571333d65580e918dd19e26109dc4b8ec13b744c/multidict-6.0.4-cp39-cp39-musllinux_1_1_x86_64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "3666906492efb76453c0e7b97f2cf459b0682e7402c0489a95484965dbc1da49",
+              "url": "https://files.pythonhosted.org/packages/4a/15/bd620f7a6eb9aa5112c4ef93e7031bcd071e0611763d8e17706ef8ba65e0/multidict-6.0.4.tar.gz"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "1502e24330eb681bdaa3eb70d6358e818e8e8f908a22a1851dfd4e15bc2f8161",
+              "url": "https://files.pythonhosted.org/packages/57/23/3955d3bba16dc6d75b1993d52a1b32dc93c795920e213862fab220c7d030/multidict-6.0.4-cp38-cp38-macosx_10_9_x86_64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "281af09f488903fde97923c7744bb001a9b23b039a909460d0f14edc7bf59706",
+              "url": "https://files.pythonhosted.org/packages/5d/a0/33b0b030148e9e0882d8b9f2404b8b3cc5e4718041fe6856602ccad81fa9/multidict-6.0.4-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "d5e3fc56f88cc98ef8139255cf8cd63eb2c586531e43310ff859d6bb3a6b51f1",
+              "url": "https://files.pythonhosted.org/packages/69/48/2750fd3ace4d778b4e1f7110db3ad637906de3496abc9c450ce726b97337/multidict-6.0.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "4372381634485bec7e46718edc71528024fcdc6f835baefe517b34a33c731d60",
+              "url": "https://files.pythonhosted.org/packages/85/0c/8413a4a0ad4eb4f7987546b9cd84717a14c3639efec6bc1f2f3d1d9de98d/multidict-6.0.4-cp38-cp38-musllinux_1_1_ppc64le.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "e69924bfcdda39b722ef4d9aa762b2dd38e4632b3641b1d9a57ca9cd18f2f83a",
+              "url": "https://files.pythonhosted.org/packages/94/e7/a1484aa7d711bc346a37dfa2f23895cc568f9f5a5f9e86498864d2e17b7e/multidict-6.0.4-cp39-cp39-musllinux_1_1_ppc64le.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "b41156839806aecb3641f3208c0dafd3ac7775b9c4c422d82ee2a45c34ba81ca",
+              "url": "https://files.pythonhosted.org/packages/9f/d2/49cf9fa8a79e5aa9df5139b54842bb45b6a4cacdefc2defcc1aa10e8b1ea/multidict-6.0.4-cp39-cp39-manylinux_2_17_s390x.manylinux2014_s390x.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "59d43b61c59d82f2effb39a93c48b845efe23a3852d201ed2d24ba830d0b4cf2",
+              "url": "https://files.pythonhosted.org/packages/a7/72/fe07bee3dd045d041f5c2e542ceaf9b685ee4775c38702e6584faacd64fd/multidict-6.0.4-cp38-cp38-manylinux_2_17_s390x.manylinux2014_s390x.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "fc35cb4676846ef752816d5be2193a1e8367b4c1397b74a565a9d0389c433a1d",
+              "url": "https://files.pythonhosted.org/packages/ac/2d/0fa5bf39a8a595ded860adacc4188749013775c16a78472954f49baa61fa/multidict-6.0.4-cp38-cp38-musllinux_1_1_s390x.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "6748717bb10339c4760c1e63da040f5f29f5ed6e59d76daee30305894069a660",
+              "url": "https://files.pythonhosted.org/packages/b7/c4/24a83a598d3622be56679d233c9fa19e0334a8047b72dcfc1e1296426ca9/multidict-6.0.4-cp38-cp38-musllinux_1_1_aarch64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "4b9d9e4e2b37daddb5c23ea33a3417901fa7c7b3dee2d855f63ee67a0b21e5b1",
+              "url": "https://files.pythonhosted.org/packages/bf/e8/9e732d21adc5321bf3adcde8e712a8af20f5cf32beaaf08267ee0dad47ca/multidict-6.0.4-cp38-cp38-musllinux_1_1_x86_64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "5fc1b16f586f049820c5c5b17bb4ee7583092fa0d1c4e28b5239181ff9532e0c",
+              "url": "https://files.pythonhosted.org/packages/c3/c5/b583cd706f88ef57811229b67d6c4c0fcda56bee49a913156dd401aaa729/multidict-6.0.4-cp38-cp38-macosx_10_9_universal2.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "6b181d8c23da913d4ff585afd1155a0e1194c0b50c54fcfe286f70cdaf2b7176",
+              "url": "https://files.pythonhosted.org/packages/db/7e/f007ec4ea4d6626aa4e659ae3631345cb928ff07445577914884c3355277/multidict-6.0.4-cp39-cp39-musllinux_1_1_s390x.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "4ceef517eca3e03c1cceb22030a3e39cb399ac86bff4e426d4fc6ae49052cc60",
+              "url": "https://files.pythonhosted.org/packages/dd/bd/cce218536b377efbee70d8680a97fd282f4e1e9f7ebff95c4ea28deef87a/multidict-6.0.4-cp39-cp39-macosx_11_0_arm64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "4d1a3d7ef5e96b1c9e92f973e43aa5e5b96c659c9bc3124acbbd81b0b9c8a951",
+              "url": "https://files.pythonhosted.org/packages/e5/75/b629e322641d884f438fd7ca959d69dae94b25bc59035a97dd48d931515b/multidict-6.0.4-cp38-cp38-musllinux_1_1_i686.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "bc779e9e6f7fda81b3f9aa58e3a6091d49ad528b11ed19f6621408806204ad35",
+              "url": "https://files.pythonhosted.org/packages/f0/c1/de389de822e8442717e7fda86496a47af8a132104e1601f3419d26dff334/multidict-6.0.4-cp39-cp39-macosx_10_9_x86_64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "45e1ecb0379bfaab5eef059f50115b54571acfbe422a14f668fc8c27ba410e7e",
+              "url": "https://files.pythonhosted.org/packages/f1/d7/7f26fe2e790654dcc82283c17b69534c7f30213b63628e7420391d609166/multidict-6.0.4-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "cc8e1d0c705233c5dd0c5e6460fbad7827d5d36f310a0fadfd45cc3029762258",
+              "url": "https://files.pythonhosted.org/packages/fe/0c/8469202f8f4b0e65816f91c3febc4bda7316c995b59ecdf3b15c574f7a24/multidict-6.0.4-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "ddd3915998d93fbcd2566ddf9cf62cdb35c9e093075f862935573d265cf8f65d",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/00/bb/1cdffe9b1ab01830bc9255a64524c34b71c20a4affe5d1000b223a41698d/multidict-6.0.4-cp38-cp38-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "f70b98cd94886b49d91170ef23ec5c0e8ebb6f242d734ed7ed677b24d50c82cf",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/0c/ff/342e4f8f1c83fb2bdbca067a78cb88e80a0b93aab5443c8095daa97bf94b/multidict-6.0.4-cp39-cp39-musllinux_1_1_aarch64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "b692f419760c0e65d060959df05f2a531945af31fda0c8a3b3195d4efd06de11",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/17/3d/081e3f2c4c6b65e6347b5a4ed465fb36041f52c2dad1ad3178ad837c4f0d/multidict-6.0.4-cp38-cp38-macosx_11_0_arm64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "d6aa0418fcc838522256761b3415822626f866758ee0bc6632c9486b179d0b52",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/1a/3f/35c77a24a68ea1406a4d11e409e54c88eaf92afe4f7613b581d625ed812f/multidict-6.0.4-cp38-cp38-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "8316a77808c501004802f9beebde51c9f857054a0c871bd6da8280e718444449",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/28/a3/db4511fbc4bf75a6c0afea0f009605432561ce0bd2b4fddc2047e9cb0b6b/multidict-6.0.4-cp39-cp39-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "52f2dffc8acaba9a2f27174c41c9e57f60b907bb9f096b36b1a1f3be71c6284d",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/2a/7b/6900273aec2eef33e17094407b67dca697ceeb75e3ddb86cccbdafb46e4b/multidict-6.0.4-cp39-cp39-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "16ab77bbeb596e14212e7bab8429f24c1579234a3a462105cda4a66904998664",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/2f/38/e0514ddb9b454b06fc8b29eb8b45ae1861cf1850acc2b0f01ad38b047ad3/multidict-6.0.4-cp39-cp39-macosx_10_9_universal2.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "bf6774e60d67a9efe02b3616fee22441d86fab4c6d335f9d2051d19d90a40063",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/3c/ee/7b419645f86d43ae393f2451bc95287aec2e7539e93af619b280aeda9b04/multidict-6.0.4-cp39-cp39-musllinux_1_1_i686.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "3666906492efb76453c0e7b97f2cf459b0682e7402c0489a95484965dbc1da49",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/4a/15/bd620f7a6eb9aa5112c4ef93e7031bcd071e0611763d8e17706ef8ba65e0/multidict-6.0.4.tar.gz"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "1502e24330eb681bdaa3eb70d6358e818e8e8f908a22a1851dfd4e15bc2f8161",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/57/23/3955d3bba16dc6d75b1993d52a1b32dc93c795920e213862fab220c7d030/multidict-6.0.4-cp38-cp38-macosx_10_9_x86_64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "281af09f488903fde97923c7744bb001a9b23b039a909460d0f14edc7bf59706",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/5d/a0/33b0b030148e9e0882d8b9f2404b8b3cc5e4718041fe6856602ccad81fa9/multidict-6.0.4-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "d5e3fc56f88cc98ef8139255cf8cd63eb2c586531e43310ff859d6bb3a6b51f1",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/69/48/2750fd3ace4d778b4e1f7110db3ad637906de3496abc9c450ce726b97337/multidict-6.0.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "4372381634485bec7e46718edc71528024fcdc6f835baefe517b34a33c731d60",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/85/0c/8413a4a0ad4eb4f7987546b9cd84717a14c3639efec6bc1f2f3d1d9de98d/multidict-6.0.4-cp38-cp38-musllinux_1_1_ppc64le.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "e69924bfcdda39b722ef4d9aa762b2dd38e4632b3641b1d9a57ca9cd18f2f83a",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/94/e7/a1484aa7d711bc346a37dfa2f23895cc568f9f5a5f9e86498864d2e17b7e/multidict-6.0.4-cp39-cp39-musllinux_1_1_ppc64le.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "b41156839806aecb3641f3208c0dafd3ac7775b9c4c422d82ee2a45c34ba81ca",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/9f/d2/49cf9fa8a79e5aa9df5139b54842bb45b6a4cacdefc2defcc1aa10e8b1ea/multidict-6.0.4-cp39-cp39-manylinux_2_17_s390x.manylinux2014_s390x.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "59d43b61c59d82f2effb39a93c48b845efe23a3852d201ed2d24ba830d0b4cf2",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/a7/72/fe07bee3dd045d041f5c2e542ceaf9b685ee4775c38702e6584faacd64fd/multidict-6.0.4-cp38-cp38-manylinux_2_17_s390x.manylinux2014_s390x.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "fc35cb4676846ef752816d5be2193a1e8367b4c1397b74a565a9d0389c433a1d",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/ac/2d/0fa5bf39a8a595ded860adacc4188749013775c16a78472954f49baa61fa/multidict-6.0.4-cp38-cp38-musllinux_1_1_s390x.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "6748717bb10339c4760c1e63da040f5f29f5ed6e59d76daee30305894069a660",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/b7/c4/24a83a598d3622be56679d233c9fa19e0334a8047b72dcfc1e1296426ca9/multidict-6.0.4-cp38-cp38-musllinux_1_1_aarch64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "4b9d9e4e2b37daddb5c23ea33a3417901fa7c7b3dee2d855f63ee67a0b21e5b1",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/bf/e8/9e732d21adc5321bf3adcde8e712a8af20f5cf32beaaf08267ee0dad47ca/multidict-6.0.4-cp38-cp38-musllinux_1_1_x86_64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "5fc1b16f586f049820c5c5b17bb4ee7583092fa0d1c4e28b5239181ff9532e0c",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/c3/c5/b583cd706f88ef57811229b67d6c4c0fcda56bee49a913156dd401aaa729/multidict-6.0.4-cp38-cp38-macosx_10_9_universal2.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "6b181d8c23da913d4ff585afd1155a0e1194c0b50c54fcfe286f70cdaf2b7176",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/db/7e/f007ec4ea4d6626aa4e659ae3631345cb928ff07445577914884c3355277/multidict-6.0.4-cp39-cp39-musllinux_1_1_s390x.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "4ceef517eca3e03c1cceb22030a3e39cb399ac86bff4e426d4fc6ae49052cc60",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/dd/bd/cce218536b377efbee70d8680a97fd282f4e1e9f7ebff95c4ea28deef87a/multidict-6.0.4-cp39-cp39-macosx_11_0_arm64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "4d1a3d7ef5e96b1c9e92f973e43aa5e5b96c659c9bc3124acbbd81b0b9c8a951",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/e5/75/b629e322641d884f438fd7ca959d69dae94b25bc59035a97dd48d931515b/multidict-6.0.4-cp38-cp38-musllinux_1_1_i686.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "bc779e9e6f7fda81b3f9aa58e3a6091d49ad528b11ed19f6621408806204ad35",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/f0/c1/de389de822e8442717e7fda86496a47af8a132104e1601f3419d26dff334/multidict-6.0.4-cp39-cp39-macosx_10_9_x86_64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "45e1ecb0379bfaab5eef059f50115b54571acfbe422a14f668fc8c27ba410e7e",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/f1/d7/7f26fe2e790654dcc82283c17b69534c7f30213b63628e7420391d609166/multidict-6.0.4-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "cc8e1d0c705233c5dd0c5e6460fbad7827d5d36f310a0fadfd45cc3029762258",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/fe/0c/8469202f8f4b0e65816f91c3febc4bda7316c995b59ecdf3b15c574f7a24/multidict-6.0.4-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            }
+          ],
+          "project_name": "multidict",
+          "requires_dists": [],
+          "requires_python": ">=3.7",
+          "version": "6.0.4"
         },
         {
           "artifacts": [
@@ -2037,6 +2722,288 @@
           "artifacts": [
             {
               "algorithm": "sha256",
+              "hash": "d617c241c8c3ad5c4e78a08429fa49e4b04bedfc507b34b4d8dceb83b4af3588",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/c8/29/388508ba25f7cf777fac774c01cfb4ebf805efa3a567c4e2da570983e13a/yarl-1.8.2-cp39-cp39-musllinux_1_1_x86_64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "728be34f70a190566d20aa13dc1f01dc44b6aa74580e10a3fb159691bc76909d",
+              "url": "https://files.pythonhosted.org/packages/05/b8/db3ee364931d959c62ad4c5f636a36eff7b388e3a310d425f91269bf8f0c/yarl-1.8.2-cp38-cp38-musllinux_1_1_ppc64le.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "da65c3f263729e47351261351b8679c6429151ef9649bba08ef2528ff2c423b2",
+              "url": "https://files.pythonhosted.org/packages/21/47/47ef6563db61f6ecf9b23ac1b76682ec92b94cdd41fe645525411c127608/yarl-1.8.2-cp39-cp39-manylinux_2_17_s390x.manylinux2014_s390x.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "f8ca8ad414c85bbc50f49c0a106f951613dfa5f948ab69c10ce9b128d368baf8",
+              "url": "https://files.pythonhosted.org/packages/21/9c/d3b5976d5de5ece14e50a8452d573ac1746fa377346f1bb099fcc3900c61/yarl-1.8.2-cp39-cp39-macosx_10_9_universal2.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "93202666046d9edadfe9f2e7bf5e0782ea0d497b6d63da322e541665d65a044e",
+              "url": "https://files.pythonhosted.org/packages/3c/82/badd5416e11351a9fb513a0ce8573f3abd8581aed8db595601023645b575/yarl-1.8.2-cp38-cp38-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "bcd7bb1e5c45274af9a1dd7494d3c52b2be5e6bd8d7e49c612705fd45420b12d",
+              "url": "https://files.pythonhosted.org/packages/4c/8a/4ebd7bbee5fc9a77a2d382ef8c6d1d6bff77362df4fbd0efe4c810c3a155/yarl-1.8.2-cp39-cp39-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "1b372aad2b5f81db66ee7ec085cbad72c4da660d994e8e590c997e9b01e44901",
+              "url": "https://files.pythonhosted.org/packages/4f/1a/043606ef5e785efede363552c002e53bd2ce3bbea7fdf5ada8cbe9b39b2f/yarl-1.8.2-cp38-cp38-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "0ef8fb25e52663a1c85d608f6dd72e19bd390e2ecaf29c17fb08f730226e3a08",
+              "url": "https://files.pythonhosted.org/packages/53/4a/379701b5373a47b49d2a590fd2a7f8502fb4f7da79eb187ee3f25e8fd84c/yarl-1.8.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "e6f3515aafe0209dd17fb9bdd3b4e892963370b3de781f53e1746a521fb39fc0",
+              "url": "https://files.pythonhosted.org/packages/54/e9/5ec82331620403dfc1b76f1c97771375e1ec1725e95c6906998c9b7eea26/yarl-1.8.2-cp38-cp38-musllinux_1_1_aarch64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "e59399dda559688461762800d7fb34d9e8a6a7444fd76ec33220a926c8be1516",
+              "url": "https://files.pythonhosted.org/packages/5c/2c/8a41574a0afd95f4b4e8eb3477361ec3515ca8daddba441b49c2be70b7d5/yarl-1.8.2-cp39-cp39-musllinux_1_1_s390x.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "5df5e3d04101c1e5c3b1d69710b0574171cc02fddc4b23d1b2813e75f35a30b1",
+              "url": "https://files.pythonhosted.org/packages/67/69/129bf73c5fe35a8c0ad1500bf4e1145e610ef956316784911fee41a7fae7/yarl-1.8.2-cp38-cp38-macosx_10_9_universal2.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "1e21fb44e1eff06dd6ef971d4bdc611807d6bd3691223d9c01a18cec3677939e",
+              "url": "https://files.pythonhosted.org/packages/6a/de/90a6baeb12f8a09f4b17c2cb274fbadcb6469f5b66993f36d08c1bbb095d/yarl-1.8.2-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "3edac5d74bb3209c418805bda77f973117836e1de7c000e9755e572c1f7850d0",
+              "url": "https://files.pythonhosted.org/packages/6f/3e/a9fc9c32ba8788758af0bb95edc0e75853561259dabd47920a6ef820c242/yarl-1.8.2-cp39-cp39-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "dfef7350ee369197106805e193d420b75467b6cceac646ea5ed3049fcc950a05",
+              "url": "https://files.pythonhosted.org/packages/81/e5/d2b70c55a217697629fd653b33e9ac209bb465dbbad44dadb0a009900ec8/yarl-1.8.2-cp38-cp38-musllinux_1_1_i686.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "418857f837347e8aaef682679f41e36c24250097f9e2f315d39bae3a99a34cbf",
+              "url": "https://files.pythonhosted.org/packages/8b/cc/340f4cbea79da7462c5033108b674b42b7e0c1bcf7b0177da839e27a4afb/yarl-1.8.2-cp39-cp39-macosx_10_9_x86_64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "44ceac0450e648de86da8e42674f9b7077d763ea80c8ceb9d1c3e41f0f0a9951",
+              "url": "https://files.pythonhosted.org/packages/97/bb/c03ef39330f6d302863746c80094f566e5ff9949bc267062d4dcdc8e2264/yarl-1.8.2-cp39-cp39-musllinux_1_1_aarch64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "ff205b58dc2929191f68162633d5e10e8044398d7a45265f90a0f1d51f85f72c",
+              "url": "https://files.pythonhosted.org/packages/a6/39/ac5344a9490f1484b1098f5285c34691ba77e32662f8e4600b4c40980ea6/yarl-1.8.2-cp38-cp38-musllinux_1_1_s390x.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "ae0eec05ab49e91a78700761777f284c2df119376e391db42c38ab46fd662b77",
+              "url": "https://files.pythonhosted.org/packages/b2/73/78372b24715d2b34348445ef501430d9d60ab11dcc2e20fd94cf2d086fcc/yarl-1.8.2-cp39-cp39-macosx_11_0_arm64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "64dd68a92cab699a233641f5929a40f02a4ede8c009068ca8aa1fe87b8c20ae3",
+              "url": "https://files.pythonhosted.org/packages/b3/0d/0ba1f2022b9a36ae670c1f3c579ed08d0958398cb6beaf4687e606ad33d4/yarl-1.8.2-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "48dd18adcf98ea9cd721a25313aef49d70d413a999d7d89df44f469edfb38a06",
+              "url": "https://files.pythonhosted.org/packages/b8/53/ceec5140e3cb51c904bb87fca5cf6a3ba5d98b0ea13991dd21833d90662e/yarl-1.8.2-cp39-cp39-musllinux_1_1_ppc64le.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "7a66c506ec67eb3159eea5096acd05f5e788ceec7b96087d30c7d2865a243918",
+              "url": "https://files.pythonhosted.org/packages/b9/e4/66e2f32179075d2b5e1c0046b7cd23b1a4c71584765255fed51b89b6efe3/yarl-1.8.2-cp38-cp38-macosx_10_9_x86_64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "fc77086ce244453e074e445104f0ecb27530d6fd3a46698e33f6c38951d5a0f1",
+              "url": "https://files.pythonhosted.org/packages/c1/a7/7a1b5dfdc8d86784d3f0a5769721aaa0dec1633236f0ee237264cb515cdb/yarl-1.8.2-cp38-cp38-manylinux_2_17_s390x.manylinux2014_s390x.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "97209cc91189b48e7cfe777237c04af8e7cc51eb369004e061809bcdf4e55220",
+              "url": "https://files.pythonhosted.org/packages/c2/4d/2d0cd4867b4699291479f329c8cfd3943edafe5ba7c250c31f7a65af2196/yarl-1.8.2-cp39-cp39-musllinux_1_1_i686.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "49d43402c6e3013ad0978602bf6bf5328535c48d192304b91b97a3c6790b1562",
+              "url": "https://files.pythonhosted.org/packages/c4/1e/1b204050c601d5cd82b45d5c8f439cb6f744a2ce0c0a6f83be0ddf0dc7b2/yarl-1.8.2.tar.gz"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "d617c241c8c3ad5c4e78a08429fa49e4b04bedfc507b34b4d8dceb83b4af3588",
+              "url": "https://files.pythonhosted.org/packages/c8/29/388508ba25f7cf777fac774c01cfb4ebf805efa3a567c4e2da570983e13a/yarl-1.8.2-cp39-cp39-musllinux_1_1_x86_64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "2b4fa2606adf392051d990c3b3877d768771adc3faf2e117b9de7eb977741229",
+              "url": "https://files.pythonhosted.org/packages/d7/56/3e792cef8ad8a904d11850101a7b4f3f0a1364c77f2f6278b41d75028118/yarl-1.8.2-cp38-cp38-macosx_11_0_arm64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "baf211dcad448a87a0d9047dc8282d7de59473ade7d7fdf22150b1d23859f946",
+              "url": "https://files.pythonhosted.org/packages/ec/e8/eaa1e4f8084f3533c4c8d1077b3aac1654975eaa497132cd14a369b7dbd0/yarl-1.8.2-cp38-cp38-musllinux_1_1_x86_64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "009a028127e0a1755c38b03244c0bea9d5565630db9c4cf9572496e947137a87",
+              "url": "https://files.pythonhosted.org/packages/f1/e1/e76a76353444f895a1f0b52e71c28d27a25c4657e51ed30666ef7bb7ff74/yarl-1.8.2-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "728be34f70a190566d20aa13dc1f01dc44b6aa74580e10a3fb159691bc76909d",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/05/b8/db3ee364931d959c62ad4c5f636a36eff7b388e3a310d425f91269bf8f0c/yarl-1.8.2-cp38-cp38-musllinux_1_1_ppc64le.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "da65c3f263729e47351261351b8679c6429151ef9649bba08ef2528ff2c423b2",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/21/47/47ef6563db61f6ecf9b23ac1b76682ec92b94cdd41fe645525411c127608/yarl-1.8.2-cp39-cp39-manylinux_2_17_s390x.manylinux2014_s390x.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "f8ca8ad414c85bbc50f49c0a106f951613dfa5f948ab69c10ce9b128d368baf8",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/21/9c/d3b5976d5de5ece14e50a8452d573ac1746fa377346f1bb099fcc3900c61/yarl-1.8.2-cp39-cp39-macosx_10_9_universal2.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "93202666046d9edadfe9f2e7bf5e0782ea0d497b6d63da322e541665d65a044e",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/3c/82/badd5416e11351a9fb513a0ce8573f3abd8581aed8db595601023645b575/yarl-1.8.2-cp38-cp38-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "bcd7bb1e5c45274af9a1dd7494d3c52b2be5e6bd8d7e49c612705fd45420b12d",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/4c/8a/4ebd7bbee5fc9a77a2d382ef8c6d1d6bff77362df4fbd0efe4c810c3a155/yarl-1.8.2-cp39-cp39-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "1b372aad2b5f81db66ee7ec085cbad72c4da660d994e8e590c997e9b01e44901",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/4f/1a/043606ef5e785efede363552c002e53bd2ce3bbea7fdf5ada8cbe9b39b2f/yarl-1.8.2-cp38-cp38-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "0ef8fb25e52663a1c85d608f6dd72e19bd390e2ecaf29c17fb08f730226e3a08",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/53/4a/379701b5373a47b49d2a590fd2a7f8502fb4f7da79eb187ee3f25e8fd84c/yarl-1.8.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "e6f3515aafe0209dd17fb9bdd3b4e892963370b3de781f53e1746a521fb39fc0",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/54/e9/5ec82331620403dfc1b76f1c97771375e1ec1725e95c6906998c9b7eea26/yarl-1.8.2-cp38-cp38-musllinux_1_1_aarch64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "e59399dda559688461762800d7fb34d9e8a6a7444fd76ec33220a926c8be1516",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/5c/2c/8a41574a0afd95f4b4e8eb3477361ec3515ca8daddba441b49c2be70b7d5/yarl-1.8.2-cp39-cp39-musllinux_1_1_s390x.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "5df5e3d04101c1e5c3b1d69710b0574171cc02fddc4b23d1b2813e75f35a30b1",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/67/69/129bf73c5fe35a8c0ad1500bf4e1145e610ef956316784911fee41a7fae7/yarl-1.8.2-cp38-cp38-macosx_10_9_universal2.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "1e21fb44e1eff06dd6ef971d4bdc611807d6bd3691223d9c01a18cec3677939e",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/6a/de/90a6baeb12f8a09f4b17c2cb274fbadcb6469f5b66993f36d08c1bbb095d/yarl-1.8.2-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "3edac5d74bb3209c418805bda77f973117836e1de7c000e9755e572c1f7850d0",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/6f/3e/a9fc9c32ba8788758af0bb95edc0e75853561259dabd47920a6ef820c242/yarl-1.8.2-cp39-cp39-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "dfef7350ee369197106805e193d420b75467b6cceac646ea5ed3049fcc950a05",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/81/e5/d2b70c55a217697629fd653b33e9ac209bb465dbbad44dadb0a009900ec8/yarl-1.8.2-cp38-cp38-musllinux_1_1_i686.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "418857f837347e8aaef682679f41e36c24250097f9e2f315d39bae3a99a34cbf",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/8b/cc/340f4cbea79da7462c5033108b674b42b7e0c1bcf7b0177da839e27a4afb/yarl-1.8.2-cp39-cp39-macosx_10_9_x86_64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "44ceac0450e648de86da8e42674f9b7077d763ea80c8ceb9d1c3e41f0f0a9951",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/97/bb/c03ef39330f6d302863746c80094f566e5ff9949bc267062d4dcdc8e2264/yarl-1.8.2-cp39-cp39-musllinux_1_1_aarch64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "ff205b58dc2929191f68162633d5e10e8044398d7a45265f90a0f1d51f85f72c",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/a6/39/ac5344a9490f1484b1098f5285c34691ba77e32662f8e4600b4c40980ea6/yarl-1.8.2-cp38-cp38-musllinux_1_1_s390x.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "ae0eec05ab49e91a78700761777f284c2df119376e391db42c38ab46fd662b77",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/b2/73/78372b24715d2b34348445ef501430d9d60ab11dcc2e20fd94cf2d086fcc/yarl-1.8.2-cp39-cp39-macosx_11_0_arm64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "64dd68a92cab699a233641f5929a40f02a4ede8c009068ca8aa1fe87b8c20ae3",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/b3/0d/0ba1f2022b9a36ae670c1f3c579ed08d0958398cb6beaf4687e606ad33d4/yarl-1.8.2-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "48dd18adcf98ea9cd721a25313aef49d70d413a999d7d89df44f469edfb38a06",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/b8/53/ceec5140e3cb51c904bb87fca5cf6a3ba5d98b0ea13991dd21833d90662e/yarl-1.8.2-cp39-cp39-musllinux_1_1_ppc64le.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "7a66c506ec67eb3159eea5096acd05f5e788ceec7b96087d30c7d2865a243918",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/b9/e4/66e2f32179075d2b5e1c0046b7cd23b1a4c71584765255fed51b89b6efe3/yarl-1.8.2-cp38-cp38-macosx_10_9_x86_64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "fc77086ce244453e074e445104f0ecb27530d6fd3a46698e33f6c38951d5a0f1",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/c1/a7/7a1b5dfdc8d86784d3f0a5769721aaa0dec1633236f0ee237264cb515cdb/yarl-1.8.2-cp38-cp38-manylinux_2_17_s390x.manylinux2014_s390x.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "97209cc91189b48e7cfe777237c04af8e7cc51eb369004e061809bcdf4e55220",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/c2/4d/2d0cd4867b4699291479f329c8cfd3943edafe5ba7c250c31f7a65af2196/yarl-1.8.2-cp39-cp39-musllinux_1_1_i686.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "49d43402c6e3013ad0978602bf6bf5328535c48d192304b91b97a3c6790b1562",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/c4/1e/1b204050c601d5cd82b45d5c8f439cb6f744a2ce0c0a6f83be0ddf0dc7b2/yarl-1.8.2.tar.gz"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "2b4fa2606adf392051d990c3b3877d768771adc3faf2e117b9de7eb977741229",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/d7/56/3e792cef8ad8a904d11850101a7b4f3f0a1364c77f2f6278b41d75028118/yarl-1.8.2-cp38-cp38-macosx_11_0_arm64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "baf211dcad448a87a0d9047dc8282d7de59473ade7d7fdf22150b1d23859f946",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/ec/e8/eaa1e4f8084f3533c4c8d1077b3aac1654975eaa497132cd14a369b7dbd0/yarl-1.8.2-cp38-cp38-musllinux_1_1_x86_64.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "009a028127e0a1755c38b03244c0bea9d5565630db9c4cf9572496e947137a87",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/f1/e1/e76a76353444f895a1f0b52e71c28d27a25c4657e51ed30666ef7bb7ff74/yarl-1.8.2-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
+            }
+          ],
+          "project_name": "yarl",
+          "requires_dists": [
+            "idna>=2.0",
+            "multidict>=4.0",
+            "typing-extensions>=3.7.4; python_version < \"3.8\""
+          ],
+          "requires_python": ">=3.7",
+          "version": "1.8.2"
+        },
+        {
+          "artifacts": [
+            {
+              "algorithm": "sha256",
               "hash": "83a28fcb75844b5c0cdaf5aa4003c2d728c77e05f5aeabe8e95e56727005fbaa",
               "url": "https://pypi.tuna.tsinghua.edu.cn/packages/d8/20/256eb3f3f437c575fb1a2efdce5e801a5ce3162ea8117da96c43e6ee97d8/zipp-3.11.0-py3-none-any.whl"
             },
@@ -2089,7 +3056,7 @@
   "prefer_older_binary": false,
   "requirements": [
     "liga",
-    "ligavision==0.2.0.dev1",
+    "ligavision==0.2.0.dev2",
     "torch<1.13.0,>=1.8.1",
     "torchvision"
   ],
