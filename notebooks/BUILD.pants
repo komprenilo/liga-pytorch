@@ -9,6 +9,6 @@ python_requirement(
 python_sources(
     name="lab",
     sources=["lab.py"],
-    dependencies=["//:sources"],
+    dependencies=["//python/liga/pytorch:sources"],
     resolve="lab",
 )
