@@ -20,7 +20,7 @@ import torch
 import torchvision
 
 from liga.pytorch.models.torch import TorchModelType
-from liga.spark.sql.model import ModelSpec, parse_model_type
+from liga.registry.model import ModelSpec, parse_model_type
 
 __all__ = ["FeatureExtractor", "FeatureExtractorType"]
 

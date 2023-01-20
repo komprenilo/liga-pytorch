@@ -25,7 +25,7 @@ from torch.utils.data import DataLoader
 from liga.io import open_uri
 from liga.pytorch.models.torch import TorchModelType
 from liga.pytorch.pandas import PandasDataset
-from liga.spark.sql.model import ModelSpec, ModelType
+from liga.registry.model import ModelSpec, ModelType
 
 DEFAULT_NUM_WORKERS = 8
 DEFAULT_BATCH_SIZE = 4

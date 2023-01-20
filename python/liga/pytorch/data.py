@@ -23,10 +23,8 @@ from typing import Callable, List, Union
 import torch
 from torch.utils.data import IterableDataset
 
-# Rikai
-import liga.parquet
+# Liga
 from liga.pytorch.transforms import RikaiToTensor
-from liga.spark.utils import df_to_rikai
 
 __all__ = ["Dataset"]
 

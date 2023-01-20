@@ -24,9 +24,9 @@ import torch.nn.functional as F
 import torchvision.transforms as T
 
 from liga.mixin import Pretrained
-from liga.spark.sql.codegen.dummy import DummyModelSpec
-from liga.spark.sql.model import ModelSpec, ModelType
-from liga.types import Box2d
+from liga.registry.dummy import DummyModelSpec
+from liga.registry.model import ModelSpec, ModelType
+from ligavision.spark.types import Box2d
 
 __all__ = [
     "ObjectDetectionModelType",
