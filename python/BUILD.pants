@@ -7,8 +7,10 @@ python_requirement(
         "torch>=1.8.1,<1.13.0",
         "torchvision",
     ],
-    resolve=parametrize("default", "lab")
+    resolve=parametrize("default", "lab"),
 )
 
 # See https://www.pantsbuild.org/docs/reference-python_sources for more info
-python_sources(name = "sources", sources=["**/*.py"], resolve=parametrize("default", "lab"))
+python_sources(
+    name="sources", sources=["**/*.py"], resolve=parametrize("default", "lab")
+)

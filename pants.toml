@@ -4,10 +4,11 @@ pants_version = "2.14.0"
 backend_packages.add = [
   "pants.backend.python",
   "pants.backend.python.lint.pylint",
+  "pants.backend.python.lint.black",
 ]
 
 [source]
-root_patterns = ["/"]
+root_patterns = ["python", "notebooks"]
 
 [python]
 interpreter_constraints = [">=3.8,<3.10"]
@@ -20,6 +21,11 @@ enable_resolves = true
 [pylint]
   version = "pylint==2.15.9"
   lockfile = "3rdparty/python/pylint.lock"
+
+[black]
+  version = "black==22.1.0"
+  extra_requirements.add = ["click<8.1"]
+  lockfile = "3rdparty/python/black.lock"
 
 [python-repos]
 indexes.add = ["https://pypi.tuna.tsinghua.edu.cn/simple"]
