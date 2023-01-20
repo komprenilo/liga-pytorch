@@ -1,0 +1,14 @@
+python_requirement(
+    name="requirements",
+    requirements=[
+        "jupyterlab",
+    ],
+    resolve="lab",
+)
+
+python_sources(
+    name="lab",
+    sources=["lab.py"],
+    dependencies=["//:sources"],
+    resolve="lab",
+)

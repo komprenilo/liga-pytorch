@@ -1,0 +1,25 @@
+[GLOBAL]
+pants_version = "2.14.0"
+
+backend_packages.add = [
+  "pants.backend.python",
+  "pants.backend.python.lint.pylint",
+]
+
+[source]
+root_patterns = ["/"]
+
+[python]
+interpreter_constraints = [">=3.8,<3.10"]
+enable_resolves = true
+
+[python.resolves]
+  lab = "3rdparty/python/lab.lock"
+  default = "3rdparty/python/default.lock"
+
+[pylint]
+  version = "pylint==2.15.9"
+  lockfile = "3rdparty/python/pylint.lock"
+
+[python-repos]
+indexes.add = ["https://pypi.tuna.tsinghua.edu.cn/simple"]
