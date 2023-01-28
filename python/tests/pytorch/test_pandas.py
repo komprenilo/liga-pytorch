@@ -17,7 +17,7 @@ import numpy as np
 import pandas as pd
 
 from liga.pytorch.pandas import PandasDataset
-from liga.types.geometry import Box2d
+from ligavision.spark.types import Box2d
 
 
 def test_pandas_dataframe():
