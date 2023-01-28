@@ -29,3 +29,4 @@ enable_resolves = true
 
 [python-repos]
 indexes.add = ["https://pypi.tuna.tsinghua.edu.cn/simple"]
+

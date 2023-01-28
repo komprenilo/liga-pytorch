@@ -1,0 +1,26 @@
+python_sources(
+    name="sources",
+    sources=["**/conftest.py"],
+    resolve="lab",
+    skip_pylint=True,
+)
+
+python_tests(name = "liga",
+    sources=["pytorch/**/test_*.py", "!**/conftest.py"],
+    dependencies=[
+        ":sources",
+        "//python/liga/pytorch:sources",
+    ],
+    extra_env_vars=["ROOTDIR"],
+    resolve="lab",
+    skip_pylint=True,
+)
+
+python_requirement(
+    name="liga-mlflow",
+    requirements=[
+        "liga-mlflow==0.2.0.dev11",
+        "mlflow==1.26.1",
+    ],
+    resolve="lab",
+)

@@ -23,8 +23,8 @@ from torch.utils.data import DataLoader as torchDataLoader
 
 # Rikai
 from liga.numpy import view
-from liga.pytorch import Dataset
-from liga.types import Image
+from liga.pytorch.data import Dataset
+from ligavision.spark.types import Image
 
 
 # @pytest.mark.parametrize("num_workers", [0, 2, 4])
@@ -61,7 +61,7 @@ def test_torch_dataset(spark, tmp_path, num_workers):
         )
 
     df = spark.createDataFrame(data)
-    df.write.mode("overwrite").format("liga").save(str(dataset_dir / "data"))
+    df.write.mode("overwrite").format("parquet").save(str(dataset_dir / "data"))
     dataset = Dataset(dataset_dir / "data")
     loader = torchDataLoader(
         dataset,
