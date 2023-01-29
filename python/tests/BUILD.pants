@@ -9,6 +9,7 @@ python_tests(name = "liga",
     sources=["pytorch/**/test_*.py", "!**/conftest.py"],
     dependencies=[
         ":sources",
+        ":liga-mlflow",
         "//python/liga/pytorch:sources",
     ],
     extra_env_vars=["ROOTDIR"],

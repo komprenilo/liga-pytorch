@@ -13,8 +13,8 @@
 //     "liga-mlflow==0.2.0",
 //     "ligavision==0.2.0.dev4",
 //     "mlflow==1.26.1",
-//     "torch<1.13.0,>=1.8.1",
-//     "torchvision"
+//     "torch==1.12.1",
+//     "torchvision==0.13.1"
 //   ],
 //   "manylinux": "manylinux2014",
 //   "requirement_constraints": [],
@@ -7121,83 +7121,83 @@
           "artifacts": [
             {
               "algorithm": "sha256",
-              "hash": "eaed58cf454323ed9222d4e0dd5fb897064f454b400696e03a5200e65d3a1e76",
-              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/c1/04/7babdd446fb62b7bc8f9cc1d8a50e759ac502c077ff882d3c3aa4897566e/torchvision-0.14.1-cp39-cp39-manylinux2014_aarch64.whl"
+              "hash": "b167934a5943242da7b1e59318f911d2d253feeca0d13ad5d832b58eed943401",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/b1/80/6230a7f1a5e078595f1a7e2bdf02bd1ede631f8bdc8dbc6d4e9fece6e8ca/torchvision-0.13.1-cp39-cp39-manylinux2014_aarch64.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "68ed03359dcd3da9cd21b8ab94da21158df8a6a0c5bad0bf4a42f0e448d28cb3",
-              "url": "https://files.pythonhosted.org/packages/49/56/5bc1fcdf3a0974d662aa6a23b72307de3e5b0bb008e70a99e091728c7050/torchvision-0.14.1-cp38-cp38-macosx_10_9_x86_64.whl"
+              "hash": "7cb789ceefe6dcd0dc8eeda37bfc45efb7cf34770eac9533861d51ca508eb5b3",
+              "url": "https://files.pythonhosted.org/packages/30/78/3408ba9bbba1fb1e58d31cd8166ec862f9b3f99a09fa7fa521e6583292ae/torchvision-0.13.1-cp38-cp38-manylinux1_x86_64.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "c5e744f56e5f5b452deb5fc0f3f2ba4d2f00612d14d8da0dbefea8f09ac7690b",
-              "url": "https://files.pythonhosted.org/packages/5d/98/dd18891b11265ccc8a0c4450ce47aa3aafffd08b33037f085224a3ceea99/torchvision-0.14.1-cp39-cp39-macosx_10_9_x86_64.whl"
+              "hash": "87c137f343197769a51333076e66bfcd576301d2cd8614b06657187c71b06c4f",
+              "url": "https://files.pythonhosted.org/packages/52/fb/0079b1398cdb7db33cd8901e72e39975a572b9a17efac915742f6fe20f7e/torchvision-0.13.1-cp38-cp38-manylinux2014_aarch64.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "a541e49fc3c4e90e49e6988428ab047415ed52ea97d0c0bfd147d8bacb8f4df8",
-              "url": "https://files.pythonhosted.org/packages/7c/22/ed84a5fe71a79c2942a726dfce28b1b258f92bf7b70ccdd72ff9d4c1b074/torchvision-0.14.1-cp38-cp38-manylinux2014_aarch64.whl"
+              "hash": "e9a563894f9fa40692e24d1aa58c3ef040450017cfed3598ff9637f404f3fe3b",
+              "url": "https://files.pythonhosted.org/packages/a9/81/4719c1ca9c216b1b39dcbac6f9656e6554544957b9e89d259ac92d895b4b/torchvision-0.13.1-cp38-cp38-macosx_11_0_arm64.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "0ed02aefd09bf1114d35f1aa7dce55aa61c2c7e57f9aa02dce362860be654e85",
-              "url": "https://files.pythonhosted.org/packages/7c/d8/353b695fc47b9e2210313874fedd76b7ea5e699f2b2dd674919a95c4a0f1/torchvision-0.14.1-cp38-cp38-manylinux1_x86_64.whl"
+              "hash": "b167934a5943242da7b1e59318f911d2d253feeca0d13ad5d832b58eed943401",
+              "url": "https://files.pythonhosted.org/packages/b1/80/6230a7f1a5e078595f1a7e2bdf02bd1ede631f8bdc8dbc6d4e9fece6e8ca/torchvision-0.13.1-cp39-cp39-manylinux2014_aarch64.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "83045507ef8d3c015d4df6be79491375b2f901352cfca6e72b4723e9c4f9a55d",
-              "url": "https://files.pythonhosted.org/packages/8e/b6/8e910a505014ecdbfceb66610a55722b649663c604f8ff0fd25f74dc84f2/torchvision-0.14.1-cp39-cp39-manylinux1_x86_64.whl"
+              "hash": "c5ed609c8bc88c575226400b2232e0309094477c82af38952e0373edef0003fd",
+              "url": "https://files.pythonhosted.org/packages/c8/01/d0a22281ca082721b4672b7f27d52243fc81fd2a10d7bc218b4b0f6c5feb/torchvision-0.13.1-cp39-cp39-macosx_11_0_arm64.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "30fcf0e9fe57d4ac4ce6426659a57dce199637ccb6c70be1128670f177692624",
-              "url": "https://files.pythonhosted.org/packages/a5/1a/ce8d3be43d1ff77dd39121e74691a14dcebb96224e5b080d83d48c888e78/torchvision-0.14.1-cp38-cp38-macosx_11_0_arm64.whl"
+              "hash": "f230a1a40ed70d51e463ce43df243ec520902f8725de2502e485efc5eea9d864",
+              "url": "https://files.pythonhosted.org/packages/c8/e8/7d686bdfbed1a180034e1c06cc68a318728380dc506e0cce0f1ec0716f6f/torchvision-0.13.1-cp38-cp38-macosx_10_9_x86_64.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "eaed58cf454323ed9222d4e0dd5fb897064f454b400696e03a5200e65d3a1e76",
-              "url": "https://files.pythonhosted.org/packages/c1/04/7babdd446fb62b7bc8f9cc1d8a50e759ac502c077ff882d3c3aa4897566e/torchvision-0.14.1-cp39-cp39-manylinux2014_aarch64.whl"
+              "hash": "3567fb3def829229ec217c1e38f08c5128ff7fb65854cac17ebac358ff7aa309",
+              "url": "https://files.pythonhosted.org/packages/ed/44/ab2f3a6670a054c5ec0e7c295f437d043a4be46f07ff2d9fce73cadb7549/torchvision-0.13.1-cp39-cp39-manylinux1_x86_64.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "758b20d079e810b4740bd60d1eb16e49da830e3360f9be379eb177ee221fa5d4",
-              "url": "https://files.pythonhosted.org/packages/c1/b0/f238bcbbd99a044ce6b8f6e592ee47e0cdf3dfa155c127460a45a2586cad/torchvision-0.14.1-cp39-cp39-macosx_11_0_arm64.whl"
+              "hash": "0298bae3b09ac361866088434008d82b99d6458fe8888c8df90720ef4b347d44",
+              "url": "https://files.pythonhosted.org/packages/f3/2b/ccfaea92b4fc8773ff1102991042b58c058c5f2053d44c17125604a074f9/torchvision-0.13.1-cp39-cp39-macosx_10_9_x86_64.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "68ed03359dcd3da9cd21b8ab94da21158df8a6a0c5bad0bf4a42f0e448d28cb3",
-              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/49/56/5bc1fcdf3a0974d662aa6a23b72307de3e5b0bb008e70a99e091728c7050/torchvision-0.14.1-cp38-cp38-macosx_10_9_x86_64.whl"
+              "hash": "7cb789ceefe6dcd0dc8eeda37bfc45efb7cf34770eac9533861d51ca508eb5b3",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/30/78/3408ba9bbba1fb1e58d31cd8166ec862f9b3f99a09fa7fa521e6583292ae/torchvision-0.13.1-cp38-cp38-manylinux1_x86_64.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "c5e744f56e5f5b452deb5fc0f3f2ba4d2f00612d14d8da0dbefea8f09ac7690b",
-              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/5d/98/dd18891b11265ccc8a0c4450ce47aa3aafffd08b33037f085224a3ceea99/torchvision-0.14.1-cp39-cp39-macosx_10_9_x86_64.whl"
+              "hash": "87c137f343197769a51333076e66bfcd576301d2cd8614b06657187c71b06c4f",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/52/fb/0079b1398cdb7db33cd8901e72e39975a572b9a17efac915742f6fe20f7e/torchvision-0.13.1-cp38-cp38-manylinux2014_aarch64.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "a541e49fc3c4e90e49e6988428ab047415ed52ea97d0c0bfd147d8bacb8f4df8",
-              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/7c/22/ed84a5fe71a79c2942a726dfce28b1b258f92bf7b70ccdd72ff9d4c1b074/torchvision-0.14.1-cp38-cp38-manylinux2014_aarch64.whl"
+              "hash": "e9a563894f9fa40692e24d1aa58c3ef040450017cfed3598ff9637f404f3fe3b",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/a9/81/4719c1ca9c216b1b39dcbac6f9656e6554544957b9e89d259ac92d895b4b/torchvision-0.13.1-cp38-cp38-macosx_11_0_arm64.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "0ed02aefd09bf1114d35f1aa7dce55aa61c2c7e57f9aa02dce362860be654e85",
-              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/7c/d8/353b695fc47b9e2210313874fedd76b7ea5e699f2b2dd674919a95c4a0f1/torchvision-0.14.1-cp38-cp38-manylinux1_x86_64.whl"
+              "hash": "c5ed609c8bc88c575226400b2232e0309094477c82af38952e0373edef0003fd",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/c8/01/d0a22281ca082721b4672b7f27d52243fc81fd2a10d7bc218b4b0f6c5feb/torchvision-0.13.1-cp39-cp39-macosx_11_0_arm64.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "83045507ef8d3c015d4df6be79491375b2f901352cfca6e72b4723e9c4f9a55d",
-              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/8e/b6/8e910a505014ecdbfceb66610a55722b649663c604f8ff0fd25f74dc84f2/torchvision-0.14.1-cp39-cp39-manylinux1_x86_64.whl"
+              "hash": "f230a1a40ed70d51e463ce43df243ec520902f8725de2502e485efc5eea9d864",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/c8/e8/7d686bdfbed1a180034e1c06cc68a318728380dc506e0cce0f1ec0716f6f/torchvision-0.13.1-cp38-cp38-macosx_10_9_x86_64.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "30fcf0e9fe57d4ac4ce6426659a57dce199637ccb6c70be1128670f177692624",
-              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/a5/1a/ce8d3be43d1ff77dd39121e74691a14dcebb96224e5b080d83d48c888e78/torchvision-0.14.1-cp38-cp38-macosx_11_0_arm64.whl"
+              "hash": "3567fb3def829229ec217c1e38f08c5128ff7fb65854cac17ebac358ff7aa309",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/ed/44/ab2f3a6670a054c5ec0e7c295f437d043a4be46f07ff2d9fce73cadb7549/torchvision-0.13.1-cp39-cp39-manylinux1_x86_64.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "758b20d079e810b4740bd60d1eb16e49da830e3360f9be379eb177ee221fa5d4",
-              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/c1/b0/f238bcbbd99a044ce6b8f6e592ee47e0cdf3dfa155c127460a45a2586cad/torchvision-0.14.1-cp39-cp39-macosx_11_0_arm64.whl"
+              "hash": "0298bae3b09ac361866088434008d82b99d6458fe8888c8df90720ef4b347d44",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/f3/2b/ccfaea92b4fc8773ff1102991042b58c058c5f2053d44c17125604a074f9/torchvision-0.13.1-cp39-cp39-macosx_10_9_x86_64.whl"
             }
           ],
           "project_name": "torchvision",
@@ -7210,7 +7210,7 @@
             "typing-extensions"
           ],
           "requires_python": ">=3.7",
-          "version": "0.14.1"
+          "version": "0.13.1"
         },
         {
           "artifacts": [
@@ -7951,8 +7951,8 @@
     "liga-mlflow==0.2.0",
     "ligavision==0.2.0.dev4",
     "mlflow==1.26.1",
-    "torch<1.13.0,>=1.8.1",
-    "torchvision"
+    "torch==1.12.1",
+    "torchvision==0.13.1"
   ],
   "requires_python": [
     "<3.10,>=3.8"
