@@ -9,7 +9,7 @@
 //     "CPython<3.10,>=3.8"
 //   ],
 //   "generated_with_requirements": [
-//     "ligavision==0.2.0.dev3",
+//     "ligavision==0.2.0.dev4",
 //     "torch<1.13.0,>=1.8.1",
 //     "torchvision"
 //   ],
@@ -1022,23 +1022,23 @@
           "artifacts": [
             {
               "algorithm": "sha256",
-              "hash": "91a7cbcdea52d39d0669a8d0125bf8bc3b869c1b9165aaeb1327b7ced2fb1ffc",
-              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/71/0c/ab04dfecefad1fd6cea24a2b56e102e6ca4cc2422388d92c1f299e295ae8/ligavision-0.2.0.dev3-py3-none-any.whl"
+              "hash": "5eae9d32a756ae90e5ec764b9b8ab1eecfae8a8cbd153d9f7506cb1d48d2fa4e",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/4f/83/786b7c7dff14aa12db8189d90d666b687d921493bd05855879c2b9343ccc/ligavision-0.2.0.dev4-py3-none-any.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "91a7cbcdea52d39d0669a8d0125bf8bc3b869c1b9165aaeb1327b7ced2fb1ffc",
-              "url": "https://files.pythonhosted.org/packages/71/0c/ab04dfecefad1fd6cea24a2b56e102e6ca4cc2422388d92c1f299e295ae8/ligavision-0.2.0.dev3-py3-none-any.whl"
+              "hash": "5eae9d32a756ae90e5ec764b9b8ab1eecfae8a8cbd153d9f7506cb1d48d2fa4e",
+              "url": "https://files.pythonhosted.org/packages/4f/83/786b7c7dff14aa12db8189d90d666b687d921493bd05855879c2b9343ccc/ligavision-0.2.0.dev4-py3-none-any.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "3fa37eade4582bbc1ec59429db6cc4aad590b537cc95cc1f1e4307b877778328",
-              "url": "https://files.pythonhosted.org/packages/96/45/0f9e92f8051ae97612acc596e749ef90af239bec752a05024c9c4a45ba23/ligavision-0.2.0.dev3.tar.gz"
+              "hash": "dc0523eae7532c8514beeda2104f68ef4e49d7dab3704680feda31e7def63ea0",
+              "url": "https://files.pythonhosted.org/packages/90/42/311ad7433764c711d7dc1af79d666f1b7de74784f462afbfbcdbfc99c6a1/ligavision-0.2.0.dev4.tar.gz"
             },
             {
               "algorithm": "sha256",
-              "hash": "3fa37eade4582bbc1ec59429db6cc4aad590b537cc95cc1f1e4307b877778328",
-              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/96/45/0f9e92f8051ae97612acc596e749ef90af239bec752a05024c9c4a45ba23/ligavision-0.2.0.dev3.tar.gz"
+              "hash": "dc0523eae7532c8514beeda2104f68ef4e49d7dab3704680feda31e7def63ea0",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/90/42/311ad7433764c711d7dc1af79d666f1b7de74784f462afbfbcdbfc99c6a1/ligavision-0.2.0.dev4.tar.gz"
             }
           ],
           "project_name": "ligavision",
@@ -1049,7 +1049,7 @@
             "pyspark==3.2.1"
           ],
           "requires_python": "<3.10,>=3.8",
-          "version": "0.2.dev3"
+          "version": "0.2.dev4"
         },
         {
           "artifacts": [
@@ -3075,7 +3075,7 @@
   "pip_version": "20.3.4-patched",
   "prefer_older_binary": false,
   "requirements": [
-    "ligavision==0.2.0.dev3",
+    "ligavision==0.2.0.dev4",
     "torch<1.13.0,>=1.8.1",
     "torchvision"
   ],

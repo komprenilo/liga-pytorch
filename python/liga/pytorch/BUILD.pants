@@ -2,7 +2,7 @@
 python_requirement(
     name="requirements",
     requirements=[
-        "ligavision==0.2.0.dev3",
+        "ligavision==0.2.0.dev4",
         "torch>=1.8.1,<1.13.0",
         "torchvision",
     ],

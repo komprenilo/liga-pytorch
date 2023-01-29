@@ -29,7 +29,8 @@ import torch
 import torchvision
 from pyspark.sql import Row, SparkSession
 
-import liga
+from liga.spark import get_liga_assembly_jar
+from ligavision.spark import init_session
 from ligavision.dsl import Image
 
 
@@ -48,3 +49,7 @@ def two_flickr_images() -> list:
 def two_flickr_rows(two_flickr_images: list) -> list:
     return [Row(image=image) for image in two_flickr_images]
 
+
+@pytest.fixture(scope="module")
+def spark() -> SparkSession:
+    return init_session(jar_type="github")
