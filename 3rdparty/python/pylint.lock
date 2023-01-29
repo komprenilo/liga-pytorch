@@ -31,35 +31,35 @@
           "artifacts": [
             {
               "algorithm": "sha256",
-              "hash": "8f6a8d40c4ad161d6fc419545ae4b2f275ed86d1c989c97825772120842ee0d2",
-              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/1b/1a/b39c78909f72793ae75fb2daaecfd0393f413448ce30381f5052c2a7ce31/astroid-2.13.2-py3-none-any.whl"
+              "hash": "14c1603c41cc61aae731cad1884a073c4645e26f126d13ac8346113c95577f3b",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/03/9d/153f58eb80395e0f2a84c3a5e5945889da902a8b3eba62d9e2ff2c5618f9/astroid-2.13.3-py3-none-any.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "8f6a8d40c4ad161d6fc419545ae4b2f275ed86d1c989c97825772120842ee0d2",
-              "url": "https://files.pythonhosted.org/packages/1b/1a/b39c78909f72793ae75fb2daaecfd0393f413448ce30381f5052c2a7ce31/astroid-2.13.2-py3-none-any.whl"
+              "hash": "14c1603c41cc61aae731cad1884a073c4645e26f126d13ac8346113c95577f3b",
+              "url": "https://files.pythonhosted.org/packages/03/9d/153f58eb80395e0f2a84c3a5e5945889da902a8b3eba62d9e2ff2c5618f9/astroid-2.13.3-py3-none-any.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "3bc7834720e1a24ca797fd785d77efb14f7a28ee8e635ef040b6e2d80ccb3303",
-              "url": "https://files.pythonhosted.org/packages/c2/49/5dd5f36b2cd2b315d45023ed4e2d6f1ba57d054ea9a1378f91f093ec57bb/astroid-2.13.2.tar.gz"
+              "hash": "6afc22718a48a689ca24a97981ad377ba7fb78c133f40335dfd16772f29bcfb1",
+              "url": "https://files.pythonhosted.org/packages/13/b2/413625f369b9861778b7872987ed76fe573c9558249a865344882c46d265/astroid-2.13.3.tar.gz"
             },
             {
               "algorithm": "sha256",
-              "hash": "3bc7834720e1a24ca797fd785d77efb14f7a28ee8e635ef040b6e2d80ccb3303",
-              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/c2/49/5dd5f36b2cd2b315d45023ed4e2d6f1ba57d054ea9a1378f91f093ec57bb/astroid-2.13.2.tar.gz"
+              "hash": "6afc22718a48a689ca24a97981ad377ba7fb78c133f40335dfd16772f29bcfb1",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/13/b2/413625f369b9861778b7872987ed76fe573c9558249a865344882c46d265/astroid-2.13.3.tar.gz"
             }
           ],
           "project_name": "astroid",
           "requires_dists": [
             "lazy-object-proxy>=1.4.0",
             "typed-ast<2.0,>=1.4.0; implementation_name == \"cpython\" and python_version < \"3.8\"",
-            "typing-extensions>=4.0.0",
+            "typing-extensions>=4.0.0; python_version < \"3.11\"",
             "wrapt<2,>=1.11; python_version < \"3.11\"",
             "wrapt<2,>=1.14; python_version >= \"3.11\""
           ],
           "requires_python": ">=3.7.2",
-          "version": "2.13.2"
+          "version": "2.13.3"
         },
         {
           "artifacts": [
@@ -95,35 +95,36 @@
           "artifacts": [
             {
               "algorithm": "sha256",
-              "hash": "c033fd0edb91000a7f09527fe5c75321878f98322a77ddcc81adbd83724afb7b",
-              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/91/3b/a63bafb8141b67c397841b36ad46e7469716af2b2d00cb0be2dfb9667130/isort-5.11.4-py3-none-any.whl"
+              "hash": "f84c2818376e66cf843d497486ea8fed8700b340f308f076c6fb1229dff318b6",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/0a/63/4036ae70eea279c63e2304b91ee0ac182f467f24f86394ecfe726092340b/isort-5.12.0-py3-none-any.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "6db30c5ded9815d813932c04c2f85a360bcdd35fed496f4d8f35495ef0a261b6",
-              "url": "https://files.pythonhosted.org/packages/76/46/004e2dd6c312e8bb7cb40a6c01b770956e0ef137857e82d47bd9c829356b/isort-5.11.4.tar.gz"
+              "hash": "f84c2818376e66cf843d497486ea8fed8700b340f308f076c6fb1229dff318b6",
+              "url": "https://files.pythonhosted.org/packages/0a/63/4036ae70eea279c63e2304b91ee0ac182f467f24f86394ecfe726092340b/isort-5.12.0-py3-none-any.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "c033fd0edb91000a7f09527fe5c75321878f98322a77ddcc81adbd83724afb7b",
-              "url": "https://files.pythonhosted.org/packages/91/3b/a63bafb8141b67c397841b36ad46e7469716af2b2d00cb0be2dfb9667130/isort-5.11.4-py3-none-any.whl"
+              "hash": "8bef7dde241278824a6d83f44a544709b065191b95b6e50894bdc722fcba0504",
+              "url": "https://files.pythonhosted.org/packages/a9/c4/dc00e42c158fc4dda2afebe57d2e948805c06d5169007f1724f0683010a9/isort-5.12.0.tar.gz"
             },
             {
               "algorithm": "sha256",
-              "hash": "6db30c5ded9815d813932c04c2f85a360bcdd35fed496f4d8f35495ef0a261b6",
-              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/76/46/004e2dd6c312e8bb7cb40a6c01b770956e0ef137857e82d47bd9c829356b/isort-5.11.4.tar.gz"
+              "hash": "8bef7dde241278824a6d83f44a544709b065191b95b6e50894bdc722fcba0504",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/a9/c4/dc00e42c158fc4dda2afebe57d2e948805c06d5169007f1724f0683010a9/isort-5.12.0.tar.gz"
             }
           ],
           "project_name": "isort",
           "requires_dists": [
-            "colorama<0.5.0,>=0.4.3; extra == \"colors\"",
+            "colorama>=0.4.3; extra == \"colors\"",
             "pip-api; extra == \"requirements-deprecated-finder\"",
+            "pip-shims>=0.5.2; extra == \"pipfile-deprecated-finder\"",
             "pipreqs; extra == \"pipfile-deprecated-finder\" or extra == \"requirements-deprecated-finder\"",
             "requirementslib; extra == \"pipfile-deprecated-finder\"",
             "setuptools; extra == \"plugins\""
           ],
-          "requires_python": ">=3.7.0",
-          "version": "5.11.4"
+          "requires_python": ">=3.8.0",
+          "version": "5.12"
         },
         {
           "artifacts": [

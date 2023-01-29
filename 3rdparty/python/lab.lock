@@ -10,9 +10,8 @@
 //   ],
 //   "generated_with_requirements": [
 //     "jupyterlab",
-//     "liga",
-//     "liga-mlflow==0.2.0.dev11",
-//     "ligavision==0.2.0.dev2",
+//     "liga-mlflow==0.2.0",
+//     "ligavision==0.2.0.dev3",
 //     "mlflow==1.26.1",
 //     "torch<1.13.0,>=1.8.1",
 //     "torchvision"
@@ -2022,165 +2021,164 @@
           "artifacts": [
             {
               "algorithm": "sha256",
-              "hash": "41b825d65f31e394b523c84db84f9383a2f7eefc13d987f308f4663794d2687e",
-              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/17/ef/264b22b4e88cb90400543bc653eea1aa1b93bdc1bf584429d43b87062b81/greenlet-2.0.1-cp39-cp39-musllinux_1_1_x86_64.whl"
+              "hash": "7efde645ca1cc441d6dc4b48c0f7101e8d86b54c8530141b09fd31cef5149ec9",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/4d/b2/32f737e1fcf67b23351b4860489029df562b41d7ffb568a3e1ae610f7a9b/greenlet-2.0.2-cp39-cp39-musllinux_1_1_x86_64.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "cd4ccc364cf75d1422e66e247e52a93da6a9b73cefa8cad696f3cbbb75af179d",
-              "url": "https://files.pythonhosted.org/packages/0a/77/837fb1e3218d1fc539268ae7e558d53d9eca5cbbf102abf6f5752380fbeb/greenlet-2.0.1-cp38-cp38-macosx_10_15_x86_64.whl"
+              "hash": "971ce5e14dc5e73715755d0ca2975ac88cfdaefcaab078a284fea6cfabf866df",
+              "url": "https://files.pythonhosted.org/packages/09/57/5fdd37939e0989a756a32d0a838409b68d1c5d348115e9c697f42ee4f87d/greenlet-2.0.2-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "0109af1138afbfb8ae647e31a2b1ab030f58b21dd8528c27beaeb0093b7938a9",
-              "url": "https://files.pythonhosted.org/packages/13/76/59877e19553c9b0a9b8ade7a4548e39755e678c69d161ce4fb5b20f55338/greenlet-2.0.1-cp38-cp38-musllinux_1_1_x86_64.whl"
+              "hash": "8eab883b3b2a38cc1e050819ef06a7e6344d4a990d24d45bc6f2cf959045a45b",
+              "url": "https://files.pythonhosted.org/packages/0d/f6/2d406a22767029e785154071bef79b296f91b92d1c199ec3c2202386bf04/greenlet-2.0.2-cp38-cp38-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "41b825d65f31e394b523c84db84f9383a2f7eefc13d987f308f4663794d2687e",
-              "url": "https://files.pythonhosted.org/packages/17/ef/264b22b4e88cb90400543bc653eea1aa1b93bdc1bf584429d43b87062b81/greenlet-2.0.1-cp39-cp39-musllinux_1_1_x86_64.whl"
+              "hash": "561091a7be172ab497a3527602d467e2b3fbe75f9e783d8b8ce403fa414f71a6",
+              "url": "https://files.pythonhosted.org/packages/1d/a0/697653ea5e35acaf28e2a1246645ac512beb9b49a86b310fd0151b075342/greenlet-2.0.2-cp39-cp39-manylinux2010_x86_64.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "4c8b1c43e75c42a6cafcc71defa9e01ead39ae80bd733a2608b297412beede68",
-              "url": "https://files.pythonhosted.org/packages/1c/e2/4ebd0108dfb738c9e00a2f010a53329b3fdac4e6c327cfbb0dee5f33682e/greenlet-2.0.1-cp38-cp38-manylinux2010_x86_64.whl"
+              "hash": "e7c8dc13af7db097bed64a051d2dd49e9f0af495c26995c00a9ee842690d34c0",
+              "url": "https://files.pythonhosted.org/packages/1e/1e/632e55a04d732c8184201238d911207682b119c35cecbb9a573a6c566731/greenlet-2.0.2.tar.gz"
             },
             {
               "algorithm": "sha256",
-              "hash": "cce1e90dd302f45716a7715517c6aa0468af0bf38e814ad4eab58e88fc09f7f7",
-              "url": "https://files.pythonhosted.org/packages/30/0f/da31725f79c0ec26bebe5f3eee3ef8434466910b6880e48045a47bcedc3b/greenlet-2.0.1-cp39-cp39-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl"
+              "hash": "1a819eef4b0e0b96bb0d98d797bef17dc1b4a10e8d7446be32d1da33e095dbb8",
+              "url": "https://files.pythonhosted.org/packages/20/28/c93ffaa75f3c907cd010bf44c5c18c7f8f4bb2409146bd67d538163e33b8/greenlet-2.0.2-cp39-cp39-musllinux_1_1_aarch64.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "9e9744c657d896c7b580455e739899e492a4a452e2dd4d2b3e459f6b244a638d",
-              "url": "https://files.pythonhosted.org/packages/4a/6b/f099c2aa8928bcb7bcd14c12ebd4fd63df4ed4ea825012bf7546339d9b4b/greenlet-2.0.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+              "hash": "ba2956617f1c42598a308a84c6cf021a90ff3862eddafd20c3333d50f0edb45b",
+              "url": "https://files.pythonhosted.org/packages/37/b9/3ebd606768bee3ef2198fe6d5e7c6c3af42ad3e06b56c1d0a89c56faba2a/greenlet-2.0.2-cp38-cp38-manylinux2010_x86_64.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "811e1d37d60b47cb8126e0a929b58c046251f28117cb16fcd371eed61f66b764",
-              "url": "https://files.pythonhosted.org/packages/56/fd/756f7f78ba8f307ac90a7883f426aa564eac4e38d6cc53c11cf72879648b/greenlet-2.0.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+              "hash": "be4ed120b52ae4d974aa40215fcdfde9194d63541c7ded40ee12eb4dda57b76b",
+              "url": "https://files.pythonhosted.org/packages/49/b8/3ee1723978245e6f0c087908689f424876803ec05555400681240ab2ab33/greenlet-2.0.2-cp39-cp39-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "356e4519d4dfa766d50ecc498544b44c0249b6de66426041d7f8b751de4d6b48",
-              "url": "https://files.pythonhosted.org/packages/72/07/51644335b344e1295fd7af13eb9a00b16237aea78c96fe5b5b2df1803a71/greenlet-2.0.1-cp38-cp38-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl"
+              "hash": "7efde645ca1cc441d6dc4b48c0f7101e8d86b54c8530141b09fd31cef5149ec9",
+              "url": "https://files.pythonhosted.org/packages/4d/b2/32f737e1fcf67b23351b4860489029df562b41d7ffb568a3e1ae610f7a9b/greenlet-2.0.2-cp39-cp39-musllinux_1_1_x86_64.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "505138d4fa69462447a562a7c2ef723c6025ba12ac04478bc1ce2fcc279a2db5",
-              "url": "https://files.pythonhosted.org/packages/78/96/86b6f5d21aa23fcd28987521ff1d71424e891c79b1a1af8ef991c9082b65/greenlet-2.0.1-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
+              "hash": "b864ba53912b6c3ab6bcb2beb19f19edd01a6bfcbdfe1f37ddd1778abfe75a30",
+              "url": "https://files.pythonhosted.org/packages/50/3d/7e3d95b955722c514f982bdf6bbe92bb76218b0036dd9b093ae0c168d63a/greenlet-2.0.2-cp38-cp38-macosx_10_15_x86_64.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "662e8f7cad915ba75d8017b3e601afc01ef20deeeabf281bd00369de196d7726",
-              "url": "https://files.pythonhosted.org/packages/79/88/843935bbb56e51642fb92a6a91f07a359b95bbf72bb0b21515b62ab212d8/greenlet-2.0.1-cp39-cp39-musllinux_1_1_aarch64.whl"
+              "hash": "b0ef99cdbe2b682b9ccbb964743a6aca37905fda5e0452e5ee239b1654d37f2a",
+              "url": "https://files.pythonhosted.org/packages/6b/cd/84301cdf80360571f6aa77ac096f867ba98094fec2cb93e69c93d996b8f8/greenlet-2.0.2-cp38-cp38-musllinux_1_1_x86_64.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "b1992ba9d4780d9af9726bbcef6a1db12d9ab1ccc35e5773685a24b7fb2758eb",
-              "url": "https://files.pythonhosted.org/packages/7d/2e/316dd548499c8c1d0adb516bff06ec093a68024942f113ac6c794da09c7b/greenlet-2.0.1-cp39-cp39-macosx_10_15_x86_64.whl"
+              "hash": "acd2162a36d3de67ee896c43effcd5ee3de247eb00354db411feb025aa319857",
+              "url": "https://files.pythonhosted.org/packages/7c/5f/ee39d27a08ae6b93f14faa953a6593dad888df75ae55ff479135e64ad4fe/greenlet-2.0.2-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "d38ffd0e81ba8ef347d2be0772e899c289b59ff150ebbbbe05dc61b1246eb4e0",
-              "url": "https://files.pythonhosted.org/packages/90/bf/2f12be708384ab7ba9755819ce31afdd281a0d511407223c34bc9c3c0fad/greenlet-2.0.1-cp38-cp38-musllinux_1_1_aarch64.whl"
+              "hash": "fc3a569657468b6f3fb60587e48356fe512c1754ca05a564f11366ac9e306526",
+              "url": "https://files.pythonhosted.org/packages/c7/c9/2637e49b0ef3f17d7eaa52c5af5bfbda5f058e8ee97bd9418978b90e1169/greenlet-2.0.2-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "659f167f419a4609bc0516fb18ea69ed39dbb25594934bd2dd4d0401660e8a1e",
-              "url": "https://files.pythonhosted.org/packages/ab/63/7051c4702001be50f6fff239ea208bf0eae2148e206395fa2865c2da721a/greenlet-2.0.1-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
+              "hash": "0bf60faf0bc2468089bdc5edd10555bab6e85152191df713e2ab1fcc86382b5a",
+              "url": "https://files.pythonhosted.org/packages/e5/ad/91a8f63881c862bb396cefc33d7faa241bf200df7ba96a1961a99329ed15/greenlet-2.0.2-cp38-cp38-musllinux_1_1_aarch64.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "b5e83e4de81dcc9425598d9469a624826a0b1211380ac444c7c791d4a2137c19",
-              "url": "https://files.pythonhosted.org/packages/b8/0a/199f646c0a525a5d1ea396efa0db82caaef895a51d9cfb83b5447efac285/greenlet-2.0.1-cp39-cp39-manylinux2010_x86_64.whl"
+              "hash": "94c817e84245513926588caf1152e3b559ff794d505555211ca041f032abbb6b",
+              "url": "https://files.pythonhosted.org/packages/e9/29/2ae545c4c0218b042c2bb0760c0f65e114cca1ab5e552dc23b0f118e428a/greenlet-2.0.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "42e602564460da0e8ee67cb6d7236363ee5e131aa15943b6670e44e5c2ed0f67",
-              "url": "https://files.pythonhosted.org/packages/fd/6a/f07b0028baff9bca61ecfcd9ee021e7e33369da8094f00eff409f2ff32be/greenlet-2.0.1.tar.gz"
+              "hash": "88d9ab96491d38a5ab7c56dd7a3cc37d83336ecc564e4e8816dbed12e5aaefc8",
+              "url": "https://files.pythonhosted.org/packages/f6/04/74e97d545f9276dee994b959eab3f7d70d77588e5aaedc383d15b0057acd/greenlet-2.0.2-cp39-cp39-macosx_11_0_x86_64.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "cd4ccc364cf75d1422e66e247e52a93da6a9b73cefa8cad696f3cbbb75af179d",
-              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/0a/77/837fb1e3218d1fc539268ae7e558d53d9eca5cbbf102abf6f5752380fbeb/greenlet-2.0.1-cp38-cp38-macosx_10_15_x86_64.whl"
+              "hash": "971ce5e14dc5e73715755d0ca2975ac88cfdaefcaab078a284fea6cfabf866df",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/09/57/5fdd37939e0989a756a32d0a838409b68d1c5d348115e9c697f42ee4f87d/greenlet-2.0.2-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "0109af1138afbfb8ae647e31a2b1ab030f58b21dd8528c27beaeb0093b7938a9",
-              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/13/76/59877e19553c9b0a9b8ade7a4548e39755e678c69d161ce4fb5b20f55338/greenlet-2.0.1-cp38-cp38-musllinux_1_1_x86_64.whl"
+              "hash": "8eab883b3b2a38cc1e050819ef06a7e6344d4a990d24d45bc6f2cf959045a45b",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/0d/f6/2d406a22767029e785154071bef79b296f91b92d1c199ec3c2202386bf04/greenlet-2.0.2-cp38-cp38-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "4c8b1c43e75c42a6cafcc71defa9e01ead39ae80bd733a2608b297412beede68",
-              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/1c/e2/4ebd0108dfb738c9e00a2f010a53329b3fdac4e6c327cfbb0dee5f33682e/greenlet-2.0.1-cp38-cp38-manylinux2010_x86_64.whl"
+              "hash": "561091a7be172ab497a3527602d467e2b3fbe75f9e783d8b8ce403fa414f71a6",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/1d/a0/697653ea5e35acaf28e2a1246645ac512beb9b49a86b310fd0151b075342/greenlet-2.0.2-cp39-cp39-manylinux2010_x86_64.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "cce1e90dd302f45716a7715517c6aa0468af0bf38e814ad4eab58e88fc09f7f7",
-              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/30/0f/da31725f79c0ec26bebe5f3eee3ef8434466910b6880e48045a47bcedc3b/greenlet-2.0.1-cp39-cp39-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl"
+              "hash": "e7c8dc13af7db097bed64a051d2dd49e9f0af495c26995c00a9ee842690d34c0",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/1e/1e/632e55a04d732c8184201238d911207682b119c35cecbb9a573a6c566731/greenlet-2.0.2.tar.gz"
             },
             {
               "algorithm": "sha256",
-              "hash": "9e9744c657d896c7b580455e739899e492a4a452e2dd4d2b3e459f6b244a638d",
-              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/4a/6b/f099c2aa8928bcb7bcd14c12ebd4fd63df4ed4ea825012bf7546339d9b4b/greenlet-2.0.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+              "hash": "1a819eef4b0e0b96bb0d98d797bef17dc1b4a10e8d7446be32d1da33e095dbb8",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/20/28/c93ffaa75f3c907cd010bf44c5c18c7f8f4bb2409146bd67d538163e33b8/greenlet-2.0.2-cp39-cp39-musllinux_1_1_aarch64.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "811e1d37d60b47cb8126e0a929b58c046251f28117cb16fcd371eed61f66b764",
-              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/56/fd/756f7f78ba8f307ac90a7883f426aa564eac4e38d6cc53c11cf72879648b/greenlet-2.0.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+              "hash": "ba2956617f1c42598a308a84c6cf021a90ff3862eddafd20c3333d50f0edb45b",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/37/b9/3ebd606768bee3ef2198fe6d5e7c6c3af42ad3e06b56c1d0a89c56faba2a/greenlet-2.0.2-cp38-cp38-manylinux2010_x86_64.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "356e4519d4dfa766d50ecc498544b44c0249b6de66426041d7f8b751de4d6b48",
-              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/72/07/51644335b344e1295fd7af13eb9a00b16237aea78c96fe5b5b2df1803a71/greenlet-2.0.1-cp38-cp38-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl"
+              "hash": "be4ed120b52ae4d974aa40215fcdfde9194d63541c7ded40ee12eb4dda57b76b",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/49/b8/3ee1723978245e6f0c087908689f424876803ec05555400681240ab2ab33/greenlet-2.0.2-cp39-cp39-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "505138d4fa69462447a562a7c2ef723c6025ba12ac04478bc1ce2fcc279a2db5",
-              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/78/96/86b6f5d21aa23fcd28987521ff1d71424e891c79b1a1af8ef991c9082b65/greenlet-2.0.1-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
+              "hash": "b864ba53912b6c3ab6bcb2beb19f19edd01a6bfcbdfe1f37ddd1778abfe75a30",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/50/3d/7e3d95b955722c514f982bdf6bbe92bb76218b0036dd9b093ae0c168d63a/greenlet-2.0.2-cp38-cp38-macosx_10_15_x86_64.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "662e8f7cad915ba75d8017b3e601afc01ef20deeeabf281bd00369de196d7726",
-              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/79/88/843935bbb56e51642fb92a6a91f07a359b95bbf72bb0b21515b62ab212d8/greenlet-2.0.1-cp39-cp39-musllinux_1_1_aarch64.whl"
+              "hash": "b0ef99cdbe2b682b9ccbb964743a6aca37905fda5e0452e5ee239b1654d37f2a",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/6b/cd/84301cdf80360571f6aa77ac096f867ba98094fec2cb93e69c93d996b8f8/greenlet-2.0.2-cp38-cp38-musllinux_1_1_x86_64.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "b1992ba9d4780d9af9726bbcef6a1db12d9ab1ccc35e5773685a24b7fb2758eb",
-              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/7d/2e/316dd548499c8c1d0adb516bff06ec093a68024942f113ac6c794da09c7b/greenlet-2.0.1-cp39-cp39-macosx_10_15_x86_64.whl"
+              "hash": "acd2162a36d3de67ee896c43effcd5ee3de247eb00354db411feb025aa319857",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/7c/5f/ee39d27a08ae6b93f14faa953a6593dad888df75ae55ff479135e64ad4fe/greenlet-2.0.2-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "d38ffd0e81ba8ef347d2be0772e899c289b59ff150ebbbbe05dc61b1246eb4e0",
-              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/90/bf/2f12be708384ab7ba9755819ce31afdd281a0d511407223c34bc9c3c0fad/greenlet-2.0.1-cp38-cp38-musllinux_1_1_aarch64.whl"
+              "hash": "fc3a569657468b6f3fb60587e48356fe512c1754ca05a564f11366ac9e306526",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/c7/c9/2637e49b0ef3f17d7eaa52c5af5bfbda5f058e8ee97bd9418978b90e1169/greenlet-2.0.2-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "659f167f419a4609bc0516fb18ea69ed39dbb25594934bd2dd4d0401660e8a1e",
-              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/ab/63/7051c4702001be50f6fff239ea208bf0eae2148e206395fa2865c2da721a/greenlet-2.0.1-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
+              "hash": "0bf60faf0bc2468089bdc5edd10555bab6e85152191df713e2ab1fcc86382b5a",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/e5/ad/91a8f63881c862bb396cefc33d7faa241bf200df7ba96a1961a99329ed15/greenlet-2.0.2-cp38-cp38-musllinux_1_1_aarch64.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "b5e83e4de81dcc9425598d9469a624826a0b1211380ac444c7c791d4a2137c19",
-              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/b8/0a/199f646c0a525a5d1ea396efa0db82caaef895a51d9cfb83b5447efac285/greenlet-2.0.1-cp39-cp39-manylinux2010_x86_64.whl"
+              "hash": "94c817e84245513926588caf1152e3b559ff794d505555211ca041f032abbb6b",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/e9/29/2ae545c4c0218b042c2bb0760c0f65e114cca1ab5e552dc23b0f118e428a/greenlet-2.0.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "42e602564460da0e8ee67cb6d7236363ee5e131aa15943b6670e44e5c2ed0f67",
-              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/fd/6a/f07b0028baff9bca61ecfcd9ee021e7e33369da8094f00eff409f2ff32be/greenlet-2.0.1.tar.gz"
+              "hash": "88d9ab96491d38a5ab7c56dd7a3cc37d83336ecc564e4e8816dbed12e5aaefc8",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/f6/04/74e97d545f9276dee994b959eab3f7d70d77588e5aaedc383d15b0057acd/greenlet-2.0.2-cp39-cp39-macosx_11_0_x86_64.whl"
             }
           ],
           "project_name": "greenlet",
           "requires_dists": [
             "Sphinx; extra == \"docs\"",
             "docutils<0.18; python_version < \"3\" and extra == \"docs\"",
-            "faulthandler; (python_version == \"2.7\" and platform_python_implementation == \"CPython\") and extra == \"test\"",
             "objgraph; extra == \"test\"",
             "psutil; extra == \"test\""
           ],
           "requires_python": "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,>=2.7",
-          "version": "2.0.1"
+          "version": "2.0.2"
         },
         {
           "artifacts": [
@@ -3194,23 +3192,23 @@
           "artifacts": [
             {
               "algorithm": "sha256",
-              "hash": "96c7d96fedf523512bad8b57d2afa68b298d90fe59147f155efedf42eadb5a79",
-              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/aa/be/b886731f632bae5e7979b9a8d2f81bf8e4a069371ecdedda325389b3dbaf/liga-0.2.0.dev11-py3-none-any.whl"
+              "hash": "6890de20d05d5446fd57ca4cbbb6d645a00df46873b116f6f4dc4609042ac8f4",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/57/41/3f16e13d867e24bc68cb4e733dcf99cbee7c888c6b42d4283b0f484257fe/liga-0.2.0-py3-none-any.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "96c7d96fedf523512bad8b57d2afa68b298d90fe59147f155efedf42eadb5a79",
-              "url": "https://files.pythonhosted.org/packages/aa/be/b886731f632bae5e7979b9a8d2f81bf8e4a069371ecdedda325389b3dbaf/liga-0.2.0.dev11-py3-none-any.whl"
+              "hash": "a1b4f98af55df3f1392265aa16c29b743794ebcbf88c3e5840780f3c9855f687",
+              "url": "https://files.pythonhosted.org/packages/2e/4c/cb9e28ef47f7f1626ebf2199b4707aca8bd3a4679e3eccb08e1092cdbdb8/liga-0.2.0.tar.gz"
             },
             {
               "algorithm": "sha256",
-              "hash": "a6ba6462e2f0872283d128362d1273220759ce58737d74998cab1b5003c94cc7",
-              "url": "https://files.pythonhosted.org/packages/f8/8a/564e5f91e285f18df9f1ed705905307c01169cd625ce2088591bb68c5c73/liga-0.2.0.dev11.tar.gz"
+              "hash": "6890de20d05d5446fd57ca4cbbb6d645a00df46873b116f6f4dc4609042ac8f4",
+              "url": "https://files.pythonhosted.org/packages/57/41/3f16e13d867e24bc68cb4e733dcf99cbee7c888c6b42d4283b0f484257fe/liga-0.2.0-py3-none-any.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "a6ba6462e2f0872283d128362d1273220759ce58737d74998cab1b5003c94cc7",
-              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/f8/8a/564e5f91e285f18df9f1ed705905307c01169cd625ce2088591bb68c5c73/liga-0.2.0.dev11.tar.gz"
+              "hash": "a1b4f98af55df3f1392265aa16c29b743794ebcbf88c3e5840780f3c9855f687",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/2e/4c/cb9e28ef47f7f1626ebf2199b4707aca8bd3a4679e3eccb08e1092cdbdb8/liga-0.2.0.tar.gz"
             }
           ],
           "project_name": "liga",
@@ -3227,71 +3225,72 @@
             "requests"
           ],
           "requires_python": "<3.10,>=3.8",
-          "version": "0.2.dev11"
+          "version": "0.2"
         },
         {
           "artifacts": [
             {
               "algorithm": "sha256",
-              "hash": "5f8626b90812187e407c0fc0f7ce8921eee06ac073fd1e8aef7956fb1497da32",
-              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/87/67/7d72b3229d3f4a107cdd24f6454291856e6569b67713991ebbb00a382a4c/liga_mlflow-0.2.0.dev11-py3-none-any.whl"
+              "hash": "b1db1b7571fb54ec16232ff647f63ceb66800948a928f89715d685a132b38fda",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/3b/b2/7e86435be88630ccf8aa1e935551441ac52dd60c57aab2dc758e56997cf3/liga_mlflow-0.2.0-py3-none-any.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "aff72cfb625ce531a2b56322aab7e971ee379146f7793919e79abda0c2d3a283",
-              "url": "https://files.pythonhosted.org/packages/61/38/8a6ae36cdaa5b954e7e71267035b778b79a33eb5d365b5d291e7738072fe/liga-mlflow-0.2.0.dev11.tar.gz"
+              "hash": "b1db1b7571fb54ec16232ff647f63ceb66800948a928f89715d685a132b38fda",
+              "url": "https://files.pythonhosted.org/packages/3b/b2/7e86435be88630ccf8aa1e935551441ac52dd60c57aab2dc758e56997cf3/liga_mlflow-0.2.0-py3-none-any.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "5f8626b90812187e407c0fc0f7ce8921eee06ac073fd1e8aef7956fb1497da32",
-              "url": "https://files.pythonhosted.org/packages/87/67/7d72b3229d3f4a107cdd24f6454291856e6569b67713991ebbb00a382a4c/liga_mlflow-0.2.0.dev11-py3-none-any.whl"
+              "hash": "b790f30b4e57e7d4e53e90cfc4b1cd1429a5e0ccfc5b42a545da4f1d1af971c3",
+              "url": "https://files.pythonhosted.org/packages/7a/db/0205d3895a73762a3a79571acf6e35f32fe451bf311349d0341ca94912d6/liga-mlflow-0.2.0.tar.gz"
             },
             {
               "algorithm": "sha256",
-              "hash": "aff72cfb625ce531a2b56322aab7e971ee379146f7793919e79abda0c2d3a283",
-              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/61/38/8a6ae36cdaa5b954e7e71267035b778b79a33eb5d365b5d291e7738072fe/liga-mlflow-0.2.0.dev11.tar.gz"
+              "hash": "b790f30b4e57e7d4e53e90cfc4b1cd1429a5e0ccfc5b42a545da4f1d1af971c3",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/7a/db/0205d3895a73762a3a79571acf6e35f32fe451bf311349d0341ca94912d6/liga-mlflow-0.2.0.tar.gz"
             }
           ],
           "project_name": "liga-mlflow",
           "requires_dists": [
-            "liga==0.2.0.dev11",
-            "mlflow==1.26.1"
+            "SQLAlchemy<2.0.0",
+            "liga<0.3.0,>=0.2.0",
+            "mlflow<2.0.0,>=1.24.0"
           ],
           "requires_python": "<3.10,>=3.8",
-          "version": "0.2.dev11"
+          "version": "0.2"
         },
         {
           "artifacts": [
             {
               "algorithm": "sha256",
-              "hash": "1e65883ea8bc64e481a499c918993acafcaa89591ce03a60afbaf6d7af69025e",
-              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/0f/e1/0d9b0bcfc00e64b9b81f4e06cea2f939add11856e23fda31246af264e8eb/ligavision-0.2.0.dev2-py3-none-any.whl"
+              "hash": "91a7cbcdea52d39d0669a8d0125bf8bc3b869c1b9165aaeb1327b7ced2fb1ffc",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/71/0c/ab04dfecefad1fd6cea24a2b56e102e6ca4cc2422388d92c1f299e295ae8/ligavision-0.2.0.dev3-py3-none-any.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "1e65883ea8bc64e481a499c918993acafcaa89591ce03a60afbaf6d7af69025e",
-              "url": "https://files.pythonhosted.org/packages/0f/e1/0d9b0bcfc00e64b9b81f4e06cea2f939add11856e23fda31246af264e8eb/ligavision-0.2.0.dev2-py3-none-any.whl"
+              "hash": "91a7cbcdea52d39d0669a8d0125bf8bc3b869c1b9165aaeb1327b7ced2fb1ffc",
+              "url": "https://files.pythonhosted.org/packages/71/0c/ab04dfecefad1fd6cea24a2b56e102e6ca4cc2422388d92c1f299e295ae8/ligavision-0.2.0.dev3-py3-none-any.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "c1793d4d5d34eb6804cf42e614269ddcc3cb163ecc843011c8923941a9006928",
-              "url": "https://files.pythonhosted.org/packages/2d/d7/75976c9c7f72c60b5b021407bdcdcf9b1b3bfdb4f47edc5153210895d866/ligavision-0.2.0.dev2.tar.gz"
+              "hash": "3fa37eade4582bbc1ec59429db6cc4aad590b537cc95cc1f1e4307b877778328",
+              "url": "https://files.pythonhosted.org/packages/96/45/0f9e92f8051ae97612acc596e749ef90af239bec752a05024c9c4a45ba23/ligavision-0.2.0.dev3.tar.gz"
             },
             {
               "algorithm": "sha256",
-              "hash": "c1793d4d5d34eb6804cf42e614269ddcc3cb163ecc843011c8923941a9006928",
-              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/2d/d7/75976c9c7f72c60b5b021407bdcdcf9b1b3bfdb4f47edc5153210895d866/ligavision-0.2.0.dev2.tar.gz"
+              "hash": "3fa37eade4582bbc1ec59429db6cc4aad590b537cc95cc1f1e4307b877778328",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/96/45/0f9e92f8051ae97612acc596e749ef90af239bec752a05024c9c4a45ba23/ligavision-0.2.0.dev3.tar.gz"
             }
           ],
           "project_name": "ligavision",
           "requires_dists": [
             "Pillow",
-            "liga==0.2.0.dev11",
+            "liga<0.3.0,>=0.2.0",
             "ligavision-dsl==0.2.0.dev4",
             "pyspark==3.2.1"
           ],
           "requires_python": "<3.10,>=3.8",
-          "version": "0.2.dev2"
+          "version": "0.2.dev3"
         },
         {
           "artifacts": [
@@ -6519,23 +6518,23 @@
           "artifacts": [
             {
               "algorithm": "sha256",
-              "hash": "6f590d76b713d5de4e49fe4fbca24474469f53c83632d5d0fd056f7ff7e8112b",
-              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/c2/8b/abb577ca6ab2c71814d535b1ed1464c5f4aaefe1a31bbeb85013eb9b2401/setuptools-66.1.1-py3-none-any.whl"
+              "hash": "9d790961ba6219e9ff7d9557622d2fe136816a264dd01d5997cfc057d804853d",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/bf/27/969c914650fdf0d08b0b92bdbddfc08bea9df6d86aeefd75ba4730f50bc9/setuptools-67.0.0-py3-none-any.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "ac4008d396bc9cd983ea483cb7139c0240a07bbc74ffb6232fceffedc6cf03a8",
-              "url": "https://files.pythonhosted.org/packages/3c/7b/00030a938499c8f8345be02ab5b7d748d359ea59c2f020b7b0a21b82f832/setuptools-66.1.1.tar.gz"
+              "hash": "9d790961ba6219e9ff7d9557622d2fe136816a264dd01d5997cfc057d804853d",
+              "url": "https://files.pythonhosted.org/packages/bf/27/969c914650fdf0d08b0b92bdbddfc08bea9df6d86aeefd75ba4730f50bc9/setuptools-67.0.0-py3-none-any.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "6f590d76b713d5de4e49fe4fbca24474469f53c83632d5d0fd056f7ff7e8112b",
-              "url": "https://files.pythonhosted.org/packages/c2/8b/abb577ca6ab2c71814d535b1ed1464c5f4aaefe1a31bbeb85013eb9b2401/setuptools-66.1.1-py3-none-any.whl"
+              "hash": "883131c5b6efa70b9101c7ef30b2b7b780a4283d5fc1616383cdf22c83cbefe6",
+              "url": "https://files.pythonhosted.org/packages/fe/db/68d856066c59bd9f05e827c3cf80164d870b8b6af37dc5ad6c87a71d20f2/setuptools-67.0.0.tar.gz"
             },
             {
               "algorithm": "sha256",
-              "hash": "ac4008d396bc9cd983ea483cb7139c0240a07bbc74ffb6232fceffedc6cf03a8",
-              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/3c/7b/00030a938499c8f8345be02ab5b7d748d359ea59c2f020b7b0a21b82f832/setuptools-66.1.1.tar.gz"
+              "hash": "883131c5b6efa70b9101c7ef30b2b7b780a4283d5fc1616383cdf22c83cbefe6",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/fe/db/68d856066c59bd9f05e827c3cf80164d870b8b6af37dc5ad6c87a71d20f2/setuptools-67.0.0.tar.gz"
             }
           ],
           "project_name": "setuptools",
@@ -6587,7 +6586,7 @@
             "wheel; extra == \"testing-integration\""
           ],
           "requires_python": ">=3.7",
-          "version": "66.1.1"
+          "version": "67"
         },
         {
           "artifacts": [
@@ -6707,179 +6706,130 @@
           "artifacts": [
             {
               "algorithm": "sha256",
-              "hash": "192210daec1062e93fcc732de0c602c4b58097257c56874baa6e491849e82ceb",
-              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/00/c9/4fab29c5efaf72df0ad9b46f783197f35b66ddaad62db26c69befb504830/SQLAlchemy-2.0.0-py3-none-any.whl"
+              "hash": "b6e4cb5c63f705c9d546a054c60d326cbde7421421e2d2565ce3e2eee4e1a01f",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/73/3e/b82293fc17612488ff068c5235e743ebfe05310301984ca0467f88237572/SQLAlchemy-1.4.46-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "192210daec1062e93fcc732de0c602c4b58097257c56874baa6e491849e82ceb",
-              "url": "https://files.pythonhosted.org/packages/00/c9/4fab29c5efaf72df0ad9b46f783197f35b66ddaad62db26c69befb504830/SQLAlchemy-2.0.0-py3-none-any.whl"
+              "hash": "a3714e5b33226131ac0da60d18995a102a17dddd42368b7bdd206737297823ad",
+              "url": "https://files.pythonhosted.org/packages/38/28/621616b6d80cead1efd6a50913a83bb263caed2c532e0084f7ff09c80b3d/SQLAlchemy-1.4.46-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "0fb3b58ba21898b94255e86da5e3bfc15cf99e039babcaccaa2ce10b6322929e",
-              "url": "https://files.pythonhosted.org/packages/11/23/de68f34b73efa197b0e7a943aa93f2a6504a0492a72ac6dc699dc984d1d3/SQLAlchemy-2.0.0-cp39-cp39-macosx_10_9_x86_64.whl"
+              "hash": "955162ad1a931fe416eded6bb144ba891ccbf9b2e49dc7ded39274dd9c5affc5",
+              "url": "https://files.pythonhosted.org/packages/6c/d9/b1718d3a189d34fc018ace5caeb965370b509f760e7b661b12f2238a21ca/SQLAlchemy-1.4.46-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "1b17bc162c317973d87613eac869cc50c1fef7a8b9d657b7d7f764ab5d9fee72",
-              "url": "https://files.pythonhosted.org/packages/18/09/64ef2927615654cd98b05315a443f516f851342afeac5ae817cfb3c0920a/SQLAlchemy-2.0.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+              "hash": "b6e4cb5c63f705c9d546a054c60d326cbde7421421e2d2565ce3e2eee4e1a01f",
+              "url": "https://files.pythonhosted.org/packages/73/3e/b82293fc17612488ff068c5235e743ebfe05310301984ca0467f88237572/SQLAlchemy-1.4.46-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "2dc81c03d4bccc82c81e4e21da5cea2071eca2fcddb248b462b151911c4b47b8",
-              "url": "https://files.pythonhosted.org/packages/1d/1d/f0adb3dc2bf734b966e212bda7ccbe521df1b9c320c97ba03b9c514182bb/SQLAlchemy-2.0.0-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
+              "hash": "d4d164df3d83d204c69f840da30b292ac7dc54285096c6171245b8d7807185aa",
+              "url": "https://files.pythonhosted.org/packages/a4/b8/2f83a1f8bef7208b8a3d342399c4fe39cc924f73dcaa325a44fcc86df927/SQLAlchemy-1.4.46-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "c6e4a17bbcb882fcff597d6ffdf113144383ea346bcae97079b96faaf7d460fb",
-              "url": "https://files.pythonhosted.org/packages/22/37/81a9e5be2aabcf7eeb63634d2afa14339e9abf4edcaee927d33bc372c377/SQLAlchemy-2.0.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+              "hash": "1b1e5e96e2789d89f023d080bee432e2fef64d95857969e70d3cadec80bd26f0",
+              "url": "https://files.pythonhosted.org/packages/a6/81/6ffe04515b539f001168b3d63ff5305fdc2db90696d18ba1be7ab340cde2/SQLAlchemy-1.4.46-cp39-cp39-macosx_11_0_x86_64.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "05923707b416b7034c0b14e59e14614cb1432647188ba46bcfd911998cdea48d",
-              "url": "https://files.pythonhosted.org/packages/29/9c/cbe31b50fe0a21c32d182d1e2ddeb7787a1dbb9693aac6062dd915107ebe/SQLAlchemy-2.0.0-cp38-cp38-macosx_11_0_arm64.whl"
+              "hash": "6913b8247d8a292ef8315162a51931e2b40ce91681f1b6f18f697045200c4a30",
+              "url": "https://files.pythonhosted.org/packages/af/ae/8d8e67f2691f0fdb845df90013d68c12a9127e009b4dedc34a3228f4e5ad/SQLAlchemy-1.4.46.tar.gz"
             },
             {
               "algorithm": "sha256",
-              "hash": "7809546951b4a5ad1f0b5d5c87b42218af8c0574f50e89d141dfff531c069389",
-              "url": "https://files.pythonhosted.org/packages/52/e4/75f3dec7bcadd23f095b02de99bd4ea3798ac1153ac4a5f05681abf0349c/SQLAlchemy-2.0.0-cp39-cp39-musllinux_1_1_aarch64.whl"
+              "hash": "b33ffbdbbf5446cf36cd4cc530c9d9905d3c2fe56ed09e25c22c850cdb9fac92",
+              "url": "https://files.pythonhosted.org/packages/b3/c0/a4fc7abdddbffe8e2f1c5300fa7f89c0a514f7944885d424d547ad607c37/SQLAlchemy-1.4.46-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "92388d03220eda6d744277a4d2cbcbb557509c7f7582215f61f8a04ec264be59",
-              "url": "https://files.pythonhosted.org/packages/54/55/a475df74f583b4ceeefd5a121fd28045af54efe204863de1e3b154385674/SQLAlchemy-2.0.0.tar.gz"
+              "hash": "e3c1808008124850115a3f7e793a975cfa5c8a26ceeeb9ff9cbb4485cac556df",
+              "url": "https://files.pythonhosted.org/packages/d1/df/84451523051fc2c56f01c653052a962e15670a26ae84aeeaf881e3c64d83/SQLAlchemy-1.4.46-cp38-cp38-macosx_10_15_x86_64.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "54fa0308430ea13239557b6b38a41988ab9d0356420879b2e8b976f58c8b8229",
-              "url": "https://files.pythonhosted.org/packages/5b/38/d6887548d1d2626cc756430bacb4016249442bdd4898d1f181f7e2fef35f/SQLAlchemy-2.0.0-cp38-cp38-musllinux_1_1_aarch64.whl"
+              "hash": "3d94682732d1a0def5672471ba42a29ff5e21bb0aae0afa00bb10796fc1e28dd",
+              "url": "https://files.pythonhosted.org/packages/e6/63/6955303508cfcf1c69428071eaf33eebcda1d6ed2fdade92617355053815/SQLAlchemy-1.4.46-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "6c75b77de2fd99bd19a609c00e870325574000c441f7bdb0cd33d15961ed93bc",
-              "url": "https://files.pythonhosted.org/packages/73/51/d86ad02768ee26932ab6017d93f273b05c158dbde6b1ce2c21fb1ff54cbd/SQLAlchemy-2.0.0-cp38-cp38-musllinux_1_1_x86_64.whl"
+              "hash": "a3714e5b33226131ac0da60d18995a102a17dddd42368b7bdd206737297823ad",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/38/28/621616b6d80cead1efd6a50913a83bb263caed2c532e0084f7ff09c80b3d/SQLAlchemy-1.4.46-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "77666361fdd70868a414762d0eead141183caf1e0cb6735484c0cad6d41ac869",
-              "url": "https://files.pythonhosted.org/packages/74/55/2c1dfa43c7e421ed8cbcd3ded244ae42c9bfd33b0f806218f36d1df0ff4d/SQLAlchemy-2.0.0-cp39-cp39-macosx_11_0_arm64.whl"
+              "hash": "955162ad1a931fe416eded6bb144ba891ccbf9b2e49dc7ded39274dd9c5affc5",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/6c/d9/b1718d3a189d34fc018ace5caeb965370b509f760e7b661b12f2238a21ca/SQLAlchemy-1.4.46-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "7c6934dfa9ab53853b1d31723ea2b8ea494de73ad3f36ea42f5859b74cb3afc3",
-              "url": "https://files.pythonhosted.org/packages/8f/e9/6822c15d63ce8ede75e9ff6b1254f7fbfab5fa644daed24d7b2ca4089310/SQLAlchemy-2.0.0-cp38-cp38-macosx_10_9_x86_64.whl"
+              "hash": "d4d164df3d83d204c69f840da30b292ac7dc54285096c6171245b8d7807185aa",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/a4/b8/2f83a1f8bef7208b8a3d342399c4fe39cc924f73dcaa325a44fcc86df927/SQLAlchemy-1.4.46-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "606f55614af6777261e54cb5d541a5c555539c5abc5e0b40d299c9a3bd06fae5",
-              "url": "https://files.pythonhosted.org/packages/92/ea/808db76eb040e558a5b000143214a21fc5f3a09e8e03453cfe9b1b3b19cf/SQLAlchemy-2.0.0-cp39-cp39-musllinux_1_1_x86_64.whl"
+              "hash": "1b1e5e96e2789d89f023d080bee432e2fef64d95857969e70d3cadec80bd26f0",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/a6/81/6ffe04515b539f001168b3d63ff5305fdc2db90696d18ba1be7ab340cde2/SQLAlchemy-1.4.46-cp39-cp39-macosx_11_0_x86_64.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "33a05cc9533a580f94a69852c8dea26d7dec0bc8182bb8d68180a5103c0b0add",
-              "url": "https://files.pythonhosted.org/packages/ae/73/4b76cacc21143ec3678747d2738d073bfd4ec4d399081fead8fa888c4dcd/SQLAlchemy-2.0.0-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
+              "hash": "6913b8247d8a292ef8315162a51931e2b40ce91681f1b6f18f697045200c4a30",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/af/ae/8d8e67f2691f0fdb845df90013d68c12a9127e009b4dedc34a3228f4e5ad/SQLAlchemy-1.4.46.tar.gz"
             },
             {
               "algorithm": "sha256",
-              "hash": "0fb3b58ba21898b94255e86da5e3bfc15cf99e039babcaccaa2ce10b6322929e",
-              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/11/23/de68f34b73efa197b0e7a943aa93f2a6504a0492a72ac6dc699dc984d1d3/SQLAlchemy-2.0.0-cp39-cp39-macosx_10_9_x86_64.whl"
+              "hash": "b33ffbdbbf5446cf36cd4cc530c9d9905d3c2fe56ed09e25c22c850cdb9fac92",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/b3/c0/a4fc7abdddbffe8e2f1c5300fa7f89c0a514f7944885d424d547ad607c37/SQLAlchemy-1.4.46-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "1b17bc162c317973d87613eac869cc50c1fef7a8b9d657b7d7f764ab5d9fee72",
-              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/18/09/64ef2927615654cd98b05315a443f516f851342afeac5ae817cfb3c0920a/SQLAlchemy-2.0.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+              "hash": "e3c1808008124850115a3f7e793a975cfa5c8a26ceeeb9ff9cbb4485cac556df",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/d1/df/84451523051fc2c56f01c653052a962e15670a26ae84aeeaf881e3c64d83/SQLAlchemy-1.4.46-cp38-cp38-macosx_10_15_x86_64.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "2dc81c03d4bccc82c81e4e21da5cea2071eca2fcddb248b462b151911c4b47b8",
-              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/1d/1d/f0adb3dc2bf734b966e212bda7ccbe521df1b9c320c97ba03b9c514182bb/SQLAlchemy-2.0.0-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
-            },
-            {
-              "algorithm": "sha256",
-              "hash": "c6e4a17bbcb882fcff597d6ffdf113144383ea346bcae97079b96faaf7d460fb",
-              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/22/37/81a9e5be2aabcf7eeb63634d2afa14339e9abf4edcaee927d33bc372c377/SQLAlchemy-2.0.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
-            },
-            {
-              "algorithm": "sha256",
-              "hash": "05923707b416b7034c0b14e59e14614cb1432647188ba46bcfd911998cdea48d",
-              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/29/9c/cbe31b50fe0a21c32d182d1e2ddeb7787a1dbb9693aac6062dd915107ebe/SQLAlchemy-2.0.0-cp38-cp38-macosx_11_0_arm64.whl"
-            },
-            {
-              "algorithm": "sha256",
-              "hash": "7809546951b4a5ad1f0b5d5c87b42218af8c0574f50e89d141dfff531c069389",
-              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/52/e4/75f3dec7bcadd23f095b02de99bd4ea3798ac1153ac4a5f05681abf0349c/SQLAlchemy-2.0.0-cp39-cp39-musllinux_1_1_aarch64.whl"
-            },
-            {
-              "algorithm": "sha256",
-              "hash": "92388d03220eda6d744277a4d2cbcbb557509c7f7582215f61f8a04ec264be59",
-              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/54/55/a475df74f583b4ceeefd5a121fd28045af54efe204863de1e3b154385674/SQLAlchemy-2.0.0.tar.gz"
-            },
-            {
-              "algorithm": "sha256",
-              "hash": "54fa0308430ea13239557b6b38a41988ab9d0356420879b2e8b976f58c8b8229",
-              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/5b/38/d6887548d1d2626cc756430bacb4016249442bdd4898d1f181f7e2fef35f/SQLAlchemy-2.0.0-cp38-cp38-musllinux_1_1_aarch64.whl"
-            },
-            {
-              "algorithm": "sha256",
-              "hash": "6c75b77de2fd99bd19a609c00e870325574000c441f7bdb0cd33d15961ed93bc",
-              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/73/51/d86ad02768ee26932ab6017d93f273b05c158dbde6b1ce2c21fb1ff54cbd/SQLAlchemy-2.0.0-cp38-cp38-musllinux_1_1_x86_64.whl"
-            },
-            {
-              "algorithm": "sha256",
-              "hash": "77666361fdd70868a414762d0eead141183caf1e0cb6735484c0cad6d41ac869",
-              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/74/55/2c1dfa43c7e421ed8cbcd3ded244ae42c9bfd33b0f806218f36d1df0ff4d/SQLAlchemy-2.0.0-cp39-cp39-macosx_11_0_arm64.whl"
-            },
-            {
-              "algorithm": "sha256",
-              "hash": "7c6934dfa9ab53853b1d31723ea2b8ea494de73ad3f36ea42f5859b74cb3afc3",
-              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/8f/e9/6822c15d63ce8ede75e9ff6b1254f7fbfab5fa644daed24d7b2ca4089310/SQLAlchemy-2.0.0-cp38-cp38-macosx_10_9_x86_64.whl"
-            },
-            {
-              "algorithm": "sha256",
-              "hash": "606f55614af6777261e54cb5d541a5c555539c5abc5e0b40d299c9a3bd06fae5",
-              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/92/ea/808db76eb040e558a5b000143214a21fc5f3a09e8e03453cfe9b1b3b19cf/SQLAlchemy-2.0.0-cp39-cp39-musllinux_1_1_x86_64.whl"
-            },
-            {
-              "algorithm": "sha256",
-              "hash": "33a05cc9533a580f94a69852c8dea26d7dec0bc8182bb8d68180a5103c0b0add",
-              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/ae/73/4b76cacc21143ec3678747d2738d073bfd4ec4d399081fead8fa888c4dcd/SQLAlchemy-2.0.0-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
+              "hash": "3d94682732d1a0def5672471ba42a29ff5e21bb0aae0afa00bb10796fc1e28dd",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/e6/63/6955303508cfcf1c69428071eaf33eebcda1d6ed2fdade92617355053815/SQLAlchemy-1.4.46-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
             }
           ],
           "project_name": "sqlalchemy",
           "requires_dists": [
-            "aiomysql; extra == \"aiomysql\"",
-            "aiosqlite; extra == \"aiosqlite\"",
-            "asyncmy!=0.2.4,>=0.2.3; extra == \"asyncmy\"",
-            "asyncpg; extra == \"postgresql_asyncpg\"",
-            "cx-oracle>=7; extra == \"oracle\"",
-            "greenlet!=0.4.17; extra == \"aiomysql\"",
-            "greenlet!=0.4.17; extra == \"aiosqlite\"",
-            "greenlet!=0.4.17; extra == \"asyncio\"",
-            "greenlet!=0.4.17; extra == \"asyncmy\"",
-            "greenlet!=0.4.17; extra == \"postgresql_asyncpg\"",
-            "greenlet!=0.4.17; platform_machine == \"aarch64\" or (platform_machine == \"ppc64le\" or (platform_machine == \"x86_64\" or (platform_machine == \"amd64\" or (platform_machine == \"AMD64\" or (platform_machine == \"win32\" or platform_machine == \"WIN32\")))))",
+            "aiomysql; python_version >= \"3\" and extra == \"aiomysql\"",
+            "aiosqlite; python_version >= \"3\" and extra == \"aiosqlite\"",
+            "asyncmy!=0.2.4,>=0.2.3; python_version >= \"3\" and extra == \"asyncmy\"",
+            "asyncpg; python_version >= \"3\" and extra == \"postgresql_asyncpg\"",
+            "cx-oracle<8,>=7; python_version < \"3\" and extra == \"oracle\"",
+            "cx-oracle>=7; python_version >= \"3\" and extra == \"oracle\"",
+            "greenlet!=0.4.17; python_version >= \"3\" and (platform_machine == \"aarch64\" or (platform_machine == \"ppc64le\" or (platform_machine == \"x86_64\" or (platform_machine == \"amd64\" or (platform_machine == \"AMD64\" or (platform_machine == \"win32\" or platform_machine == \"WIN32\"))))))",
+            "greenlet!=0.4.17; python_version >= \"3\" and extra == \"aiomysql\"",
+            "greenlet!=0.4.17; python_version >= \"3\" and extra == \"aiosqlite\"",
+            "greenlet!=0.4.17; python_version >= \"3\" and extra == \"asyncio\"",
+            "greenlet!=0.4.17; python_version >= \"3\" and extra == \"asyncmy\"",
+            "greenlet!=0.4.17; python_version >= \"3\" and extra == \"postgresql_asyncpg\"",
             "importlib-metadata; python_version < \"3.8\"",
-            "mariadb!=1.1.2,!=1.1.5,>=1.0.1; extra == \"mariadb_connector\"",
-            "mypy>=0.910; extra == \"mypy\"",
+            "mariadb!=1.1.2,>=1.0.1; python_version >= \"3\" and extra == \"mariadb_connector\"",
+            "mypy>=0.910; python_version >= \"3\" and extra == \"mypy\"",
             "mysql-connector-python; extra == \"mysql_connector\"",
-            "mysqlclient>=1.4.0; extra == \"mysql\"",
-            "oracledb>=1.0.1; extra == \"oracle_oracledb\"",
-            "pg8000>=1.29.1; extra == \"postgresql_pg8000\"",
+            "mysqlclient<2,>=1.4.0; python_version < \"3\" and extra == \"mysql\"",
+            "mysqlclient>=1.4.0; python_version >= \"3\" and extra == \"mysql\"",
+            "pg8000!=1.29.0,>=1.16.6; extra == \"postgresql_pg8000\"",
             "psycopg2-binary; extra == \"postgresql_psycopg2binary\"",
             "psycopg2>=2.7; extra == \"postgresql\"",
             "psycopg2cffi; extra == \"postgresql_psycopg2cffi\"",
-            "psycopg>=3.0.7; extra == \"postgresql_psycopg\"",
             "pymssql; extra == \"mssql_pymssql\"",
-            "pymysql; extra == \"pymysql\"",
+            "pymysql; python_version >= \"3\" and extra == \"pymysql\"",
+            "pymysql<1; python_version < \"3\" and extra == \"pymysql\"",
             "pyodbc; extra == \"mssql\"",
             "pyodbc; extra == \"mssql_pyodbc\"",
-            "sqlcipher3-binary; extra == \"sqlcipher\"",
-            "typing-extensions!=3.10.0.1; extra == \"aiosqlite\"",
-            "typing-extensions>=4.2.0"
+            "sqlalchemy2-stubs; extra == \"mypy\"",
+            "sqlcipher3-binary; python_version >= \"3\" and extra == \"sqlcipher\"",
+            "typing-extensions!=3.10.0.1; extra == \"aiosqlite\""
           ],
-          "requires_python": ">=3.7",
-          "version": "2"
+          "requires_python": "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,!=3.5.*,>=2.7",
+          "version": "1.4.46"
         },
         {
           "artifacts": [
@@ -7998,9 +7948,8 @@
   "prefer_older_binary": false,
   "requirements": [
     "jupyterlab",
-    "liga",
-    "liga-mlflow==0.2.0.dev11",
-    "ligavision==0.2.0.dev2",
+    "liga-mlflow==0.2.0",
+    "ligavision==0.2.0.dev3",
     "mlflow==1.26.1",
     "torch<1.13.0,>=1.8.1",
     "torchvision"

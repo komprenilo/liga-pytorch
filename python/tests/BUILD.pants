@@ -19,7 +19,7 @@ python_tests(name = "liga",
 python_requirement(
     name="liga-mlflow",
     requirements=[
-        "liga-mlflow==0.2.0.dev11",
+        "liga-mlflow==0.2.0",
         "mlflow==1.26.1",
     ],
     resolve="lab",

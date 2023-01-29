@@ -9,8 +9,7 @@
 //     "CPython<3.10,>=3.8"
 //   ],
 //   "generated_with_requirements": [
-//     "liga",
-//     "ligavision==0.2.0.dev2",
+//     "ligavision==0.2.0.dev3",
 //     "torch<1.13.0,>=1.8.1",
 //     "torchvision"
 //   ],
@@ -984,13 +983,23 @@
           "artifacts": [
             {
               "algorithm": "sha256",
-              "hash": "96c7d96fedf523512bad8b57d2afa68b298d90fe59147f155efedf42eadb5a79",
-              "url": "https://files.pythonhosted.org/packages/aa/be/b886731f632bae5e7979b9a8d2f81bf8e4a069371ecdedda325389b3dbaf/liga-0.2.0.dev11-py3-none-any.whl"
+              "hash": "6890de20d05d5446fd57ca4cbbb6d645a00df46873b116f6f4dc4609042ac8f4",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/57/41/3f16e13d867e24bc68cb4e733dcf99cbee7c888c6b42d4283b0f484257fe/liga-0.2.0-py3-none-any.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "a6ba6462e2f0872283d128362d1273220759ce58737d74998cab1b5003c94cc7",
-              "url": "https://files.pythonhosted.org/packages/f8/8a/564e5f91e285f18df9f1ed705905307c01169cd625ce2088591bb68c5c73/liga-0.2.0.dev11.tar.gz"
+              "hash": "a1b4f98af55df3f1392265aa16c29b743794ebcbf88c3e5840780f3c9855f687",
+              "url": "https://files.pythonhosted.org/packages/2e/4c/cb9e28ef47f7f1626ebf2199b4707aca8bd3a4679e3eccb08e1092cdbdb8/liga-0.2.0.tar.gz"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "6890de20d05d5446fd57ca4cbbb6d645a00df46873b116f6f4dc4609042ac8f4",
+              "url": "https://files.pythonhosted.org/packages/57/41/3f16e13d867e24bc68cb4e733dcf99cbee7c888c6b42d4283b0f484257fe/liga-0.2.0-py3-none-any.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "a1b4f98af55df3f1392265aa16c29b743794ebcbf88c3e5840780f3c9855f687",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/2e/4c/cb9e28ef47f7f1626ebf2199b4707aca8bd3a4679e3eccb08e1092cdbdb8/liga-0.2.0.tar.gz"
             }
           ],
           "project_name": "liga",
@@ -1007,30 +1016,40 @@
             "requests"
           ],
           "requires_python": "<3.10,>=3.8",
-          "version": "0.2.dev11"
+          "version": "0.2"
         },
         {
           "artifacts": [
             {
               "algorithm": "sha256",
-              "hash": "1e65883ea8bc64e481a499c918993acafcaa89591ce03a60afbaf6d7af69025e",
-              "url": "https://files.pythonhosted.org/packages/0f/e1/0d9b0bcfc00e64b9b81f4e06cea2f939add11856e23fda31246af264e8eb/ligavision-0.2.0.dev2-py3-none-any.whl"
+              "hash": "91a7cbcdea52d39d0669a8d0125bf8bc3b869c1b9165aaeb1327b7ced2fb1ffc",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/71/0c/ab04dfecefad1fd6cea24a2b56e102e6ca4cc2422388d92c1f299e295ae8/ligavision-0.2.0.dev3-py3-none-any.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "c1793d4d5d34eb6804cf42e614269ddcc3cb163ecc843011c8923941a9006928",
-              "url": "https://files.pythonhosted.org/packages/2d/d7/75976c9c7f72c60b5b021407bdcdcf9b1b3bfdb4f47edc5153210895d866/ligavision-0.2.0.dev2.tar.gz"
+              "hash": "91a7cbcdea52d39d0669a8d0125bf8bc3b869c1b9165aaeb1327b7ced2fb1ffc",
+              "url": "https://files.pythonhosted.org/packages/71/0c/ab04dfecefad1fd6cea24a2b56e102e6ca4cc2422388d92c1f299e295ae8/ligavision-0.2.0.dev3-py3-none-any.whl"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "3fa37eade4582bbc1ec59429db6cc4aad590b537cc95cc1f1e4307b877778328",
+              "url": "https://files.pythonhosted.org/packages/96/45/0f9e92f8051ae97612acc596e749ef90af239bec752a05024c9c4a45ba23/ligavision-0.2.0.dev3.tar.gz"
+            },
+            {
+              "algorithm": "sha256",
+              "hash": "3fa37eade4582bbc1ec59429db6cc4aad590b537cc95cc1f1e4307b877778328",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/96/45/0f9e92f8051ae97612acc596e749ef90af239bec752a05024c9c4a45ba23/ligavision-0.2.0.dev3.tar.gz"
             }
           ],
           "project_name": "ligavision",
           "requires_dists": [
             "Pillow",
-            "liga==0.2.0.dev11",
+            "liga<0.3.0,>=0.2.0",
             "ligavision-dsl==0.2.0.dev4",
             "pyspark==3.2.1"
           ],
           "requires_python": "<3.10,>=3.8",
-          "version": "0.2.dev2"
+          "version": "0.2.dev3"
         },
         {
           "artifacts": [
@@ -2026,93 +2045,93 @@
           "artifacts": [
             {
               "algorithm": "sha256",
-              "hash": "db0c5986bf0808927f49640582d2032a07aa49828f14e51f362075f03747d198",
-              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/b2/d2/77f002c442ed75f0cd19b744e34894544d25fc34bbdc8efeb33bd52d8de0/pyarrow-10.0.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+              "hash": "da93340fbf6f4e2a62815064383605b7ffa3e9eeb320ec839995b1660d69f89b",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/cd/8d/a7068195f2668fecbd31b144efe32f48953b876396cceb01c1cd2a0cefbc/pyarrow-11.0.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "1a14f57a5f472ce8234f2964cd5184cccaa8df7e04568c64edc33b23eb285dd5",
-              "url": "https://files.pythonhosted.org/packages/11/71/dd884e86aa92b2d602ee2064a485106ce5b447f8cae644f1a6f6a2e72016/pyarrow-10.0.1.tar.gz"
+              "hash": "f12932e5a6feb5c58192209af1d2607d488cb1d404fbc038ac12ada60327fa34",
+              "url": "https://files.pythonhosted.org/packages/01/a3/471746d52e4be2ef6d9bb040b68983955f32d04b6c8a7b3b442407cebd7d/pyarrow-11.0.0-cp38-cp38-macosx_10_14_x86_64.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "f2d00aa481becf57098e85d99e34a25dba5a9ade2f44eb0b7d80c80f2984fc03",
-              "url": "https://files.pythonhosted.org/packages/61/a7/c6b4ce8fefda1a89083dc25bbd8da0200194779640e146b18abe742551d7/pyarrow-10.0.1-cp38-cp38-macosx_10_14_x86_64.whl"
+              "hash": "3e99be85973592051e46412accea31828da324531a060bd4585046a74ba45854",
+              "url": "https://files.pythonhosted.org/packages/26/48/ed94e31a54359a5c6ce9cb2e1db03ac8255576dcb8692ffb048323e10f1a/pyarrow-11.0.0-cp39-cp39-macosx_11_0_arm64.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "efa59933b20183c1c13efc34bd91efc6b2997377c4c6ad9272da92d224e3beb1",
-              "url": "https://files.pythonhosted.org/packages/6a/d3/cdaa61af13c323d33d2950126ecab641524174d71474a2b8450ab6f15ef6/pyarrow-10.0.1-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
+              "hash": "5461c57dbdb211a632a48facb9b39bbeb8a7905ec95d768078525283caef5f6d",
+              "url": "https://files.pythonhosted.org/packages/2c/e7/49cc11436f92a6a9001e4002fb8e5cd6733fc15a89a354cbc22b206a8171/pyarrow-11.0.0.tar.gz"
             },
             {
               "algorithm": "sha256",
-              "hash": "b1fc226d28c7783b52a84d03a66573d5a22e63f8a24b841d5fc68caeed6784d4",
-              "url": "https://files.pythonhosted.org/packages/85/37/c66886e2b479018d1a5ed11c77913325f5482f60e5217c2f4182b15a5d25/pyarrow-10.0.1-cp38-cp38-macosx_11_0_arm64.whl"
+              "hash": "8f40be0d7381112a398b93c45a7e69f60261e7b0269cc324e9f739ce272f4f70",
+              "url": "https://files.pythonhosted.org/packages/5d/91/708bcf6e636fc4f1a07bdb704c0a320bafe9b83919cd501648307b31f555/pyarrow-11.0.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "668e00e3b19f183394388a687d29c443eb000fb3fe25599c9b4762a0afd37775",
-              "url": "https://files.pythonhosted.org/packages/89/b4/04ae9d39130d0dc40803eb6fbe84873c247f9c8e8111ac9b2cb30c35b515/pyarrow-10.0.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+              "hash": "69309be84dcc36422574d19c7d3a30a7ea43804f12552356d1ab2a82a713c418",
+              "url": "https://files.pythonhosted.org/packages/5e/f5/4e98a339db32e72e75c081552a2191330e78f11d1e443ab4384cca315615/pyarrow-11.0.0-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "94fb4a0c12a2ac1ed8e7e2aa52aade833772cf2d3de9dde685401b22cec30002",
-              "url": "https://files.pythonhosted.org/packages/a4/48/19c8b4892d2d574dfbefa7065600aa4d7d8e8b864f7be5f58105c3fc0448/pyarrow-10.0.1-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
+              "hash": "becc2344be80e5dce4e1b80b7c650d2fc2061b9eb339045035a1baa34d5b8f1c",
+              "url": "https://files.pythonhosted.org/packages/6f/c5/ed05347b64c05d91d6456ad6c3c21d9e17c75d73727b92fd88078a3d9501/pyarrow-11.0.0-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "db0c5986bf0808927f49640582d2032a07aa49828f14e51f362075f03747d198",
-              "url": "https://files.pythonhosted.org/packages/b2/d2/77f002c442ed75f0cd19b744e34894544d25fc34bbdc8efeb33bd52d8de0/pyarrow-10.0.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+              "hash": "ccbf29a0dadfcdd97632b4f7cca20a966bb552853ba254e874c66934931b9841",
+              "url": "https://files.pythonhosted.org/packages/a8/38/5938d00a75068827626d18d0681967d07dd98b653099423b11272dbdca2d/pyarrow-11.0.0-cp39-cp39-macosx_10_14_x86_64.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "b069602eb1fc09f1adec0a7bdd7897f4d25575611dfa43543c8b8a75d99d6874",
-              "url": "https://files.pythonhosted.org/packages/b6/14/208f66e1c2f213ffc053e3d37b10ba41d0580654501dcd620ad5d32d056e/pyarrow-10.0.1-cp39-cp39-macosx_11_0_arm64.whl"
+              "hash": "41a1451dd895c0b2964b83d91019e46f15b5564c7ecd5dcb812dadd3f05acc97",
+              "url": "https://files.pythonhosted.org/packages/c2/49/b7f58a23bd2bce32ba021e35c760fcf5785a4676170b4c1b997bc91044f6/pyarrow-11.0.0-cp38-cp38-macosx_11_0_arm64.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "42ba7c5347ce665338f2bc64685d74855900200dac81a972d49fe127e8132f75",
-              "url": "https://files.pythonhosted.org/packages/b9/46/0050ff96706f27b766497d63ad60f8bace6a4e61565594bd8079b33e81af/pyarrow-10.0.1-cp39-cp39-macosx_10_14_x86_64.whl"
+              "hash": "da93340fbf6f4e2a62815064383605b7ffa3e9eeb320ec839995b1660d69f89b",
+              "url": "https://files.pythonhosted.org/packages/cd/8d/a7068195f2668fecbd31b144efe32f48953b876396cceb01c1cd2a0cefbc/pyarrow-11.0.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "1a14f57a5f472ce8234f2964cd5184cccaa8df7e04568c64edc33b23eb285dd5",
-              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/11/71/dd884e86aa92b2d602ee2064a485106ce5b447f8cae644f1a6f6a2e72016/pyarrow-10.0.1.tar.gz"
+              "hash": "f12932e5a6feb5c58192209af1d2607d488cb1d404fbc038ac12ada60327fa34",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/01/a3/471746d52e4be2ef6d9bb040b68983955f32d04b6c8a7b3b442407cebd7d/pyarrow-11.0.0-cp38-cp38-macosx_10_14_x86_64.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "f2d00aa481becf57098e85d99e34a25dba5a9ade2f44eb0b7d80c80f2984fc03",
-              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/61/a7/c6b4ce8fefda1a89083dc25bbd8da0200194779640e146b18abe742551d7/pyarrow-10.0.1-cp38-cp38-macosx_10_14_x86_64.whl"
+              "hash": "3e99be85973592051e46412accea31828da324531a060bd4585046a74ba45854",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/26/48/ed94e31a54359a5c6ce9cb2e1db03ac8255576dcb8692ffb048323e10f1a/pyarrow-11.0.0-cp39-cp39-macosx_11_0_arm64.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "efa59933b20183c1c13efc34bd91efc6b2997377c4c6ad9272da92d224e3beb1",
-              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/6a/d3/cdaa61af13c323d33d2950126ecab641524174d71474a2b8450ab6f15ef6/pyarrow-10.0.1-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
+              "hash": "5461c57dbdb211a632a48facb9b39bbeb8a7905ec95d768078525283caef5f6d",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/2c/e7/49cc11436f92a6a9001e4002fb8e5cd6733fc15a89a354cbc22b206a8171/pyarrow-11.0.0.tar.gz"
             },
             {
               "algorithm": "sha256",
-              "hash": "b1fc226d28c7783b52a84d03a66573d5a22e63f8a24b841d5fc68caeed6784d4",
-              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/85/37/c66886e2b479018d1a5ed11c77913325f5482f60e5217c2f4182b15a5d25/pyarrow-10.0.1-cp38-cp38-macosx_11_0_arm64.whl"
+              "hash": "8f40be0d7381112a398b93c45a7e69f60261e7b0269cc324e9f739ce272f4f70",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/5d/91/708bcf6e636fc4f1a07bdb704c0a320bafe9b83919cd501648307b31f555/pyarrow-11.0.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "668e00e3b19f183394388a687d29c443eb000fb3fe25599c9b4762a0afd37775",
-              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/89/b4/04ae9d39130d0dc40803eb6fbe84873c247f9c8e8111ac9b2cb30c35b515/pyarrow-10.0.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+              "hash": "69309be84dcc36422574d19c7d3a30a7ea43804f12552356d1ab2a82a713c418",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/5e/f5/4e98a339db32e72e75c081552a2191330e78f11d1e443ab4384cca315615/pyarrow-11.0.0-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "94fb4a0c12a2ac1ed8e7e2aa52aade833772cf2d3de9dde685401b22cec30002",
-              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/a4/48/19c8b4892d2d574dfbefa7065600aa4d7d8e8b864f7be5f58105c3fc0448/pyarrow-10.0.1-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
+              "hash": "becc2344be80e5dce4e1b80b7c650d2fc2061b9eb339045035a1baa34d5b8f1c",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/6f/c5/ed05347b64c05d91d6456ad6c3c21d9e17c75d73727b92fd88078a3d9501/pyarrow-11.0.0-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "b069602eb1fc09f1adec0a7bdd7897f4d25575611dfa43543c8b8a75d99d6874",
-              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/b6/14/208f66e1c2f213ffc053e3d37b10ba41d0580654501dcd620ad5d32d056e/pyarrow-10.0.1-cp39-cp39-macosx_11_0_arm64.whl"
+              "hash": "ccbf29a0dadfcdd97632b4f7cca20a966bb552853ba254e874c66934931b9841",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/a8/38/5938d00a75068827626d18d0681967d07dd98b653099423b11272dbdca2d/pyarrow-11.0.0-cp39-cp39-macosx_10_14_x86_64.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "42ba7c5347ce665338f2bc64685d74855900200dac81a972d49fe127e8132f75",
-              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/b9/46/0050ff96706f27b766497d63ad60f8bace6a4e61565594bd8079b33e81af/pyarrow-10.0.1-cp39-cp39-macosx_10_14_x86_64.whl"
+              "hash": "41a1451dd895c0b2964b83d91019e46f15b5564c7ecd5dcb812dadd3f05acc97",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/c2/49/b7f58a23bd2bce32ba021e35c760fcf5785a4676170b4c1b997bc91044f6/pyarrow-11.0.0-cp38-cp38-macosx_11_0_arm64.whl"
             }
           ],
           "project_name": "pyarrow",
@@ -2120,7 +2139,7 @@
             "numpy>=1.16.6"
           ],
           "requires_python": ">=3.7",
-          "version": "10.0.1"
+          "version": "11"
         },
         {
           "artifacts": [
@@ -3004,23 +3023,23 @@
           "artifacts": [
             {
               "algorithm": "sha256",
-              "hash": "83a28fcb75844b5c0cdaf5aa4003c2d728c77e05f5aeabe8e95e56727005fbaa",
-              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/d8/20/256eb3f3f437c575fb1a2efdce5e801a5ce3162ea8117da96c43e6ee97d8/zipp-3.11.0-py3-none-any.whl"
+              "hash": "9eb0a4c5feab9b08871db0d672745b53450d7f26992fd1e4653aa43345e97b86",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/01/3c/9d84fc1dbac1c5103bf3cd994e4895642001f75eb2139bddbc02aa1906e5/zipp-3.12.0-py3-none-any.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "a7a22e05929290a67401440b39690ae6563279bced5f314609d9d03798f56766",
-              "url": "https://files.pythonhosted.org/packages/8e/b3/8b16a007184714f71157b1a71bbe632c5d66dd43bc8152b3c799b13881e1/zipp-3.11.0.tar.gz"
+              "hash": "9eb0a4c5feab9b08871db0d672745b53450d7f26992fd1e4653aa43345e97b86",
+              "url": "https://files.pythonhosted.org/packages/01/3c/9d84fc1dbac1c5103bf3cd994e4895642001f75eb2139bddbc02aa1906e5/zipp-3.12.0-py3-none-any.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "83a28fcb75844b5c0cdaf5aa4003c2d728c77e05f5aeabe8e95e56727005fbaa",
-              "url": "https://files.pythonhosted.org/packages/d8/20/256eb3f3f437c575fb1a2efdce5e801a5ce3162ea8117da96c43e6ee97d8/zipp-3.11.0-py3-none-any.whl"
+              "hash": "73efd63936398aac78fd92b6f4865190119d6c91b531532e798977ea8dd402eb",
+              "url": "https://files.pythonhosted.org/packages/35/05/f81a74656c04e94f05c1ef186127cceb913493f1f8a21bb142a93c786ee8/zipp-3.12.0.tar.gz"
             },
             {
               "algorithm": "sha256",
-              "hash": "a7a22e05929290a67401440b39690ae6563279bced5f314609d9d03798f56766",
-              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/8e/b3/8b16a007184714f71157b1a71bbe632c5d66dd43bc8152b3c799b13881e1/zipp-3.11.0.tar.gz"
+              "hash": "73efd63936398aac78fd92b6f4865190119d6c91b531532e798977ea8dd402eb",
+              "url": "https://pypi.tuna.tsinghua.edu.cn/packages/35/05/f81a74656c04e94f05c1ef186127cceb913493f1f8a21bb142a93c786ee8/zipp-3.12.0.tar.gz"
             }
           ],
           "project_name": "zipp",
@@ -3041,10 +3060,11 @@
             "pytest-mypy>=0.9.1; platform_python_implementation != \"PyPy\" and extra == \"testing\"",
             "pytest>=6; extra == \"testing\"",
             "rst.linker>=1.9; extra == \"docs\"",
+            "sphinx-lint; extra == \"docs\"",
             "sphinx>=3.5; extra == \"docs\""
           ],
           "requires_python": ">=3.7",
-          "version": "3.11"
+          "version": "3.12"
         }
       ],
       "platform_tag": null
@@ -3055,8 +3075,7 @@
   "pip_version": "20.3.4-patched",
   "prefer_older_binary": false,
   "requirements": [
-    "liga",
-    "ligavision==0.2.0.dev2",
+    "ligavision==0.2.0.dev3",
     "torch<1.13.0,>=1.8.1",
     "torchvision"
   ],
