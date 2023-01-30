@@ -29,8 +29,9 @@ import torch
 import torchvision
 from pyspark.sql import Row, SparkSession
 
-from liga.spark import get_liga_assembly_jar
-from ligavision.spark import init_session
+from liga.spark import get_liga_assembly_jar, init_session
+from liga.mlflow import CONF_MLFLOW_TRACKING_URI
+from ligavision.spark import get_liga_vision_jar
 from ligavision.dsl import Image
 
 
@@ -50,6 +51,39 @@ def two_flickr_rows(two_flickr_images: list) -> list:
     return [Row(image=image) for image in two_flickr_images]
 
 
-@pytest.fixture(scope="module")
-def spark() -> SparkSession:
-    return init_session(jar_type="github")
+@pytest.fixture(scope="session")
+def tracking_uri(tmp_path_factory) -> str:
+    tmp_path = tmp_path_factory.mktemp("mlflow")
+    tmp_path.mkdir(parents=True, exist_ok=True)
+    tracking_uri = "sqlite:///" + str(tmp_path / "tracking.db")
+    return tracking_uri
+
+
+@pytest.fixture(scope="session")
+def spark(tracking_uri, tmp_path_factory) -> SparkSession:
+    liga_uri = get_liga_assembly_jar("github", "2.12")
+    liga_image_uri = get_liga_vision_jar("image", jar_type="github", scala_version="2.12")
+    warehouse_path = tmp_path_factory.mktemp("warehouse")
+    return init_session(dict(
+        [
+            (
+                "spark.jars",
+                ",".join([liga_uri,liga_image_uri])
+            ),
+            ("spark.port.maxRetries", 128),
+            ("spark.sql.warehouse.dir", str(warehouse_path)),
+            (
+                "spark.rikai.sql.ml.registry.test.impl",
+                "ai.eto.rikai.sql.model.testing.TestRegistry",
+            ),
+            (
+                "spark.rikai.sql.ml.catalog.impl",
+                "ai.eto.rikai.sql.model.SimpleCatalog",
+            ),
+            (
+                CONF_MLFLOW_TRACKING_URI,
+                tracking_uri,
+            ),
+        ]
+    ))
+

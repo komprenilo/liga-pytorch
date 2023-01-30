@@ -83,9 +83,10 @@ def test_ssd_class_score_module_serialization(tmp_path: Path):
     assert_model_equal(script_model, actual_script_model)
 
 
-def test_ssd_class_score_module_mlflow(tmp_path: Path):
+def test_ssd_class_score_module_mlflow(tracking_uri: str):
+    mlflow.set_tracking_uri(tracking_uri)
     with mlflow.start_run():
-        logger.pytorch.log_model(
+        mlflow.pytorch.log_model(
             class_scores_extractor, "model", registered_model_name="classes"
         )
 
@@ -94,8 +95,9 @@ def test_ssd_class_score_module_mlflow(tmp_path: Path):
 
 
 def test_ssd_class_scores_module_with_spark(
-    spark: SparkSession, two_flickr_rows: list
+    spark: SparkSession, two_flickr_rows: list, tracking_uri: str
 ):
+    mlflow.set_tracking_uri(tracking_uri)
     with mlflow.start_run():
         logger.pytorch.log_model(
             model,
