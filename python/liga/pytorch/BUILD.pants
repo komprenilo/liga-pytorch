@@ -2,7 +2,7 @@
 python_requirement(
     name="requirements",
     requirements=[
-        "ligavision==0.2.0.dev5",
+        "ligavision==0.2.0.dev6",
     ],
     resolve=parametrize("default", "lab"),
 )
