@@ -32,7 +32,7 @@ from pyspark.sql import Row, SparkSession
 from liga.spark import get_liga_assembly_jar, init_session
 from liga.mlflow import CONF_MLFLOW_TRACKING_URI
 from ligavision.spark import get_liga_vision_jar
-from ligavision.dsl import Image
+from ligavision.spark.types import Image
 
 
 @pytest.fixture(scope="session")
