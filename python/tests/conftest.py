@@ -74,16 +74,16 @@ def spark(tracking_uri, tmp_path_factory) -> SparkSession:
             ("spark.sql.warehouse.dir", str(warehouse_path)),
             (
                 "spark.rikai.sql.ml.registry.test.impl",
-                "net.xmacs.spark.model.testing.TestRegistry",
+                "net.xmacs.liga.model.testing.TestRegistry",
             ),
             (
                 "spark.rikai.sql.ml.catalog.impl",
-                "net.xmacs.spark.model.SimpleCatalog",
+                "net.xmacs.liga.model.SimpleCatalog",
             ),
             (
                 "spark.sql.extensions",
                 ",".join([
-                    "net.xmacs.spark.RikaiSparkSessionExtensions",
+                    "net.xmacs.liga.spark.RikaiSparkSessionExtensions",
                     "org.apache.spark.sql.rikai.LigaImageExtensions"
                 ])
             ),
