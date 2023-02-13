@@ -74,11 +74,18 @@ def spark(tracking_uri, tmp_path_factory) -> SparkSession:
             ("spark.sql.warehouse.dir", str(warehouse_path)),
             (
                 "spark.rikai.sql.ml.registry.test.impl",
-                "ai.eto.rikai.sql.model.testing.TestRegistry",
+                "net.xmacs.spark.model.testing.TestRegistry",
             ),
             (
                 "spark.rikai.sql.ml.catalog.impl",
-                "ai.eto.rikai.sql.model.SimpleCatalog",
+                "net.xmacs.spark.model.SimpleCatalog",
+            ),
+            (
+                "spark.sql.extensions",
+                ",".join([
+                    "net.xmacs.spark.RikaiSparkSessionExtensions",
+                    "org.apache.spark.sql.rikai.LigaImageExtensions"
+                ])
             ),
             (
                 CONF_MLFLOW_TRACKING_URI,
