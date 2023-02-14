@@ -31,6 +31,7 @@ from pyspark.sql import Row, SparkSession
 
 from liga.spark import get_liga_assembly_jar, init_session
 from liga.mlflow import CONF_MLFLOW_TRACKING_URI
+from ligavision.spark.functions import init
 from ligavision.spark import get_liga_vision_jar
 from ligavision.spark.types import Image
 
@@ -64,7 +65,7 @@ def spark(tracking_uri, tmp_path_factory) -> SparkSession:
     liga_uri = get_liga_assembly_jar("github", "2.12")
     liga_image_uri = get_liga_vision_jar("image", jar_type="github", scala_version="2.12")
     warehouse_path = tmp_path_factory.mktemp("warehouse")
-    return init_session(dict(
+    spark = init_session(dict(
         [
             (
                 "spark.jars",
@@ -93,6 +94,8 @@ def spark(tracking_uri, tmp_path_factory) -> SparkSession:
             ),
         ]
     ))
+    init(spark)
+    return spark
 
 @pytest.fixture
 def asset_path() -> Path:

@@ -41,7 +41,7 @@ def label_fn(label_id):
     return COCO_PERSON_KEYPOINT_NAMES[label_id]
 
 
-keypointrcnn = ObjectDetectionModelType(
+MODEL_TYPE = ObjectDetectionModelType(
     "keypointrcnn",
     pretrained_fn=torchvision.models.detection.keypointrcnn_resnet50_fpn,
     label_fn=label_fn,

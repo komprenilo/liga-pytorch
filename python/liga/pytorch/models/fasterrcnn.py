@@ -23,7 +23,7 @@ from liga.pytorch.models.torch import (
     ObjectDetectionModelType,
 )
 
-fasterrcnn = ObjectDetectionModelType(
+MODEL_TYPE = ObjectDetectionModelType(
     "fasterrcnn", pretrained_fn=fasterrcnn_resnet50_fpn
 )
 

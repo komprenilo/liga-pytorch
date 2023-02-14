@@ -19,7 +19,7 @@ from liga.pytorch.models.torch import (
     ObjectDetectionModelType,
 )
 
-maskrcnn = ObjectDetectionModelType(
+MODEL_TYPE = ObjectDetectionModelType(
     "maskrcnn",
     pretrained_fn=torchvision.models.detection.maskrcnn_resnet50_fpn,
     label_fn=detection_label_fn,
