@@ -15,10 +15,9 @@
 import torchvision
 
 from liga.pytorch.models.torch import (
-    detection_label_fn,
-    ObjectDetectionModelType,
+    ClassificationModelType,
 )
 
-MODEL_TYPE = ObjectDetectionModelType(
-    "ssd", pretrained_fn=torchvision.models.detection.ssd.ssd300_vgg16
+MODEL_TYPE = ClassificationModelType(
+    "convnext_tiny", pretrained_fn=torchvision.models.convnext_tiny
 )

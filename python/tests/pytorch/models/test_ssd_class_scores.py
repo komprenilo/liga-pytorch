@@ -28,9 +28,9 @@ from pyspark.sql.types import (
 from torchvision.models.detection.ssd import ssd300_vgg16
 from torchvision.transforms import ToTensor
 
-import liga
+from liga.mlflow import logger
 from liga.pytorch.models.ssd_class_scores import SSDClassScoresExtractor
-from liga.spark.types import Box2dType
+from ligavision.spark.types import Box2dType
 
 model = ssd300_vgg16(pretrained=True)
 model.eval()
@@ -83,7 +83,8 @@ def test_ssd_class_score_module_serialization(tmp_path: Path):
     assert_model_equal(script_model, actual_script_model)
 
 
-def test_ssd_class_score_module_mlflow(tmp_path: Path):
+def test_ssd_class_score_module_mlflow(tracking_uri: str):
+    mlflow.set_tracking_uri(tracking_uri)
     with mlflow.start_run():
         mlflow.pytorch.log_model(
             class_scores_extractor, "model", registered_model_name="classes"
@@ -94,13 +95,15 @@ def test_ssd_class_score_module_mlflow(tmp_path: Path):
 
 
 def test_ssd_class_scores_module_with_spark(
-    spark: SparkSession, two_flickr_rows: list
+    spark: SparkSession, two_flickr_rows: list, tracking_uri: str
 ):
+    mlflow.set_tracking_uri(tracking_uri)
     with mlflow.start_run():
-        liga.mlflow.pytorch.log_model(
+        logger.pytorch.log_model(
             model,
             "models",
-            model_type="ssd_class_scores",
+            customized_flavor="liga.pytorch",
+            model_type="liga.pytorch.models.ssd_class_scores",
             registered_model_name="ssd_class_scores",
             labels={"func": "liga.pytorch.models.torch.detection_label_fn"},
         )

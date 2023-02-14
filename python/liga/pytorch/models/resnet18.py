@@ -19,26 +19,9 @@ https://arxiv.org/pdf/1512.03385.pdf
 import torchvision
 
 from liga.pytorch.models.torch import (
-    classification_label_fn,
     ClassificationModelType,
 )
 
-resnet18 = ClassificationModelType(
+MODEL_TYPE = ClassificationModelType(
     name="resnet18", pretrained_fn=torchvision.models.resnet18
-)
-resnet34 = ClassificationModelType(
-    name="resnet34", pretrained_fn=torchvision.models.resnet34
-)
-resnet50 = ClassificationModelType(
-    name="resnet50", pretrained_fn=torchvision.models.resnet50
-)
-resnet101 = ClassificationModelType(
-    name="resnet101", pretrained_fn=torchvision.models.resnet101
-)
-resnet152 = ClassificationModelType(
-    name="resnet152", pretrained_fn=torchvision.models.resnet152
-)
-# Make default resnet to be ResNet-50
-resnet = ClassificationModelType(
-    name="resnet", pretrained_fn=torchvision.models.resnet50
 )

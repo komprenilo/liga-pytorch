@@ -12,13 +12,16 @@
 #  See the License for the specific language governing permissions and
 #  limitations under the License.
 
+"""
+ResNet: Deep Residual Learning for Image Recognition
+https://arxiv.org/pdf/1512.03385.pdf
+"""
 import torchvision
 
 from liga.pytorch.models.torch import (
-    detection_label_fn,
-    ObjectDetectionModelType,
+    ClassificationModelType,
 )
 
-MODEL_TYPE = ObjectDetectionModelType(
-    "ssd", pretrained_fn=torchvision.models.detection.ssd.ssd300_vgg16
+MODEL_TYPE = ClassificationModelType(
+    name="resnet152", pretrained_fn=torchvision.models.resnet152
 )

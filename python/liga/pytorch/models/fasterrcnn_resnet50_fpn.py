@@ -12,13 +12,14 @@
 #  See the License for the specific language governing permissions and
 #  limitations under the License.
 
-import torchvision
+from torchvision.models.detection import (
+    fasterrcnn_resnet50_fpn,
+)
 
 from liga.pytorch.models.torch import (
-    detection_label_fn,
     ObjectDetectionModelType,
 )
 
 MODEL_TYPE = ObjectDetectionModelType(
-    "ssd", pretrained_fn=torchvision.models.detection.ssd.ssd300_vgg16
+    "fasterrcnn_resnet50_fpn", pretrained_fn=fasterrcnn_resnet50_fpn
 )

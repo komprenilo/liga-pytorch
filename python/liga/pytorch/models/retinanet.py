@@ -19,7 +19,7 @@ from liga.pytorch.models.torch import (
     ObjectDetectionModelType,
 )
 
-resnet = ObjectDetectionModelType(
+MODEL_TYPE = ObjectDetectionModelType(
     "retinanet",
     pretrained_fn=torchvision.models.detection.retinanet_resnet50_fpn,
 )

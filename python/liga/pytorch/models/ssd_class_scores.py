@@ -204,3 +204,5 @@ class SSDClassScoresModelType(ObjectDetectionModelType):
 
 
 ssd_class_scores = SSDClassScoresModelType("ssd_class_scores")
+
+MODEL_TYPE = SSDClassScoresModelType("ssd_class_scores")

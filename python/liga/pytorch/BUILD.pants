@@ -2,13 +2,20 @@
 python_requirement(
     name="requirements",
     requirements=[
-        "liga",
-        "ligavision==0.2.0.dev2",
-        "torch>=1.8.1,<1.13.0",
-        "torchvision",
+        "ligavision==0.2.0.dev7",
     ],
     resolve=parametrize("default", "lab"),
 )
+
+python_requirement(
+    name="torchvision",
+    requirements=[
+        "torch==1.12.1",
+        "torchvision==0.13.1",
+    ],
+    resolve=parametrize("default", "lab"),
+)
+
 
 # See https://www.pantsbuild.org/docs/reference-python_sources for more info
 python_sources(

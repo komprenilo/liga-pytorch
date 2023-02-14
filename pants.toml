@@ -27,5 +27,8 @@ enable_resolves = true
   extra_requirements.add = ["click<8.1"]
   lockfile = "3rdparty/python/black.lock"
 
-[python-repos]
-indexes.add = ["https://pypi.tuna.tsinghua.edu.cn/simple"]
+# [python-repos]
+# indexes.add = ["https://pypi.tuna.tsinghua.edu.cn/simple"]
+
+[test]
+output = "all"
