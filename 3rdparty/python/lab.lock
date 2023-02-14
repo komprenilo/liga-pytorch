@@ -11,7 +11,7 @@
 //   "generated_with_requirements": [
 //     "jupyterlab",
 //     "liga-mlflow==0.2.0",
-//     "ligavision==0.2.0.dev6",
+//     "ligavision==0.2.0.dev7",
 //     "mlflow==1.26.1",
 //     "torch==1.12.1",
 //     "torchvision==0.13.1"
@@ -2363,13 +2363,13 @@
           "artifacts": [
             {
               "algorithm": "sha256",
-              "hash": "510688336b845c928cd99ae5940d344c2a5a789d4fab4dde2ddbda554ced8ce5",
-              "url": "https://files.pythonhosted.org/packages/37/8c/498bcd9a31f0cbe21bb0b5bb230b8475f1517d99e71803d6a7cf9e091329/liga-0.2.1.dev4-py3-none-any.whl"
+              "hash": "a1c8ed6c1dac2c12ee7fda95c9376ef92ee73b68c5ec85fb77b6c16c504a2234",
+              "url": "https://files.pythonhosted.org/packages/c7/79/493bb9bb6a7189b75c86ccd0fbeb5889c236c3a1146b91204d050fb77e73/liga-0.2.1.dev5-py3-none-any.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "919f91d11824704564d83e4e3239ca793b8f883f1f98ba84b34765ebd117b479",
-              "url": "https://files.pythonhosted.org/packages/e5/e1/578da890405e228e90651561c9cdcf178e8783f243c653a28bf52c3b9a27/liga-0.2.1.dev4.tar.gz"
+              "hash": "8111ce664f1552cb3f426b7b6e46da0f3e16ce89f1bfd037e42c4437124fddea",
+              "url": "https://files.pythonhosted.org/packages/e4/8f/7da6ee3a387b729f8f0ab60269a9b88f7d7bb4284166b4da1d87b6658c2a/liga-0.2.1.dev5.tar.gz"
             }
           ],
           "project_name": "liga",
@@ -2385,7 +2385,7 @@
             "requests"
           ],
           "requires_python": "<3.10,>=3.8",
-          "version": "0.2.1.dev4"
+          "version": "0.2.1.dev5"
         },
         {
           "artifacts": [
@@ -2413,24 +2413,24 @@
           "artifacts": [
             {
               "algorithm": "sha256",
-              "hash": "0d1654dffa068108bb0906df5576947a9fa691b05c150094b61a300c139c6f6a",
-              "url": "https://files.pythonhosted.org/packages/4d/59/d19866f941a9554420b272002ed07a00e4742bfdfee23c5990367e51f3d9/ligavision-0.2.0.dev6-py3-none-any.whl"
+              "hash": "afdd13c4dc0c53ed97111003c442e582192132d5ae5142aaaae82bb61b991719",
+              "url": "https://files.pythonhosted.org/packages/ee/dd/1af39c330b5e78dbb15555b34851e37271be37301931694ce48ccaba9d26/ligavision-0.2.0.dev7-py3-none-any.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "d97a523137a3303f03c8b3cea865689f27a5cabff56767b6a6f2993cf35010ee",
-              "url": "https://files.pythonhosted.org/packages/d4/92/207b946d45625a402cefdcc132f3ea16437b550aa274849e10a32333b635/ligavision-0.2.0.dev6.tar.gz"
+              "hash": "00b21fe107a9f7a6ea2d585e581be45597293f95033cb2cd19f1adee1b08d703",
+              "url": "https://files.pythonhosted.org/packages/66/36/adf4a9b2e4a2d27b17784e992c706295353c2c82dfef0eb7d8d479e01c4d/ligavision-0.2.0.dev7.tar.gz"
             }
           ],
           "project_name": "ligavision",
           "requires_dists": [
             "Pillow",
-            "liga==0.2.1.dev4",
+            "liga==0.2.1.dev5",
             "ligavision-dsl==0.2.0.dev4",
             "pyspark==3.2.1"
           ],
           "requires_python": "<3.10,>=3.8",
-          "version": "0.2.dev6"
+          "version": "0.2.dev7"
         },
         {
           "artifacts": [
@@ -5419,7 +5419,7 @@
   "requirements": [
     "jupyterlab",
     "liga-mlflow==0.2.0",
-    "ligavision==0.2.0.dev6",
+    "ligavision==0.2.0.dev7",
     "mlflow==1.26.1",
     "torch==1.12.1",
     "torchvision==0.13.1"

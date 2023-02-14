@@ -13,32 +13,16 @@
 #  limitations under the License.
 
 """
-ResNet: Deep Residual Learning for Image Recognition
-https://arxiv.org/pdf/1512.03385.pdf
+EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks
+https://arxiv.org/abs/1905.11946
 """
+
 import torchvision
 
 from liga.pytorch.models.torch import (
-    classification_label_fn,
     ClassificationModelType,
 )
 
-resnet18 = ClassificationModelType(
-    name="resnet18", pretrained_fn=torchvision.models.resnet18
-)
-resnet34 = ClassificationModelType(
-    name="resnet34", pretrained_fn=torchvision.models.resnet34
-)
-resnet50 = ClassificationModelType(
-    name="resnet50", pretrained_fn=torchvision.models.resnet50
-)
-resnet101 = ClassificationModelType(
-    name="resnet101", pretrained_fn=torchvision.models.resnet101
-)
-resnet152 = ClassificationModelType(
-    name="resnet152", pretrained_fn=torchvision.models.resnet152
-)
-
 MODEL_TYPE = ClassificationModelType(
-    name="resnet", pretrained_fn=torchvision.models.resnet50
+    "efficientnet_b0", pretrained_fn=torchvision.models.efficientnet_b0
 )

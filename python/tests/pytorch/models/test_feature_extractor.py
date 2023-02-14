@@ -57,8 +57,8 @@ def test_torch_classification(
     spark.sql(
         f"""
         CREATE OR REPLACE MODEL test_model
-        FLAVOR liga.pytorch
-        MODEL_TYPE liga.pytorch.models.feature_extractor
+        FLAVOR pytorch
+        MODEL_TYPE feature_extractor
         OPTIONS (model_type = '{model_type}')
         USING '{uri}'
         """
