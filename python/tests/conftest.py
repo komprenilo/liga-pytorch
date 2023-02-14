@@ -94,3 +94,6 @@ def spark(tracking_uri, tmp_path_factory) -> SparkSession:
         ]
     ))
 
+@pytest.fixture
+def asset_path() -> Path:
+    return Path(__file__).parent / "assets"

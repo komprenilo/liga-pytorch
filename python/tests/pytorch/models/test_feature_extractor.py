@@ -21,7 +21,7 @@ from pyspark.sql import SparkSession
 from pyspark.sql.types import ArrayType, FloatType, StructField, StructType
 
 from liga.pytorch.models.feature_extractor import FeatureExtractor
-from liga.spark.types import Image
+from ligavision.spark.types import Image
 
 
 import torchvision  # noqa
@@ -57,8 +57,8 @@ def test_torch_classification(
     spark.sql(
         f"""
         CREATE OR REPLACE MODEL test_model
-        FLAVOR pytorch
-        MODEL_TYPE feature_extractor
+        FLAVOR liga.pytorch
+        MODEL_TYPE liga.pytorch.models.feature_extractor
         OPTIONS (model_type = '{model_type}')
         USING '{uri}'
         """

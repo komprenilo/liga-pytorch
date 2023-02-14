@@ -101,5 +101,4 @@ class FeatureExtractorType(TorchModelType):
         return batch
 
 
-if torchvision.__version__ >= "0.11.0":
-    feature_extractor = FeatureExtractorType()
+MODEL_TYPE = FeatureExtractorType()

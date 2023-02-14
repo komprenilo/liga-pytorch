@@ -19,5 +19,5 @@ from liga.pytorch.models.torch import (
 )
 
 MODEL_TYPE = ClassificationModelType(
-    "convnext", pretrained_fn=torchvision.models.convnext_base
+    "convnext_large", pretrained_fn=torchvision.models.convnext_large
 )
