@@ -32,7 +32,6 @@ __all__ = [
     "ObjectDetectionModelType",
     "TorchModelType",
     "ClassificationModelType",
-    "MODEL_TYPES",
 ]
 
 DEFAULT_MIN_SCORE = 0.5
@@ -47,7 +46,6 @@ class TorchModelType(ModelType, Pretrained, ABC):
         pretrained_fn: Optional[Callable] = None,
         label_fn: Optional[Callable[[int], str]] = None,
         collate_fn: Optional[Callable] = None,
-        register: bool = True,
     ):
         """Initialize a TorchModelType
 
@@ -72,9 +70,6 @@ class TorchModelType(ModelType, Pretrained, ABC):
         self.pretrained_fn = pretrained_fn
         self.label_fn = label_fn
         self.collate_fn = collate_fn
-
-        if register:
-            MODEL_TYPES[name] = self
 
     def __repr__(self):
         return f"ModelType({self.name})"
@@ -127,13 +122,11 @@ class ClassificationModelType(TorchModelType):
         name: str,
         pretrained_fn: Optional[Callable] = None,
         label_fn: Optional[Callable[[int], str]] = classification_label_fn,
-        register: bool = True,
     ):
         super(ClassificationModelType, self).__init__(
             name,
             pretrained_fn=pretrained_fn,
             label_fn=label_fn,
-            register=register,
         )
 
     def schema(self) -> str:
@@ -289,14 +282,12 @@ class ObjectDetectionModelType(TorchModelType):
         collate_fn: Optional[
             Callable[[torch.Tensor], torch.Tensor]
         ] = detection_collate_fn,
-        register: bool = True,
     ):
         super(ObjectDetectionModelType, self).__init__(
             name,
             pretrained_fn=pretrained_fn,
             label_fn=label_fn,
             collate_fn=collate_fn,
-            register=register,
         )
 
     def __repr__(self):
@@ -339,7 +330,3 @@ class ObjectDetectionModelType(TorchModelType):
                 predict_result.append(r)
             results.append(predict_result)
         return results
-
-
-# Registered model types
-MODEL_TYPES = {}

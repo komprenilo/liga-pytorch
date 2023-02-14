@@ -29,7 +29,3 @@ if torchvision_found:
     import liga.pytorch.models.retinanet
     import liga.pytorch.models.ssd
     import liga.pytorch.models.ssd_class_scores
-
-from liga.pytorch.models.torch import MODEL_TYPES  # noqa
-
-__all__ = ["MODEL_TYPES"]
