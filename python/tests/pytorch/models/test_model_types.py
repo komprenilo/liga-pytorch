@@ -33,7 +33,7 @@ def _check_object_detection_models(spark: SparkSession, models: List[str]):
         spark.sql(
             f"""CREATE OR REPLACE MODEL {model}
             FLAVOR pytorch
-            MODEL_TYPE liga.pytorch.models.{model}
+            MODEL_TYPE {model}
             """
         )
         df = spark.sql(
