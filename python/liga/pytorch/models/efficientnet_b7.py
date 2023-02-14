@@ -12,22 +12,18 @@
 #  See the License for the specific language governing permissions and
 #  limitations under the License.
 
-"""Rikai-implemented PyTorch models and executors."""
+"""
+EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks
+https://arxiv.org/abs/1905.11946
+"""
 
-import importlib
+import torchvision
 
-from liga.pytorch.models import resnet50
+from liga.pytorch.models.torch import (
+    ClassificationModelType,
+)
 
-torchvision_found = importlib.util.find_spec("torchvision") is not None
+MODEL_TYPE = ClassificationModelType(
+    "efficientnet_b7", pretrained_fn=torchvision.models.efficientnet_b7
+)
 
-if torchvision_found:
-    import liga.pytorch.models.convnext
-    import liga.pytorch.models.fasterrcnn
-    import liga.pytorch.models.feature_extractor
-    import liga.pytorch.models.keypointrcnn
-    import liga.pytorch.models.maskrcnn
-    import liga.pytorch.models.retinanet
-    import liga.pytorch.models.ssd
-    import liga.pytorch.models.ssd_class_scores
-
-resnet = resnet50

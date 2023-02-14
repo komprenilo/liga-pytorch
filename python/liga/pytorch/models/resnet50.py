@@ -12,22 +12,16 @@
 #  See the License for the specific language governing permissions and
 #  limitations under the License.
 
-"""Rikai-implemented PyTorch models and executors."""
+"""
+ResNet: Deep Residual Learning for Image Recognition
+https://arxiv.org/pdf/1512.03385.pdf
+"""
+import torchvision
 
-import importlib
+from liga.pytorch.models.torch import (
+    ClassificationModelType,
+)
 
-from liga.pytorch.models import resnet50
-
-torchvision_found = importlib.util.find_spec("torchvision") is not None
-
-if torchvision_found:
-    import liga.pytorch.models.convnext
-    import liga.pytorch.models.fasterrcnn
-    import liga.pytorch.models.feature_extractor
-    import liga.pytorch.models.keypointrcnn
-    import liga.pytorch.models.maskrcnn
-    import liga.pytorch.models.retinanet
-    import liga.pytorch.models.ssd
-    import liga.pytorch.models.ssd_class_scores
-
-resnet = resnet50
+MODEL_TYPE = ClassificationModelType(
+    name="resnet50", pretrained_fn=torchvision.models.resnet50
+)
