@@ -12,11 +12,6 @@
 #  See the License for the specific language governing permissions and
 #  limitations under the License.
 
-import logging
-import os
-import random
-import string
-import uuid
 import warnings
 from pathlib import Path
 from urllib.parse import urlparse
@@ -29,10 +24,9 @@ import torch
 import torchvision
 from pyspark.sql import Row, SparkSession
 
-from liga.spark import get_liga_assembly_jar, init_session
 from liga.mlflow import CONF_MLFLOW_TRACKING_URI
-from ligavision.spark.functions import init
-from ligavision.spark import get_liga_vision_jar
+from liga.logging import logger
+from ligavision.spark import init_session
 from ligavision.spark.types import Image
 
 
@@ -62,15 +56,10 @@ def tracking_uri(tmp_path_factory) -> str:
 
 @pytest.fixture(scope="session")
 def spark(tracking_uri, tmp_path_factory) -> SparkSession:
-    liga_uri = get_liga_assembly_jar("github", "2.12")
-    liga_image_uri = get_liga_vision_jar("image", jar_type="github", scala_version="2.12")
+    logger.info(f"mlflow tracking uri for spark: {tracking_uri}")
     warehouse_path = tmp_path_factory.mktemp("warehouse")
-    spark = init_session(dict(
+    spark = init_session(conf=dict(
         [
-            (
-                "spark.jars",
-                ",".join([liga_uri,liga_image_uri])
-            ),
             ("spark.port.maxRetries", 128),
             ("spark.sql.warehouse.dir", str(warehouse_path)),
             (
@@ -82,19 +71,11 @@ def spark(tracking_uri, tmp_path_factory) -> SparkSession:
                 "net.xmacs.liga.model.SimpleCatalog",
             ),
             (
-                "spark.sql.extensions",
-                ",".join([
-                    "net.xmacs.liga.spark.RikaiSparkSessionExtensions",
-                    "org.apache.spark.sql.rikai.LigaImageExtensions"
-                ])
-            ),
-            (
                 CONF_MLFLOW_TRACKING_URI,
                 tracking_uri,
             ),
         ]
     ))
-    init(spark)
     return spark
 
 @pytest.fixture
