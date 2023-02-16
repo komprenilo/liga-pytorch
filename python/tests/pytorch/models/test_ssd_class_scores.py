@@ -102,8 +102,7 @@ def test_ssd_class_scores_module_with_spark(
         logger.pytorch.log_model(
             model,
             "models",
-            customized_flavor="liga.pytorch",
-            model_type="liga.pytorch.models.ssd_class_scores",
+            model_type="ssd_class_scores",
             registered_model_name="ssd_class_scores",
             labels={"func": "liga.pytorch.models.torch.detection_label_fn"},
         )
