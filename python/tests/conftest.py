@@ -58,7 +58,7 @@ def tracking_uri(tmp_path_factory) -> str:
 def spark(tracking_uri, tmp_path_factory) -> SparkSession:
     logger.info(f"mlflow tracking uri for spark: {tracking_uri}")
     warehouse_path = tmp_path_factory.mktemp("warehouse")
-    spark = init_session(dict(
+    spark = init_session(conf=dict(
         [
             ("spark.port.maxRetries", 128),
             ("spark.sql.warehouse.dir", str(warehouse_path)),
