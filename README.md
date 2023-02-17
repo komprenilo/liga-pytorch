@@ -6,12 +6,8 @@ Try the live notebooks via:
 git clone https://github.com/liga-ai/liga-pytorch.git
 cd liga-pytorch && bin/lab
 ```
-### Preview the Notebook on Github
-Just click the link in the table below.
-### Try in Google Colab
-Just click the link to Google Colab in the table below.
-
-
+### Preview in Web Browser on Github (`click the links in the table`)
+### Try in Web Browser on Google Colab (`click the badges in the table`)
 ## For Liga Vision
 | Model Type (Short) | Model Type (Long) | Purpose | Preview Latest Notebook | Try Google Colab Notebook |
 |-------|---------|-----|-----------|--------|
