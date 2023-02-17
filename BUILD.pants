@@ -1,0 +1,10 @@
+python_distribution(
+    name="liga-pytorch",
+    dependencies=[
+        "python/liga/pytorch:sources@resolve=default",
+    ],
+    provides=python_artifact(
+        name="liga-pytorch",
+        version="0.2.0.dev0",
+    ),
+)
