@@ -15,7 +15,6 @@
 import torchvision
 
 from liga.pytorch.models.torch import (
-    detection_label_fn,
     ObjectDetectionModelType,
 )
 
