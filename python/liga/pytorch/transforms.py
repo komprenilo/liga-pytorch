@@ -17,7 +17,6 @@ import numpy as np
 import pandas as pd
 
 from liga.mixin import ToNumpy
-from ligavision.dsl.mixin import ToPIL
 
 __all__ = ["RikaiToTensor"]
 
@@ -29,6 +28,8 @@ def convert_tensor(row, use_pil: bool = False):
     If use_pil is set to True, this method returns a PIL image instead,
     and relies on the customer code to convert PIL image to tensors.
     """
+    from ligavision.dsl.mixin import ToPIL
+
     if use_pil and isinstance(row, ToPIL):
         return row.to_pil()
     elif isinstance(row, ToNumpy):

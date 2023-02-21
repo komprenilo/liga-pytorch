@@ -22,4 +22,3 @@ MODEL_TYPE = ObjectDetectionModelType(
     "ssdlite",
     pretrained_fn=torchvision.models.detection.ssdlite320_mobilenet_v3_large,
 )
-

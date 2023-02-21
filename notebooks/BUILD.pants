@@ -3,7 +3,7 @@ python_requirement(
     requirements=[
         "jupyterlab",
     ],
-    resolve="lab",
+    resolve="dbr_11_3",
 )
 
 python_sources(
@@ -13,5 +13,5 @@ python_sources(
         "//python/liga/pytorch:sources",
         "//python/tests:resources",
     ],
-    resolve="lab",
+    resolve="dbr_11_3",
 )
