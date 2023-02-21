@@ -29,6 +29,7 @@ def convert_tensor(row, use_pil: bool = False):
     and relies on the customer code to convert PIL image to tensors.
     """
     from ligavision.dsl.mixin import ToPIL
+
     if use_pil and isinstance(row, ToPIL):
         return row.to_pil()
     elif isinstance(row, ToNumpy):

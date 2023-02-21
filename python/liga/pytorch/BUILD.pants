@@ -25,5 +25,7 @@ python_requirement(
 )
 
 python_sources(
-    name="sources", sources=["*.py"], resolve=parametrize("default", "dbr_11_3")
+    name="sources",
+    sources=["*.py"],
+    resolve=parametrize("default", "dbr_11_3"),
 )

@@ -58,25 +58,28 @@ def tracking_uri(tmp_path_factory) -> str:
 def spark(tracking_uri, tmp_path_factory) -> SparkSession:
     logger.info(f"mlflow tracking uri for spark: {tracking_uri}")
     warehouse_path = tmp_path_factory.mktemp("warehouse")
-    spark = init_session(conf=dict(
-        [
-            ("spark.port.maxRetries", 128),
-            ("spark.sql.warehouse.dir", str(warehouse_path)),
-            (
-                "spark.rikai.sql.ml.registry.test.impl",
-                "net.xmacs.liga.model.testing.TestRegistry",
-            ),
-            (
-                "spark.rikai.sql.ml.catalog.impl",
-                "net.xmacs.liga.model.SimpleCatalog",
-            ),
-            (
-                CONF_MLFLOW_TRACKING_URI,
-                tracking_uri,
-            ),
-        ]
-    ))
+    spark = init_session(
+        conf=dict(
+            [
+                ("spark.port.maxRetries", 128),
+                ("spark.sql.warehouse.dir", str(warehouse_path)),
+                (
+                    "spark.rikai.sql.ml.registry.test.impl",
+                    "net.xmacs.liga.model.testing.TestRegistry",
+                ),
+                (
+                    "spark.rikai.sql.ml.catalog.impl",
+                    "net.xmacs.liga.model.SimpleCatalog",
+                ),
+                (
+                    CONF_MLFLOW_TRACKING_URI,
+                    tracking_uri,
+                ),
+            ]
+        )
+    )
     return spark
+
 
 @pytest.fixture
 def asset_path() -> Path:

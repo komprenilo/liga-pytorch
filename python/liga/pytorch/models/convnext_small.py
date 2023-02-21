@@ -21,4 +21,3 @@ from liga.pytorch.models.torch import (
 MODEL_TYPE = ClassificationModelType(
     "convnext_small", pretrained_fn=torchvision.models.convnext_small
 )
-

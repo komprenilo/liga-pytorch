@@ -26,4 +26,3 @@ from liga.pytorch.models.torch import (
 MODEL_TYPE = ClassificationModelType(
     "efficientnet_b2", pretrained_fn=torchvision.models.efficientnet_b2
 )
-
