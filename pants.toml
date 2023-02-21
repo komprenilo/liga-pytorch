@@ -15,7 +15,7 @@ interpreter_constraints = [">=3.8,<3.10"]
 enable_resolves = true
 
 [python.resolves]
-  lab = "3rdparty/python/lab.lock"
+  dbr_11_3 = "3rdparty/python/dbr_11_3.lock"
   default = "3rdparty/python/default.lock"
   tv = "3rdparty/python/tv.lock"
 

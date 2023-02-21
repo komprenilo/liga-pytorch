@@ -15,6 +15,15 @@ python_requirement(
     resolve="default",
 )
 
+python_requirement(
+    name="dbr_11_3",
+    requirements=[
+        "torch==1.12.1",
+        "torchvision==0.13.1",
+    ],
+    resolve="dbr_11_3",
+)
+
 python_sources(
-    name="sources", sources=["*.py"], resolve=parametrize("default", "lab")
+    name="sources", sources=["*.py"], resolve=parametrize("default", "dbr_11_3")
 )
