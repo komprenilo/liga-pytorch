@@ -8,14 +8,6 @@ python_requirement(
 )
 
 python_requirement(
-    name="ligavision-dsl",
-    requirements=[
-        "ligavision-dsl==0.2.0",
-    ],
-    resolve="default",
-)
-
-python_requirement(
     name="torch",
     requirements=[
         "torch>=1.10.2",
