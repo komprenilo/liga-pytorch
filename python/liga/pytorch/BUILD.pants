@@ -27,5 +27,5 @@ python_requirement(
 python_sources(
     name="sources",
     sources=["*.py"],
-    resolve=parametrize("default", "dbr_11_3"),
+    resolve=parametrize("default", "tv", "dbr_11_3"),
 )

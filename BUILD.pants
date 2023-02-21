@@ -13,9 +13,10 @@ python_distribution(
     name="liga-tv",
     dependencies=[
         "python/liga/pytorch/models:sources@resolve=tv",
+        "python/liga/pytorch:sources@resolve=tv",
     ],
     provides=python_artifact(
         name="liga-tv",
-        version="0.2.0",
+        version="0.2.1",
     ),
 )

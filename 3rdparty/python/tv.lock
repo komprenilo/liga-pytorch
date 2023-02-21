@@ -9,7 +9,6 @@
 //     "CPython<3.10,>=3.8"
 //   ],
 //   "generated_with_requirements": [
-//     "liga-pytorch<0.3.0,>=0.2.1",
 //     "ligavision<0.3.0,>=0.2.0",
 //     "torchvision>=0.11.3"
 //   ],
@@ -744,27 +743,6 @@
           ],
           "requires_python": "<3.10,>=3.8",
           "version": "0.2.2"
-        },
-        {
-          "artifacts": [
-            {
-              "algorithm": "sha256",
-              "hash": "c6836e48f2c1b53a704d1c22a8e7f50ce3a0a993afd761a32e93053d37a6684d",
-              "url": "https://files.pythonhosted.org/packages/5c/ae/18392f7cb69633b4b36bdd142d8a6c95d5363f91228314c54cf1f6ea57e7/liga_pytorch-0.2.1-py3-none-any.whl"
-            },
-            {
-              "algorithm": "sha256",
-              "hash": "a9438195713a9d2c95e0e05e7ce18f394dcff99db21744f9c56078ccd3c2411b",
-              "url": "https://files.pythonhosted.org/packages/b1/c0/c47dfa3789e7aba6325f67cf41601f25bbb47317b149f45875fbf2ed33f3/liga-pytorch-0.2.1.tar.gz"
-            }
-          ],
-          "project_name": "liga-pytorch",
-          "requires_dists": [
-            "liga<0.3.0,>=0.2.2",
-            "torch>=1.10.2"
-          ],
-          "requires_python": "<3.10,>=3.8",
-          "version": "0.2.1"
         },
         {
           "artifacts": [
@@ -1939,7 +1917,6 @@
   "pip_version": "20.3.4-patched",
   "prefer_older_binary": false,
   "requirements": [
-    "liga-pytorch<0.3.0,>=0.2.1",
     "ligavision<0.3.0,>=0.2.0",
     "torchvision>=0.11.3"
   ],
