@@ -1,10 +1,4 @@
 python_requirement(
-    name="liga-pytorch",
-    requirements=["liga-pytorch>=0.2.1,<0.3.0"],
-    resolve="tv",
-)
-
-python_requirement(
     name="torchvision",
     requirements=[
         "torchvision>=0.11.3",
