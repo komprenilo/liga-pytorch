@@ -8,3 +8,14 @@ python_distribution(
         version="0.2.0",
     ),
 )
+
+python_distribution(
+    name="liga-torchvision",
+    dependencies=[
+        "python/liga/pytorch/models:sources@resolve=default",
+    ],
+    provides=python_artifact(
+        name="liga-pytorch",
+        version="0.2.0",
+    ),
+)

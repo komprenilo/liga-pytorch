@@ -9,9 +9,9 @@
 //     "CPython<3.10,>=3.8"
 //   ],
 //   "generated_with_requirements": [
-//     "ligavision==0.2.0",
-//     "torch==1.12.1",
-//     "torchvision==0.13.1"
+//     "liga==0.2.2",
+//     "ligavision-dsl==0.2.0",
+//     "torch>=1.10.2"
 //   ],
 //   "manylinux": "manylinux2014",
 //   "requirement_constraints": [],
@@ -646,13 +646,13 @@
           "artifacts": [
             {
               "algorithm": "sha256",
-              "hash": "7d543798b0beca10b6a01ac7cafda9f822c54db9e8376a6bf57e0cbd74d486b6",
-              "url": "https://files.pythonhosted.org/packages/be/0f/bd3e7fa47cc43276051c557d3b2fe946664781d2ecf08b05d074e1a3ee59/importlib_resources-5.10.2-py3-none-any.whl"
+              "hash": "7b1deeebbf351c7578e09bf2f63fa2ce8b5ffec296e0d349139d43cca061a81a",
+              "url": "https://files.pythonhosted.org/packages/38/71/c13ea695a4393639830bf96baea956538ba7a9d06fcce7cef10bfff20f72/importlib_resources-5.12.0-py3-none-any.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "e4a96c8cc0339647ff9a5e0550d9f276fc5a01ffa276012b58ec108cfd7b8484",
-              "url": "https://files.pythonhosted.org/packages/2e/f8/be5c59ff2545362397cbc989f5cd3835326fc4092433d50dfaf21616bc71/importlib_resources-5.10.2.tar.gz"
+              "hash": "4be82589bf5c1d7999aedf2a45159d10cb3ca4f19b2271f8792bc8e6da7b22f6",
+              "url": "https://files.pythonhosted.org/packages/4e/a2/3cab1de83f95dd15297c15bdc04d50902391d707247cada1f021bbfe2149/importlib_resources-5.12.0.tar.gz"
             }
           ],
           "project_name": "importlib-resources",
@@ -674,7 +674,7 @@
             "zipp>=3.1.0; python_version < \"3.10\""
           ],
           "requires_python": ">=3.7",
-          "version": "5.10.2"
+          "version": "5.12"
         },
         {
           "artifacts": [
@@ -744,29 +744,6 @@
           ],
           "requires_python": "<3.10,>=3.8",
           "version": "0.2.2"
-        },
-        {
-          "artifacts": [
-            {
-              "algorithm": "sha256",
-              "hash": "d6b6b0a368c3465deec24de0bc8d308aa71ab3dda173530e83c0f7fd121edda6",
-              "url": "https://files.pythonhosted.org/packages/76/69/172e6a2123e46cbac28cdb49118797bb25c539d93e5abb6a3cc9b1a5d1a2/ligavision-0.2.0-py3-none-any.whl"
-            },
-            {
-              "algorithm": "sha256",
-              "hash": "8a3af78327b250014566a1fc48ee8c351a9751371782d575ba8aeced87ae0e61",
-              "url": "https://files.pythonhosted.org/packages/d7/11/c860cbde77c3e78ab2b5dc0d3eff90f77b740f25fdab0b515e224403bec5/ligavision-0.2.0.tar.gz"
-            }
-          ],
-          "project_name": "ligavision",
-          "requires_dists": [
-            "Pillow",
-            "liga<0.3.0,>=0.2.2",
-            "ligavision-dsl==0.2.0",
-            "pyspark==3.2.1"
-          ],
-          "requires_python": "<3.10,>=3.8",
-          "version": "0.2"
         },
         {
           "artifacts": [
@@ -1576,106 +1553,52 @@
           "artifacts": [
             {
               "algorithm": "sha256",
-              "hash": "69fe2cae7c39ccadd65a123793d30e0db881f1c1927945519c5c17323131437e",
-              "url": "https://files.pythonhosted.org/packages/c8/74/fd7d90bb7c589a695417e6922149dc3eb29fe0c9a97b6fb28ae851f1c19f/torch-1.12.1-cp39-none-macosx_11_0_arm64.whl"
+              "hash": "e0df902a7c7dd6c795698532ee5970ce898672625635d885eade9976e5a04949",
+              "url": "https://files.pythonhosted.org/packages/2d/ab/8210e877debc6e16c5f64345b08abfd667ade733329ef8b38dd06a362513/torch-1.13.1-cp39-none-macosx_11_0_arm64.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "03e31c37711db2cd201e02de5826de875529e45a55631d317aadce2f1ed45aa8",
-              "url": "https://files.pythonhosted.org/packages/0a/c7/edde1dc87e3ec5f3ffed8019fb399948d82f40d71db092d395c8179e782c/torch-1.12.1-cp38-none-macosx_11_0_arm64.whl"
+              "hash": "33e67eea526e0bbb9151263e65417a9ef2d8fa53cbe628e87310060c9dcfa312",
+              "url": "https://files.pythonhosted.org/packages/13/60/6129b3b0ce696e45774ab9b4b4f1a1bf5d74a2b9b2e81c88fb4620e6cad3/torch-1.13.1-cp38-none-macosx_10_9_x86_64.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "9b356aea223772cd754edb4d9ecf2a025909b8615a7668ac7d5130f86e7ec421",
-              "url": "https://files.pythonhosted.org/packages/1e/2f/06d30fbc76707f14641fe737f0715f601243e039d676be487d0340559c86/torch-1.12.1-cp39-cp39-manylinux1_x86_64.whl"
+              "hash": "50ff5e76d70074f6653d191fe4f6a42fdbe0cf942fbe2a3af0b75eaa414ac038",
+              "url": "https://files.pythonhosted.org/packages/25/09/184125ce54b2d7e665f3b674a1ac5d96b442f00dd11804490e926231e36b/torch-1.13.1-cp39-cp39-manylinux1_x86_64.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "0b44601ec56f7dd44ad8afc00846051162ef9c26a8579dda0a02194327f2d55e",
-              "url": "https://files.pythonhosted.org/packages/50/5e/ad5fc13e43dc6bb964f68e2284ef36fac63b018efecf4a35c381c4668b71/torch-1.12.1-cp38-cp38-manylinux1_x86_64.whl"
+              "hash": "eeeb204d30fd40af6a2d80879b46a7efbe3cf43cdbeb8838dd4f3d126cc90b2b",
+              "url": "https://files.pythonhosted.org/packages/5d/91/1adb7b73c7dad9fb64ed26bc9d8c060afb9541fca68d71a9c1b48377f332/torch-1.13.1-cp38-none-macosx_11_0_arm64.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "cd26d8c5640c3a28c526d41ccdca14cf1cbca0d0f2e14e8263a7ac17194ab1d2",
-              "url": "https://files.pythonhosted.org/packages/5c/9e/108882bb53f8a105424c3aa3f73425e0f1ce142a6a7cfceb807bde28e363/torch-1.12.1-cp38-cp38-manylinux2014_aarch64.whl"
+              "hash": "727dbf00e2cf858052364c0e2a496684b9cb5aa01dc8a8bc8bbb7c54502bdcdd",
+              "url": "https://files.pythonhosted.org/packages/6b/0e/c640bda79e61766896fe16dfe0a3ab12b06ad50cf8814950518896dec0a5/torch-1.13.1-cp38-cp38-manylinux1_x86_64.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "6cf6f54b43c0c30335428195589bd00e764a6d27f3b9ba637aaa8c11aaf93073",
-              "url": "https://files.pythonhosted.org/packages/65/53/368e6cc70870ec65a520f20d9d55e52de38c2130aa8f90fe51d5c08a1dc6/torch-1.12.1-cp39-cp39-manylinux2014_aarch64.whl"
+              "hash": "2c3581a3fd81eb1f0f22997cddffea569fea53bafa372b2c0471db373b26aafc",
+              "url": "https://files.pythonhosted.org/packages/86/08/41315a205bcd103a9698fa8afafbb73a234db8791cdb8b96d1efb10243a7/torch-1.13.1-cp39-cp39-manylinux2014_aarch64.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "bfec2843daa654f04fda23ba823af03e7b6f7650a873cdb726752d0e3718dada",
-              "url": "https://files.pythonhosted.org/packages/71/08/dc7e078f035d17c7cecc8cae81cc450827eb95cd59785346663aafb17d90/torch-1.12.1-cp39-none-macosx_10_9_x86_64.whl"
+              "hash": "6930791efa8757cb6974af73d4996b6b50c592882a324b8fb0589c6a9ba2ddaf",
+              "url": "https://files.pythonhosted.org/packages/ce/52/14eaa44345e444be2e2da749a7fdbdec71c45294cff33023de12ac3a9115/torch-1.13.1-cp39-none-macosx_10_9_x86_64.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "a8320ba9ad87e80ca5a6a016e46ada4d1ba0c54626e135d99b2129a4541c509d",
-              "url": "https://files.pythonhosted.org/packages/c6/3d/458fd09b2c9f6a4192682b767b62394018711f5c44f366bfce6c3d250aca/torch-1.12.1-cp38-none-macosx_10_9_x86_64.whl"
+              "hash": "df8434b0695e9ceb8cc70650afc1310d8ba949e6db2a0525ddd9c3b2b181e5fe",
+              "url": "https://files.pythonhosted.org/packages/f4/e5/003ac2b5b95cfea3a0a87150ede879daad446d581fdf967a8d7b2d4b6e05/torch-1.13.1-cp38-cp38-manylinux2014_aarch64.whl"
             }
           ],
           "project_name": "torch",
           "requires_dists": [
+            "opt-einsum>=3.3; extra == \"opt-einsum\"",
             "typing-extensions"
           ],
           "requires_python": ">=3.7.0",
-          "version": "1.12.1"
-        },
-        {
-          "artifacts": [
-            {
-              "algorithm": "sha256",
-              "hash": "b167934a5943242da7b1e59318f911d2d253feeca0d13ad5d832b58eed943401",
-              "url": "https://files.pythonhosted.org/packages/b1/80/6230a7f1a5e078595f1a7e2bdf02bd1ede631f8bdc8dbc6d4e9fece6e8ca/torchvision-0.13.1-cp39-cp39-manylinux2014_aarch64.whl"
-            },
-            {
-              "algorithm": "sha256",
-              "hash": "7cb789ceefe6dcd0dc8eeda37bfc45efb7cf34770eac9533861d51ca508eb5b3",
-              "url": "https://files.pythonhosted.org/packages/30/78/3408ba9bbba1fb1e58d31cd8166ec862f9b3f99a09fa7fa521e6583292ae/torchvision-0.13.1-cp38-cp38-manylinux1_x86_64.whl"
-            },
-            {
-              "algorithm": "sha256",
-              "hash": "87c137f343197769a51333076e66bfcd576301d2cd8614b06657187c71b06c4f",
-              "url": "https://files.pythonhosted.org/packages/52/fb/0079b1398cdb7db33cd8901e72e39975a572b9a17efac915742f6fe20f7e/torchvision-0.13.1-cp38-cp38-manylinux2014_aarch64.whl"
-            },
-            {
-              "algorithm": "sha256",
-              "hash": "e9a563894f9fa40692e24d1aa58c3ef040450017cfed3598ff9637f404f3fe3b",
-              "url": "https://files.pythonhosted.org/packages/a9/81/4719c1ca9c216b1b39dcbac6f9656e6554544957b9e89d259ac92d895b4b/torchvision-0.13.1-cp38-cp38-macosx_11_0_arm64.whl"
-            },
-            {
-              "algorithm": "sha256",
-              "hash": "c5ed609c8bc88c575226400b2232e0309094477c82af38952e0373edef0003fd",
-              "url": "https://files.pythonhosted.org/packages/c8/01/d0a22281ca082721b4672b7f27d52243fc81fd2a10d7bc218b4b0f6c5feb/torchvision-0.13.1-cp39-cp39-macosx_11_0_arm64.whl"
-            },
-            {
-              "algorithm": "sha256",
-              "hash": "f230a1a40ed70d51e463ce43df243ec520902f8725de2502e485efc5eea9d864",
-              "url": "https://files.pythonhosted.org/packages/c8/e8/7d686bdfbed1a180034e1c06cc68a318728380dc506e0cce0f1ec0716f6f/torchvision-0.13.1-cp38-cp38-macosx_10_9_x86_64.whl"
-            },
-            {
-              "algorithm": "sha256",
-              "hash": "3567fb3def829229ec217c1e38f08c5128ff7fb65854cac17ebac358ff7aa309",
-              "url": "https://files.pythonhosted.org/packages/ed/44/ab2f3a6670a054c5ec0e7c295f437d043a4be46f07ff2d9fce73cadb7549/torchvision-0.13.1-cp39-cp39-manylinux1_x86_64.whl"
-            },
-            {
-              "algorithm": "sha256",
-              "hash": "0298bae3b09ac361866088434008d82b99d6458fe8888c8df90720ef4b347d44",
-              "url": "https://files.pythonhosted.org/packages/f3/2b/ccfaea92b4fc8773ff1102991042b58c058c5f2053d44c17125604a074f9/torchvision-0.13.1-cp39-cp39-macosx_10_9_x86_64.whl"
-            }
-          ],
-          "project_name": "torchvision",
-          "requires_dists": [
-            "numpy",
-            "pillow!=8.3.*,>=5.3.0",
-            "requests",
-            "scipy; extra == \"scipy\"",
-            "torch",
-            "typing-extensions"
-          ],
-          "requires_python": ">=3.7",
-          "version": "0.13.1"
+          "version": "1.13.1"
         },
         {
           "artifacts": [
@@ -1875,13 +1798,13 @@
           "artifacts": [
             {
               "algorithm": "sha256",
-              "hash": "e8b2a36ea17df80ffe9e2c4fda3f693c3dad6df1697d3cd3af232db680950b0b",
-              "url": "https://files.pythonhosted.org/packages/95/7b/1608a7344743f54a8c072d64d2a279934fd204d6d015278b0a0ed4ce104b/zipp-3.13.0-py3-none-any.whl"
+              "hash": "188834565033387710d046e3fe96acfc9b5e86cbca7f39ff69cf21a4128198b7",
+              "url": "https://files.pythonhosted.org/packages/a8/7d/90189265f0a9bcdf79b1143b77b0ef6dca0a5f13783f1e1efa4d7d7eafca/zipp-3.14.0-py3-none-any.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "23f70e964bc11a34cef175bc90ba2914e1e4545ea1e3e2f67c079671883f9cb6",
-              "url": "https://files.pythonhosted.org/packages/d1/2f/ba544a8a6ad5ad9dcec1b00f536bb9fb078f5f50d1a1408876de18a9151b/zipp-3.13.0.tar.gz"
+              "hash": "9e5421e176ef5ab4c0ad896624e87a7b2f07aca746c9b2aa305952800cb8eecb",
+              "url": "https://files.pythonhosted.org/packages/ab/47/b47d02b741e0aa6f998fc80457d3dfc05cb7732ef480597c2971cbc79260/zipp-3.14.0.tar.gz"
             }
           ],
           "project_name": "zipp",
@@ -1906,7 +1829,7 @@
             "sphinx>=3.5; extra == \"docs\""
           ],
           "requires_python": ">=3.7",
-          "version": "3.13"
+          "version": "3.14"
         }
       ],
       "platform_tag": null
@@ -1917,9 +1840,9 @@
   "pip_version": "20.3.4-patched",
   "prefer_older_binary": false,
   "requirements": [
-    "ligavision==0.2.0",
-    "torch==1.12.1",
-    "torchvision==0.13.1"
+    "liga==0.2.2",
+    "ligavision-dsl==0.2.0",
+    "torch>=1.10.2"
   ],
   "requires_python": [
     "<3.10,>=3.8"

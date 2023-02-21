@@ -5,18 +5,17 @@ python_sources(
     skip_pylint=True,
 )
 
-resources(
-    name="resources",
-    sources=["assets/cat.jpg"]
-)
+resources(name="resources", sources=["assets/cat.jpg"])
 
-python_tests(name = "liga",
+python_tests(
+    name="liga",
     sources=["pytorch/**/test_*.py", "!**/conftest.py"],
     dependencies=[
         ":sources",
         ":resources",
         ":liga-mlflow",
         "//python/liga/pytorch:sources",
+        "//python/liga/pytorch/models:sources",
     ],
     extra_env_vars=["ROOTDIR"],
     resolve="lab",

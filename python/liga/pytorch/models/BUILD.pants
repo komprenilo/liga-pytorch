@@ -1,0 +1,19 @@
+python_requirement(
+    name="torch",
+    requirements=[
+        "torchvision>=0.11.3",
+    ],
+    resolve=parametrize("tv", "lab"),
+)
+
+python_requirement(
+    name="ligavision",
+    requirements=[
+        "ligavision==0.2.0",
+    ],
+    resolve=parametrize("tv", "lab"),
+)
+
+python_sources(
+    name="sources", sources=["*.py"], resolve=parametrize("tv", "lab")
+)

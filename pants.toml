@@ -17,6 +17,7 @@ enable_resolves = true
 [python.resolves]
   lab = "3rdparty/python/lab.lock"
   default = "3rdparty/python/default.lock"
+  tv = "3rdparty/python/tv.lock"
 
 [pylint]
   version = "pylint==2.15.9"
