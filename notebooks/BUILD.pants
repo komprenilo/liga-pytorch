@@ -11,6 +11,7 @@ python_sources(
     sources=["lab.py"],
     dependencies=[
         "//python/liga/pytorch:sources",
+        "//python/liga/pytorch/models:sources",
         "//python/tests:resources",
     ],
     resolve="dbr_11_3",
