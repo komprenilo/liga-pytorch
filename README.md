@@ -1,10 +1,13 @@
-# PyTorch Model Types for Liga
+# PyTorch Model Flavor and Model Types on Liga
++ `liga-pytorch`: PyTorch Model Flavor on Liga
++ `liga-tv`: PyTorch Model Flavor and Torch Vision Model Types on Liga
+
 ## Usage And Architecture
 ```
-pip install liga-pytorch
+pip install liga-tv
 ```
 
-With `liga-pytorch`, one can analyze video via SQL and pre-trained PyTorch Vision models in a Liga way.
+With `liga-tv`, one can analyze video via SQL and pre-trained PyTorch Vision models in a Liga way.
 
 For ML Engineers who train their own PyTorch models and log the models into MLflow, `liga-mlflow` is suggested.
 
@@ -29,16 +32,16 @@ cd liga-pytorch && bin/lab
 |          | `convnext_large` | | | |
 | efficientnet | `efficientnet_b0` | Classification | [Demo](notebooks/efficientnet.ipynb) | <a href="https://colab.research.google.com/github/liga-ai/liga-pytorch/blob/main/notebooks/efficientnet.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>|
 | | `efficientnet_b[1-7]` | | | |
-| fasterrcnn | `fasterrcnn` | Object Detection | [Demo](notebooks/fasterrcnn.ipynb) | <a href="https://colab.research.google.com/github/liga-ai/liga-pytorch/blob/main/notebooks/efficientnet.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
+| fasterrcnn | `fasterrcnn` | Object Detection | [Demo](notebooks/fasterrcnn.ipynb) | <a href="https://colab.research.google.com/github/liga-ai/liga-pytorch/blob/main/notebooks/fasterrcnn.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
 | | `fasterrcnn_mobilenet_v3_large_320_fpn` | | |
 | | `fasterrcnn_mobilenet_v3_large_fpn` | | |
 | | `fasterrcnn_resnet50_fpn` | | |
-| keypointrcnn | `keypointrcnn` | Object Detection | [Demo](notebooks/keypointrcnn.ipynb) | <a href="https://colab.research.google.com/github/liga-ai/liga-pytorch/blob/main/notebooks/efficientnet.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
-| maskrcnn | `maskrcnn` | Object Detection | [Demo](notebooks/maskrcnn.ipynb) | <a href="https://colab.research.google.com/github/liga-ai/liga-pytorch/blob/main/notebooks/efficientnet.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
-| resnet | `resnet50` | Classification | [Demo](notebooks/resnet.ipynb) | <a href="https://colab.research.google.com/github/liga-ai/liga-pytorch/blob/main/notebooks/efficientnet.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
+| keypointrcnn | `keypointrcnn` | Object Detection | [Demo](notebooks/keypointrcnn.ipynb) | <a href="https://colab.research.google.com/github/liga-ai/liga-pytorch/blob/main/notebooks/keypointrcnn.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
+| maskrcnn | `maskrcnn` | Object Detection | [Demo](notebooks/maskrcnn.ipynb) | <a href="https://colab.research.google.com/github/liga-ai/liga-pytorch/blob/main/notebooks/maskrcnn.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
+| resnet | `resnet50` | Classification | [Demo](notebooks/resnet.ipynb) | <a href="https://colab.research.google.com/github/liga-ai/liga-pytorch/blob/main/notebooks/resnet.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
 | | `resnet18` | | |
 | | `resnet34` | | |
 | | `resnet101` | | |
 | | `resnet152` | | |
-| ssd | `ssd` | Object Detection | [Demo](notebooks/ssd.ipynb) | <a href="https://colab.research.google.com/github/liga-ai/liga-pytorch/blob/main/notebooks/efficientnet.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
+| ssd | `ssd` | Object Detection | [Demo](notebooks/ssd.ipynb) | <a href="https://colab.research.google.com/github/liga-ai/liga-pytorch/blob/main/notebooks/ssd.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
 | | `ssdlite` | | |
