@@ -1,5 +1,11 @@
 python_requirement(
-    name="torch",
+    name="liga-pytorch",
+    requirements=["liga-pytorch>=0.2.1,<0.3.0"],
+    resolve="tv",
+)
+
+python_requirement(
+    name="torchvision",
     requirements=[
         "torchvision>=0.11.3",
     ],
@@ -9,7 +15,7 @@ python_requirement(
 python_requirement(
     name="ligavision",
     requirements=[
-        "ligavision==0.2.0",
+        "ligavision>=0.2.0,<0.3.0",
     ],
     resolve=parametrize("tv", "dbr_11_3"),
 )
