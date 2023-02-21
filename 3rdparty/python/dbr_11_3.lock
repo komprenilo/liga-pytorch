@@ -11,7 +11,7 @@
 //   "generated_with_requirements": [
 //     "jupyterlab",
 //     "liga-mlflow==0.2.0",
-//     "ligavision==0.2.0",
+//     "ligavision<0.3.0,>=0.2.0",
 //     "mlflow==1.26.1",
 //     "torch==1.12.1",
 //     "torchvision==0.13.1"
@@ -5402,7 +5402,7 @@
   "requirements": [
     "jupyterlab",
     "liga-mlflow==0.2.0",
-    "ligavision==0.2.0",
+    "ligavision<0.3.0,>=0.2.0",
     "mlflow==1.26.1",
     "torch==1.12.1",
     "torchvision==0.13.1"
