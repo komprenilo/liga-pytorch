@@ -5,17 +5,17 @@ python_distribution(
     ],
     provides=python_artifact(
         name="liga-pytorch",
-        version="0.2.0",
+        version="0.2.1",
     ),
 )
 
 python_distribution(
     name="liga-torchvision",
     dependencies=[
-        "python/liga/pytorch/models:sources@resolve=default",
+        "python/liga/pytorch/models:sources@resolve=lab",
     ],
     provides=python_artifact(
-        name="liga-pytorch",
+        name="liga-torchvision",
         version="0.2.0",
     ),
 )
