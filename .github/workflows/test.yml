@@ -10,6 +10,8 @@ on:
     paths:
       - 'python/**'
       - '.github/workflows/test.yml'
+      - pants.toml
+      - pants.ci.toml
 
 jobs:
   build:
