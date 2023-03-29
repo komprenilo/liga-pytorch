@@ -11,7 +11,7 @@
 //   "generated_with_requirements": [
 //     "jupyterlab",
 //     "liga-mlflow==0.3.0",
-//     "ligavision==0.3.0.dev0",
+//     "ligavision<0.4.0,>=0.3.0",
 //     "mlflow==1.26.1",
 //     "torch==1.12.1",
 //     "torchvision==0.13.1"
@@ -2429,13 +2429,13 @@
           "artifacts": [
             {
               "algorithm": "sha256",
-              "hash": "5ea90500b2b935ce2bbdc55b1b0dc98b40e209dd1f9c3a196875a80d19536662",
-              "url": "https://files.pythonhosted.org/packages/c3/5d/17ba7b208c8c9b3e4eeb65e2aef6469c8df9c01dd3c92d2747622ece69af/ligavision-0.3.0.dev0-py3-none-any.whl"
+              "hash": "35d913087c8cd57b1170efe66c305ecbaac3ac8fe4644cd4b4f7fbf0f3db7d68",
+              "url": "https://files.pythonhosted.org/packages/0d/a6/d2d1ee197fc8b4e21fca890e60003fbbc7db39cd9ca24bb01e2271f4c13b/ligavision-0.3.0-py3-none-any.whl"
             },
             {
               "algorithm": "sha256",
-              "hash": "d9d787bf0407f1b97759ceaae592df29061d85d8396bdde5f882444cedfcdb51",
-              "url": "https://files.pythonhosted.org/packages/62/fe/2c1d147c4854c48cdcafe73e6f58ab83a5b2664fa4f942993a1466e04f97/ligavision-0.3.0.dev0.tar.gz"
+              "hash": "4d2a25a4c44b5ef3e0e0a123334261c56c68fb4464950d759e84236913248077",
+              "url": "https://files.pythonhosted.org/packages/d6/12/3397478da7351873c94e4505afc0fdf98294034ff78343c809e550361131/ligavision-0.3.0.tar.gz"
             }
           ],
           "project_name": "ligavision",
@@ -2446,7 +2446,7 @@
             "pyspark==3.2.1"
           ],
           "requires_python": "<3.10,>=3.8",
-          "version": "0.3.dev0"
+          "version": "0.3"
         },
         {
           "artifacts": [
@@ -5546,7 +5546,7 @@
   "requirements": [
     "jupyterlab",
     "liga-mlflow==0.3.0",
-    "ligavision==0.3.0.dev0",
+    "ligavision<0.4.0,>=0.3.0",
     "mlflow==1.26.1",
     "torch==1.12.1",
     "torchvision==0.13.1"
