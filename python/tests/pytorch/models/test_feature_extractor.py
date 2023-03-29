@@ -58,7 +58,7 @@ def test_torch_classification(
         f"""
         CREATE OR REPLACE MODEL test_model
         USING pytorch
-        MODEL_TYPE feature_extractor
+        FOR feature_extractor
         OPTIONS (model_type = '{model_type}')
         USING '{uri}'
         """

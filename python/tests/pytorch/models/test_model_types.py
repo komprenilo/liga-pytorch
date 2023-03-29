@@ -33,7 +33,7 @@ def _check_object_detection_models(spark: SparkSession, models: List[str]):
         spark.sql(
             f"""CREATE OR REPLACE MODEL {model}
             USING pytorch
-            MODEL_TYPE {model}
+            FOR {model}
             """
         )
         df = spark.sql(
@@ -79,7 +79,7 @@ def _check_classification_models(
     for model_name in models:
         spark.sql(
             f"""CREATE OR REPLACE MODEL {model_name}
-            USING pytorch MODEL_TYPE {model_name}"""
+            USING pytorch FOR {model_name}"""
         )
         df = spark.sql(f"SELECT ML_PREDICT({model_name}, to_image('{uri}'))")
         assert df.count() > 0
