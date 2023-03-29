@@ -2,7 +2,7 @@
 python_requirement(
     name="liga",
     requirements=[
-        "liga>=0.2.2,<0.3.0",
+        "liga==0.3.0.dev0",
     ],
     resolve="default",
 )
