@@ -9,7 +9,7 @@ python_requirement(
 python_requirement(
     name="ligavision",
     requirements=[
-        "ligavision>=0.2.0,<0.3.0",
+        "ligavision>=0.3.0,<0.4.0",
     ],
     resolve=parametrize("tv", "dbr_11_3"),
 )
