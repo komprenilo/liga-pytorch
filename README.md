@@ -17,7 +17,7 @@ For ML Engineers who train their own PyTorch models and log the models into MLfl
 ### Try Locally (Suggested)
 Try the live notebooks via:
 ```
-# Please install JDK 8/11, SBT, Python 3.8/3.9 locally
+# Please install JDK 8/11, Python 3.8/3.9 locally
 git clone https://github.com/liga-ai/liga-pytorch.git
 cd liga-pytorch && bin/lab
 ```
