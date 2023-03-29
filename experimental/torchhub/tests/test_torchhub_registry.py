@@ -61,7 +61,7 @@ USING "torchhub:///pytorch/vision:{version}";
         spark.sql(
             f"""
 CREATE MODEL resnet50_bad_case_3
-FLAVOR pytorch
+USING pytorch
 OPTIONS (min_confidence=0.3, device="cpu", batch_size=32)
 USING "torchhub://pytorch/vision:{version}/model_name";
         """

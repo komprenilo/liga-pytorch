@@ -62,7 +62,7 @@ class FeatureExtractorType(TorchModelType):
     .. code-block:: sql
 
         CREATE MODEL resnet_features
-        FLAVOR pytorch
+        USING pytorch
         MODEL_TYPE feature_extractors
         OPTIONS (model_type = 'resnet')  # Only resnet is tested
         USING '<uri to resnet model>'
