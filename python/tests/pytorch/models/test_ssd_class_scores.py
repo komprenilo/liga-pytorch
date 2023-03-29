@@ -107,7 +107,7 @@ def test_ssd_class_scores_module_with_spark(
             labels={"func": "liga.pytorch.models.torch.detection_label_fn"},
         )
 
-    spark.sql("CREATE MODEL class_scores USING 'mlflow:/ssd_class_scores'")
+    spark.sql("CREATE MODEL class_scores LOCATION 'mlflow:/ssd_class_scores'")
     spark.sql("SHOW MODELS").show()
 
     spark.createDataFrame([two_flickr_rows[0]]).createOrReplaceTempView(

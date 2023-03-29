@@ -59,8 +59,8 @@ def test_torch_classification(
         CREATE OR REPLACE MODEL test_model
         USING pytorch
         FOR feature_extractor
+        LOCATION '{uri}'
         OPTIONS (model_type = '{model_type}')
-        USING '{uri}'
         """
     )
     df = spark.sql(
